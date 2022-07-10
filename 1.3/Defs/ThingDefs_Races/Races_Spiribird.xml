@@ -3,6 +3,14 @@
 	<!-- ==========[Bases]========== -->
 	<ThingDef ParentName="AnimalThingBase" Name="Mashed_Spiribird_SpiribirdThingBase" Abstract="True">
 		<description>A small bird, with a belly coated in pollen. Highly adaptable, spiribirds are found almost everywhere, you just need to know where to look for them.\n\nDifferent species of spiribirds have affinities towards different flowers, thus collecting specific types of pollen on their belly. This pollen can be collected off of their bellies, but only if the spiribird has become accustomed to human interaction.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mashed_Spiribird_Spiribush</ThingDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="MorrowRim.ExtendedRaceProperties" MayRequire="SirMashedPotato.MorrowRim">
+				<ashResistant>Resistant</ashResistant>
+			</li>
+		</modExtensions>
 		<statBases>
 			<MoveSpeed>2.4</MoveSpeed>
 			<MarketValue>75</MarketValue>

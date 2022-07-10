@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Spiribirds!</name>
+	<name>Mashed's Spiribirds</name>
 	<packageId>SirMashedPotato.Spiribirds</packageId>
 	<author>SirMashedPotato</author>
 	<supportedVersions>
@@ -16,6 +16,7 @@
       <li>Ludeon.RimWorld.Ideology</li>
 	  <li>Ludeon.RimWorld.Royalty</li>
 	  <li>vanillaexpanded.achievements</li>
+	  <li>regrowth.botr.core</li>
     </loadAfter>
 	<loadBefore>
 	</loadBefore>

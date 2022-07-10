@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="PlantBase">
+		<defName>Mashed_Spiribird_Spiribush</defName>
+		<label>spiribush</label>
+		<description>An incredibly hardy small bushy plant with multi coloured flowers, which can be found growing almost everywhere. Named after the spiribirds that can sometimes be found hiding in it.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mashed_Spiribird_SpiribirdGreen</ThingDef>
+			<ThingDef>Mashed_Spiribird_SpiribirdOrange</ThingDef>
+			<ThingDef>Mashed_Spiribird_SpiribirdRed</ThingDef>
+			<ThingDef>Mashed_Spiribird_SpiribirdYellow</ThingDef>
+			<ThingDef>Mashed_Spiribird_SpiribirdPrism</ThingDef>
+		</descriptionHyperlinks>
+		<thingClass>Mashed_Spiribirds.Plant_Spiribush</thingClass>
+		<modExtensions>
+			<li Class="MorrowRim.ExtendedRaceProperties" MayRequire="SirMashedPotato.MorrowRim">
+				<ashResistant>Resistant</ashResistant>
+			</li>
+		</modExtensions>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Nutrition>0.50</Nutrition>
+			<Beauty>4</Beauty>
+			<BeautyOutdoors>4</BeautyOutdoors>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/Mashed_Spiribush</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.55, 0.2, 0.2)</volume>
+				<offset>(0,0,-0.25)</offset>
+			</shadowData>
+		</graphicData>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<fillPercent>0.20</fillPercent>
+		<pathCost>30</pathCost>
+		<plant>
+			<fertilityMin>0.5</fertilityMin>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<growDays>8</growDays>
+			<immatureGraphicPath>Things/Plant/Mashed_Spiribird_Spiribush_Immature</immatureGraphicPath>
+			<harvestYield>3</harvestYield>
+			<harvestWork>250</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestAfterGrowth>0.30</harvestAfterGrowth>
+			<harvestedThingDef>Mashed_Spiribird_SpiribushFlower</harvestedThingDef>
+			<wildClusterRadius>5</wildClusterRadius>
+			<wildClusterWeight>500</wildClusterWeight>
+			<visualSizeRange>0.95~1.7</visualSizeRange>
+			<topWindExposure>0.3</topWindExposure>
+			<wildOrder>2</wildOrder>
+		</plant>
+	</ThingDef>
+</Defs>

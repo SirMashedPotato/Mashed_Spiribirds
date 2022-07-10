@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>Mashed_Spiribird_SpiribushFlower</defName>
+		<label>spiribush flower</label>
+		<description>Flowers harvested from a spiribush, can be used to create petalaces.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Mashed_SpirushFlowers</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.6</MarketValue>
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>30</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>PlantMatter</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>DesperateOnly</preferability>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
+	</ThingDef>
+</Defs>

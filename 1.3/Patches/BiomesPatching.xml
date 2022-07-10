@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef/wildAnimals</xpath>
+		<value>
+			<Mashed_Spiribird_SpiribirdGreen>0.1</Mashed_Spiribird_SpiribirdGreen>
+			<Mashed_Spiribird_SpiribirdOrange>0.1</Mashed_Spiribird_SpiribirdOrange>
+			<Mashed_Spiribird_SpiribirdRed>0.1</Mashed_Spiribird_SpiribirdRed>
+			<Mashed_Spiribird_SpiribirdYellow>0.1</Mashed_Spiribird_SpiribirdYellow>
+			<Mashed_Spiribird_SpiribirdPrism>0.01</Mashed_Spiribird_SpiribirdPrism>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef/wildPlants</xpath>
+		<value>
+			<Mashed_Spiribird_Spiribush>0.05</Mashed_Spiribird_Spiribush>
+		</value>
+	</Operation>
+
+</Patch>
+
