@@ -13,7 +13,7 @@
 		</comps>
 	</ThingDef>
 	<!-- ==========[Green]========== -->
-	<ThingDef ParentName="EggFertBase">
+	<ThingDef ParentName="Mashed_Spiribird_EggBase">
 		<defName>Mashed_Spiribird_EggGreenFertilized</defName>
 		<label>green spiridird egg (fert.)</label>
 		<comps>
@@ -24,7 +24,7 @@
 		</comps>
 	</ThingDef>
 	<!-- ==========[Orange]========== -->
-	<ThingDef ParentName="EggFertBase">
+	<ThingDef ParentName="Mashed_Spiribird_EggBase">
 		<defName>Mashed_Spiribird_EggOrangeFertilized</defName>
 		<label>orange spiridird egg (fert.)</label>
 		<comps>
@@ -35,7 +35,7 @@
 		</comps>
 	</ThingDef>
 	<!-- ==========[Red]========== -->
-	<ThingDef ParentName="EggFertBase">
+	<ThingDef ParentName="Mashed_Spiribird_EggBase">
 		<defName>Mashed_Spiribird_EggRedFertilized</defName>
 		<label>red spiridird egg (fert.)</label>
 		<comps>
@@ -46,7 +46,7 @@
 		</comps>
 	</ThingDef>
 	<!-- ==========[Yellow]========== -->
-	<ThingDef ParentName="EggFertBase">
+	<ThingDef ParentName="Mashed_Spiribird_EggBase">
 		<defName>Mashed_Spiribird_EggYellowFertilized</defName>
 		<label>yellow spiridird egg (fert.)</label>
 		<comps>
@@ -57,7 +57,7 @@
 		</comps>
 	</ThingDef>
 	<!-- ==========[Prism]========== -->
-	<ThingDef ParentName="EggFertBase">
+	<ThingDef ParentName="Mashed_Spiribird_EggBase">
 		<defName>Mashed_Spiribird_EggPrismFertilized</defName>
 		<label>prsim spiridird egg (fert.)</label>
 		<comps>
