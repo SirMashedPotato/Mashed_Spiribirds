@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Base]========== -->
+	<ThingDef ParentName="EggFertBase" Abstract="True" Name="Mashed_Spiribird_EggBase">
+		<description>A fertilized spiribird egg. If all goes well, it should hatch into a chick. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Mashed_SpiribirdEggs</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>7.0</MarketValue>
+		</statBases>
+		<comps>
+		</comps>
+	</ThingDef>
+	<!-- ==========[Green]========== -->
+	<ThingDef ParentName="EggFertBase">
+		<defName>Mashed_Spiribird_EggGreenFertilized</defName>
+		<label>green spiridird egg (fert.)</label>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>3.5</hatcherDaystoHatch>
+				<hatcherPawn>Mashed_Spiribird_SpiribirdGreen</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	<!-- ==========[Orange]========== -->
+	<ThingDef ParentName="EggFertBase">
+		<defName>Mashed_Spiribird_EggOrangeFertilized</defName>
+		<label>orange spiridird egg (fert.)</label>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>3.5</hatcherDaystoHatch>
+				<hatcherPawn>Mashed_Spiribird_SpiribirdOrange</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	<!-- ==========[Red]========== -->
+	<ThingDef ParentName="EggFertBase">
+		<defName>Mashed_Spiribird_EggRedFertilized</defName>
+		<label>red spiridird egg (fert.)</label>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>3.5</hatcherDaystoHatch>
+				<hatcherPawn>Mashed_Spiribird_SpiribirdRed</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	<!-- ==========[Yellow]========== -->
+	<ThingDef ParentName="EggFertBase">
+		<defName>Mashed_Spiribird_EggYellowFertilized</defName>
+		<label>yellow spiridird egg (fert.)</label>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>3.5</hatcherDaystoHatch>
+				<hatcherPawn>Mashed_Spiribird_SpiribirdYellow</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	<!-- ==========[Prism]========== -->
+	<ThingDef ParentName="EggFertBase">
+		<defName>Mashed_Spiribird_EggPrismFertilized</defName>
+		<label>prsim spiridird egg (fert.)</label>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>4</hatcherDaystoHatch>
+				<hatcherPawn>Mashed_Spiribird_SpiribirdPrism</hatcherPawn>
+			</li>
+		</comps>
+		<statBases>
+			<MarketValue>14.0</MarketValue>
+		</statBases>
+	</ThingDef>
+</Defs>

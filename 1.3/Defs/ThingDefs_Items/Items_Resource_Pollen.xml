@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Bases]========== -->
+	<ThingDef ParentName="RoughPlantBase" Name="Mashed_Spiribird_PollenBase" Abstract="True">
+		<statBases>
+			<MarketValue>1.6</MarketValue>
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>30</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>PlantMatter</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>DesperateOnly</preferability>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
+	</ThingDef>
+	<!-- ==========[Green]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_PollenBase">
+		<defName>Mashed_Spiribird_PollenGreen</defName>
+		<label>green spiribird pollen</label>
+		<description>Pollen collected from a green spiribird, can be used to create potions and petalaces that boost healing factor and immunity gain.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Mashed_SpiribirdPollen_Green</texPath>
+		</graphicData>
+	</ThingDef>
+	<!-- ==========[Orange]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_PollenBase">
+		<defName>Mashed_Spiribird_PollenOrange</defName>
+		<label>orange spiribird pollen</label>
+		<description>Pollen collected from a orange spiribird, can be used to create potions and petalaces that boost blunt and sharp armour.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Mashed_SpiribirdPollen_Orange</texPath>
+		</graphicData>
+	</ThingDef>
+	<!-- ==========[Red]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_PollenBase">
+		<defName>Mashed_Spiribird_PollenRed</defName>
+		<label>red spiribird pollen</label>
+		<description>Pollen collected from a red spiribird, can be used to create potions and petalaces that boost [TODO].</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Mashed_SpiribirdPollen_Red</texPath>
+		</graphicData>
+	</ThingDef>
+	<!-- ==========[Yellow]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_PollenBase">
+		<defName>Mashed_Spiribird_PollenYellow</defName>
+		<label>yellow spiribird pollen</label>
+		<description>Pollen collected from a yellow spiribird, can be used to create potions and petalaces that decrease fatigue gain and hunger rate.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Mashed_SpiribirdPollen_Yellow</texPath>
+		</graphicData>
+	</ThingDef>
+	<!-- ==========[Prism]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_PollenBase">
+		<defName>Mashed_Spiribird_PollenPrism</defName>
+		<label>prism spiribird pollen</label>
+		<description>Pollen collected from a prism spiribird, can be used to create any spiribird potion or petalace.</description>
+		<statBases>
+			<MarketValue>3.8</MarketValue>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/Mashed_SpiribirdPollen_Prism</texPath>
+		</graphicData>
+	</ThingDef>
+</Defs>

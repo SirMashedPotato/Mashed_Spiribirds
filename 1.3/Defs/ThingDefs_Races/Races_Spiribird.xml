@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Bases]========== -->
+	<ThingDef ParentName="AnimalThingBase" Name="Mashed_Spiribird_SpiribirdThingBase" Abstract="True">
+		<description>A small bird, with a belly coated in pollen. Highly adaptable, spiribirds are found almost everywhere, you just need to know where to look for them.\n\nDifferent species of spiribirds have affinities towards different flowers, thus collecting specific types of pollen on their belly. This pollen can be collected off of their bellies, but only if the spiribird has become accustomed to human interaction.</description>
+		<statBases>
+			<MoveSpeed>2.4</MoveSpeed>
+			<MarketValue>75</MarketValue>
+			<LeatherAmount>0</LeatherAmount>
+			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+			<FilthRate>1</FilthRate>
+		</statBases>
+		<comps>
+		</comps>
+		<race>
+			<body>Bird</body>
+			<baseHungerRate>0.15</baseHungerRate>
+			<baseBodySize>0.1</baseBodySize>
+			<baseHealthScale>0.15</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<trainability>None</trainability>
+			<wildness>0.3</wildness>
+			<roamMtbDays>7</roamMtbDays>
+			<mateMtbHours>8</mateMtbHours>
+			<lifeExpectancy>2</lifeExpectancy>
+			<useMeatFrom>Cassowary</useMeatFrom>
+			<!-- TODO sounds -->
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Chick_Call</soundWounded>
+					<soundDeath>Pawn_Chick_Call</soundDeath>
+					<soundCall>Pawn_Chick_Call</soundCall>
+					<soundAngry>Pawn_Chick_Call</soundAngry>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.12</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.2</minAge>
+					<soundWounded>Pawn_Chicken_Wounded</soundWounded>
+					<soundDeath>Pawn_Chicken_Death</soundDeath>
+					<soundCall>Pawn_Chicken_Call</soundCall>
+					<soundAngry>Pawn_Chicken_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalExotic</li>
+		</tradeTags>
+		<tools>
+			<li>
+				<label>beak</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.5</chanceFactor>
+			</li>
+		</tools>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase" Name="Mashed_Spiribird_SpiribirdKindBase" Abstract="True">
+		<combatPower>1</combatPower>
+		<ecoSystemWeight>0.1</ecoSystemWeight>
+	</PawnKindDef>
+	<!-- ==========[Green]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
+		<defName>Mashed_Spiribird_SpiribirdGreen</defName>
+		<label>green spiribird</label>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>Mashed_Spiribird_EggGreenFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>2</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+			</li>
+			<li Class="CompProperties_Milkable">
+				<milkDef>Mashed_Spiribird_PollenGreen</milkDef>
+				<milkIntervalDays>5</milkIntervalDays>
+				<milkAmount>1</milkAmount>
+			</li>
+		</comps>
+	</ThingDef>
+	<PawnKindDef ParentName="Mashed_Spiribird_SpiribirdKindBase">
+		<defName>Mashed_Spiribird_SpiribirdGreen</defName>
+		<label>green spiribird</label>
+		<race>Mashed_Spiribird_SpiribirdGreen</race>
+		<lifeStages>
+			<li>
+				<label>green spiribird chick</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Chick</texPath>
+					<drawSize>0.45</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Dessicated</texPath>
+					<drawSize>0.45</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Green</texPath>
+					<drawSize>0.75</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Dessicated</texPath>
+					<drawSize>0.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Green</texPath>
+					<drawSize>0.87</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.05)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Dessicated</texPath>
+					<drawSize>0.87</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	<!-- ==========[Orange]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
+		<defName>Mashed_Spiribird_SpiribirdOrange</defName>
+		<label>orange spiribird</label>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>Mashed_Spiribird_EggOrangeFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>2</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+			</li>
+			<li Class="CompProperties_Milkable">
+				<milkDef>Mashed_Spiribird_PollenOrange</milkDef>
+				<milkIntervalDays>5</milkIntervalDays>
+				<milkAmount>1</milkAmount>
+			</li>
+		</comps>
+	</ThingDef>
+	<PawnKindDef ParentName="Mashed_Spiribird_SpiribirdKindBase">
+		<defName>Mashed_Spiribird_SpiribirdOrange</defName>
+		<label>orange spiribird</label>
+		<race>Mashed_Spiribird_SpiribirdOrange</race>
+		<lifeStages>
+			<li>
+				<label>orange spiribird chick</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Chick</texPath>
+					<drawSize>0.45</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Dessicated</texPath>
+					<drawSize>0.45</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Orange</texPath>
+					<drawSize>0.75</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Dessicated</texPath>
+					<drawSize>0.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Orange</texPath>
+					<drawSize>0.87</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.05)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Dessicated</texPath>
+					<drawSize>0.87</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	<!-- ==========[Red]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
+		<defName>Mashed_Spiribird_SpiribirdRed</defName>
+		<label>red spiribird</label>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>Mashed_Spiribird_EggRedFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>2</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+			</li>
+			<li Class="CompProperties_Milkable">
+				<milkDef>Mashed_Spiribird_PollenRed</milkDef>
+				<milkIntervalDays>5</milkIntervalDays>
+				<milkAmount>1</milkAmount>
+			</li>
+		</comps>
+	</ThingDef>
+	<PawnKindDef ParentName="Mashed_Spiribird_SpiribirdKindBase">
+		<defName>Mashed_Spiribird_SpiribirdRed</defName>
+		<label>red spiribird</label>
+		<race>Mashed_Spiribird_SpiribirdRed</race>
+		<lifeStages>
+			<li>
+				<label>red spiribird chick</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Chick</texPath>
+					<drawSize>0.45</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Dessicated</texPath>
+					<drawSize>0.45</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Red</texPath>
+					<drawSize>0.75</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Dessicated</texPath>
+					<drawSize>0.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Red</texPath>
+					<drawSize>0.87</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.05)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Dessicated</texPath>
+					<drawSize>0.87</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	<!-- ==========[Yellow]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
+		<defName>Mashed_Spiribird_SpiribirdYellow</defName>
+		<label>yellow spiribird</label>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>Mashed_Spiribird_EggYellowFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>2</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+			</li>
+			<li Class="CompProperties_Milkable">
+				<milkDef>Mashed_Spiribird_PollenYellow</milkDef>
+				<milkIntervalDays>5</milkIntervalDays>
+				<milkAmount>1</milkAmount>
+			</li>
+		</comps>
+	</ThingDef>
+	<PawnKindDef ParentName="Mashed_Spiribird_SpiribirdKindBase">
+		<defName>Mashed_Spiribird_SpiribirdYellow</defName>
+		<label>yellow spiribird</label>
+		<race>Mashed_Spiribird_SpiribirdYellow</race>
+		<lifeStages>
+			<li>
+				<label>yellow spiribird chick</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Chick</texPath>
+					<drawSize>0.45</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Dessicated</texPath>
+					<drawSize>0.45</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Yellow</texPath>
+					<drawSize>0.75</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Dessicated</texPath>
+					<drawSize>0.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Yellow</texPath>
+					<drawSize>0.87</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.05)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Dessicated</texPath>
+					<drawSize>0.87</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	<!-- ==========[Prism]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
+		<defName>Mashed_Spiribird_SpiribirdPrism</defName>
+		<label>prism spiribird</label>
+		<statBases>
+			<MarketValue>125</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>Mashed_Spiribird_EggPrismFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>2</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+			</li>
+			<li Class="CompProperties_Milkable">
+				<milkDef>Mashed_Spiribird_PollenPrism</milkDef>
+				<milkIntervalDays>5</milkIntervalDays>
+				<milkAmount>1</milkAmount>
+			</li>
+		</comps>
+		<race>
+			<baseBodySize>0.15</baseBodySize>
+		</race>
+	</ThingDef>
+	<PawnKindDef ParentName="Mashed_Spiribird_SpiribirdKindBase">
+		<defName>Mashed_Spiribird_SpiribirdPrism</defName>
+		<label>prism spiribird</label>
+		<race>Mashed_Spiribird_SpiribirdPrism</race>
+		<lifeStages>
+			<li>
+				<label>prism spiribird chick</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Chick</texPath>
+					<drawSize>0.6</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Dessicated</texPath>
+					<drawSize>0.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Prism</texPath>
+					<drawSize>0.9</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Dessicated</texPath>
+					<drawSize>0.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Prism</texPath>
+					<drawSize>1.02</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.05)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Dessicated</texPath>
+					<drawSize>1.02</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+</Defs>
