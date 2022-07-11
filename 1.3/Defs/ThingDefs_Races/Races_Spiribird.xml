@@ -19,6 +19,8 @@
 			<FilthRate>1</FilthRate>
 		</statBases>
 		<comps>
+			<li Class="AnimalBehaviours.CompProperties_Floating" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
+			</li>
 		</comps>
 		<race>
 			<body>Bird</body>
@@ -104,6 +106,7 @@
 				<milkDef>Mashed_Spiribird_PollenGreen</milkDef>
 				<milkIntervalDays>5</milkIntervalDays>
 				<milkAmount>1</milkAmount>
+				<milkFemaleOnly>false</milkFemaleOnly>
 			</li>
 		</comps>
 	</ThingDef>
@@ -164,6 +167,7 @@
 				<milkDef>Mashed_Spiribird_PollenOrange</milkDef>
 				<milkIntervalDays>5</milkIntervalDays>
 				<milkAmount>1</milkAmount>
+				<milkFemaleOnly>false</milkFemaleOnly>
 			</li>
 		</comps>
 	</ThingDef>
@@ -224,6 +228,7 @@
 				<milkDef>Mashed_Spiribird_PollenRed</milkDef>
 				<milkIntervalDays>5</milkIntervalDays>
 				<milkAmount>1</milkAmount>
+				<milkFemaleOnly>false</milkFemaleOnly>
 			</li>
 		</comps>
 	</ThingDef>
@@ -284,6 +289,7 @@
 				<milkDef>Mashed_Spiribird_PollenYellow</milkDef>
 				<milkIntervalDays>5</milkIntervalDays>
 				<milkAmount>1</milkAmount>
+				<milkFemaleOnly>false</milkFemaleOnly>
 			</li>
 		</comps>
 	</ThingDef>
@@ -347,6 +353,7 @@
 				<milkDef>Mashed_Spiribird_PollenPrism</milkDef>
 				<milkIntervalDays>5</milkIntervalDays>
 				<milkAmount>1</milkAmount>
+				<milkFemaleOnly>false</milkFemaleOnly>
 			</li>
 		</comps>
 		<race>

@@ -16,62 +16,105 @@
 					<value>
 
 						<AchievementsExpanded.AchievementTabDef>
-							<defName>ESCP_AchievementsTab</defName>
-							<label>ESCP</label>
+							<defName>SMP_AchievementsTab</defName>
+							<label>SMP Misc</label>
 						</AchievementsExpanded.AchievementTabDef>
 
-						<AchievementsExpanded.Reward_MapIncident>
-							<defName>ESCP_RewardSkyshardFall</defName>
-							<label>Mass Skyshard Impact</label>
-							<tab>ESCP_AchievementsTab</tab>
-							<cost>75</cost>
-							<incident>ESCP_Skyshard_Starfall_Reward</incident>
-						</AchievementsExpanded.Reward_MapIncident>
-
-						<!-- Stats -->
+						<!-- Taming -->
 						
 						<AchievementsExpanded.AchievementDef>
-							<defName>ESCP_AchievementSkyshard_First</defName>
-							<label>Skyshard Novice</label>
-							<description>Have a pawn interact with a skyshard for the first time</description>
-							<bgtexPath>Achievements/ESCP_AchievementBackground</bgtexPath>
-							<tab>ESCP_AchievementsTab</tab>
-							<tracker Class="AchievementsExpanded.RecordEventTracker">
-								<def>ESCP_SkyshardsUsed</def>
-								<count>1</count>
+							<defName>Mashed_AchievementSpiribirds_TamerFirst</defName>
+							<label>Spiribird Tamer</label>
+							<description>Tame your first spiribird of any kind, excluding prism</description>
+							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
+							<tab>SMP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.KindDefTracker">
+								<requireAll>false</requireAll>
+								<kindDefs>
+									<li>
+										<key>Mashed_Spiribird_SpiribirdGreen</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>Mashed_Spiribird_SpiribirdOrange</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>Mashed_Spiribird_SpiribirdRed</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>Mashed_Spiribird_SpiribirdYellow</key>
+										<value>1</value>
+									</li>
+								</kindDefs>
+								
 							</tracker>
-							<texPath>Achievements/ESCP_AchievementSkyshard_First</texPath>
+
+							<texPath>Achievements/Mashed_AchievementSpiribirds_TamerFirst</texPath>
 							<points>5</points>
 						</AchievementsExpanded.AchievementDef>
 						
 						<AchievementsExpanded.AchievementDef>
-							<defName>ESCP_AchievementSkyshard_Many</defName>
-							<label>Skyshard Adept</label>
-							<description>Have a pawn interact with a skyshard for the fifth time</description>
-							<bgtexPath>Achievements/ESCP_AchievementBackground</bgtexPath>
-							<tab>ESCP_AchievementsTab</tab>
-							<tracker Class="AchievementsExpanded.RecordEventTracker">
-								<def>ESCP_SkyshardsUsed</def>
-								<count>5</count>
+							<defName>Mashed_AchievementSpiribirds_TamerAll</defName>
+							<label>Spiribird Collector</label>
+							<description>Have all kinds of spiribird at the same time, excluding prism</description>
+							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
+							<tab>SMP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.KindDefTracker">
+								<requireAll>true</requireAll>
+								<kindDefs>
+									<li>
+										<key>Mashed_Spiribird_SpiribirdGreen</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>Mashed_Spiribird_SpiribirdOrange</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>Mashed_Spiribird_SpiribirdRed</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>Mashed_Spiribird_SpiribirdYellow</key>
+										<value>1</value>
+									</li>
+								</kindDefs>
+								
 							</tracker>
-							<texPath>Achievements/ESCP_AchievementSkyshard_Many</texPath>
+
+							<texPath>Achievements/Mashed_AchievementSpiribirds_TamerAll</texPath>
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
 						
 						<AchievementsExpanded.AchievementDef>
-							<defName>ESCP_AchievementSkyshard_More</defName>
-							<label>Skyshard Master</label>
-							<description>Have a pawn interact with a skyshard for the tenth time</description>
-							<bgtexPath>Achievements/ESCP_AchievementBackground</bgtexPath>
-							<tab>ESCP_AchievementsTab</tab>
-							<tracker Class="AchievementsExpanded.RecordEventTracker">
-								<def>ESCP_SkyshardsUsed</def>
-								<count>10</count>
+							<defName>Mashed_AchievementSpiribirds_TamerPrism</defName>
+							<label>All the Colours of the Rainbow</label>
+							<description>Tame your first prism spiribird</description>
+							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
+							<tab>SMP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.KindDefTracker">
+								<requireAll>false</requireAll>
+								<kindDefs>
+									<li>
+										<key>Mashed_Spiribird_SpiribirdPrism</key>
+										<value>1</value>
+									</li>
+								</kindDefs>
+								
 							</tracker>
-							<texPath>Achievements/ESCP_AchievementSkyshard_More</texPath>
+
+							<texPath>Achievements/Mashed_AchievementSpiribirds_TamerPrism</texPath>
 							<points>15</points>
 						</AchievementsExpanded.AchievementDef>
 						
+						<!-- Collecting -->
+						
+						<!-- Crafting -->
+						
+						<!-- Selling -->
+
 					</value>
 				</li>
 			</operations>
