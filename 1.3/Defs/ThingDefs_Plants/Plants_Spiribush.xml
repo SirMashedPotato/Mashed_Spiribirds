@@ -40,7 +40,7 @@
 			<fertilitySensitivity>0.5</fertilitySensitivity>
 			<growDays>8</growDays>
 			<immatureGraphicPath>Things/Plant/Mashed_Spiribird_Spiribush_Immature</immatureGraphicPath>
-			<harvestYield>3</harvestYield>
+			<harvestYield>1</harvestYield>
 			<harvestWork>250</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestAfterGrowth>0.30</harvestAfterGrowth>

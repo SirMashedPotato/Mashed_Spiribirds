@@ -8,7 +8,7 @@
 			<texPath>Things/Item/Resource/Mashed_SpirushFlowers</texPath>
 		</graphicData>
 		<statBases>
-			<MarketValue>1.6</MarketValue>
+			<MarketValue>2.8</MarketValue>
 			<Flammability>1.3</Flammability>
 		</statBases>
 		<comps>
