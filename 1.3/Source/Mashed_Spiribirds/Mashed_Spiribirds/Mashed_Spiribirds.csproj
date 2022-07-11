@@ -53,8 +53,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PawnKindDefOf.cs" />
-    <Compile Include="Plant_Spiribush.cs" />
+    <Compile Include="DefOf\ThingDefOf.cs" />
+    <Compile Include="IncidentWorker\IncidentWorker_SpiribushSprout.cs" />
+    <Compile Include="DefOf\PawnKindDefOf.cs" />
+    <Compile Include="ThingClass\Plant_Spiribush.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
