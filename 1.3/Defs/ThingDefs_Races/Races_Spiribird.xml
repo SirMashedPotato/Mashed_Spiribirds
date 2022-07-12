@@ -213,6 +213,67 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
+	<!-- ==========[Pink]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
+		<defName>Mashed_Spiribird_SpiribirdPink</defName>
+		<label>pink spiribird</label>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>Mashed_Spiribird_EggPinkFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>2</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+			</li>
+			<li Class="CompProperties_Milkable">
+				<milkDef>Mashed_Spiribird_PollenPink</milkDef>
+				<milkIntervalDays>5</milkIntervalDays>
+				<milkAmount>1</milkAmount>
+				<milkFemaleOnly>false</milkFemaleOnly>
+			</li>
+		</comps>
+	</ThingDef>
+	<PawnKindDef ParentName="Mashed_Spiribird_SpiribirdKindBase">
+		<defName>Mashed_Spiribird_SpiribirdPink</defName>
+		<label>pink spiribird</label>
+		<race>Mashed_Spiribird_SpiribirdPink</race>
+		<lifeStages>
+			<li>
+				<label>pink spiribird chick</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Chick</texPath>
+					<drawSize>0.45</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Dessicated</texPath>
+					<drawSize>0.45</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Pink</texPath>
+					<drawSize>0.75</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Dessicated</texPath>
+					<drawSize>0.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Pink</texPath>
+					<drawSize>0.87</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.05)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Dessicated</texPath>
+					<drawSize>0.87</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
 	<!-- ==========[Red]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
 		<defName>Mashed_Spiribird_SpiribirdRed</defName>

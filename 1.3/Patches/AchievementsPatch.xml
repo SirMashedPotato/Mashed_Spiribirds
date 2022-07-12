@@ -40,6 +40,10 @@
 										<value>1</value>
 									</li>
 									<li>
+										<key>Mashed_Spiribird_SpiribirdPink</key>
+										<value>1</value>
+									</li>
+									<li>
 										<key>Mashed_Spiribird_SpiribirdRed</key>
 										<value>1</value>
 									</li>
@@ -73,6 +77,10 @@
 										<value>1</value>
 									</li>
 									<li>
+										<key>Mashed_Spiribird_SpiribirdPink</key>
+										<value>1</value>
+									</li>
+									<li>
 										<key>Mashed_Spiribird_SpiribirdRed</key>
 										<value>1</value>
 									</li>
@@ -85,6 +93,43 @@
 							</tracker>
 
 							<texPath>Achievements/Mashed_AchievementSpiribirds_TamerAll</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>Mashed_AchievementSpiribirds_TamerFiveOf</defName>
+							<label>Spiribird Enthusiast</label>
+							<description>Have five of a single kind of spiribird at the same time, excluding prism</description>
+							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
+							<tab>SMP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.KindDefTracker">
+								<requireAll>false</requireAll>
+								<kindDefs>
+									<li>
+										<key>Mashed_Spiribird_SpiribirdGreen</key>
+										<value>5</value>
+									</li>
+									<li>
+										<key>Mashed_Spiribird_SpiribirdOrange</key>
+										<value>5</value>
+									</li>
+									<li>
+										<key>Mashed_Spiribird_SpiribirdPink</key>
+										<value>5</value>
+									</li>
+									<li>
+										<key>Mashed_Spiribird_SpiribirdRed</key>
+										<value>5</value>
+									</li>
+									<li>
+										<key>Mashed_Spiribird_SpiribirdYellow</key>
+										<value>5</value>
+									</li>
+								</kindDefs>
+								
+							</tracker>
+
+							<texPath>Achievements/Mashed_AchievementSpiribirds_TamerFiveOf</texPath>
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
 						
@@ -112,7 +157,7 @@
 						<!-- Collecting -->
 						
 						<!-- Crafting -->
-						
+						<!-- craft any petalace -->
 						<AchievementsExpanded.AchievementDef>
 							<defName>Mashed_AchievementSpiribirds_PetalacePrism</defName>
 							<label>Prismatic</label>
@@ -129,7 +174,7 @@
 						</AchievementsExpanded.AchievementDef>
 						
 						<!-- Selling -->
-
+						<!-- Stats tracking -->
 					</value>
 				</li>
 			</operations>

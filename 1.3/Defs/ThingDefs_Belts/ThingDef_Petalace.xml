@@ -93,6 +93,23 @@
 			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
 		</equippedStatOffsets>
 	</ThingDef>
+	<!-- ==========[Pink]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase">
+		<defName>Mashed_Spiribird_ApparelPetalacePink</defName>
+		<label>petalace (pink)</label>
+		<description>A petalace imbued with pink spiribird pollen. Increases both blunt and sharp armour by 10%.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Mashed_Petalace/Mashed_Petalace_Pink</texPath>
+		</graphicData>
+		<costList>
+			<Mashed_Spiribird_SpiribushFlower>1</Mashed_Spiribird_SpiribushFlower>
+			<Mashed_Spiribird_PollenPink>16</Mashed_Spiribird_PollenPink>
+		</costList>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<PainShockThreshold>0.1</PainShockThreshold>
+		</equippedStatOffsets>
+	</ThingDef>
 	<!-- ==========[Red]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase">
 		<defName>Mashed_Spiribird_ApparelPetalaceRed</defName>

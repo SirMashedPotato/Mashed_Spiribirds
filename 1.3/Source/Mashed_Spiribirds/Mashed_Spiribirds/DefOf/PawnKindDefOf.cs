@@ -13,6 +13,7 @@ namespace Mashed_Spiribirds
 
         public static PawnKindDef Mashed_Spiribird_SpiribirdGreen;
         public static PawnKindDef Mashed_Spiribird_SpiribirdOrange;
+        public static PawnKindDef Mashed_Spiribird_SpiribirdPink;
         public static PawnKindDef Mashed_Spiribird_SpiribirdRed;
         public static PawnKindDef Mashed_Spiribird_SpiribirdYellow;
         public static PawnKindDef Mashed_Spiribird_SpiribirdPrism;

@@ -14,9 +14,8 @@ namespace Mashed_Spiribirds
 				return false;
 			}
 			Map map = (Map)parms.target;
-			IntVec3 intVec;
-			return map.weatherManager.growthSeasonMemory.GrowthSeasonOutdoorsNow && this.TryFindRootCell(map, out intVec);
-		}
+            return map.weatherManager.growthSeasonMemory.GrowthSeasonOutdoorsNow && this.TryFindRootCell(map, out IntVec3 intVec);
+        }
 
 		protected override bool TryExecuteWorker(IncidentParms parms)
 		{

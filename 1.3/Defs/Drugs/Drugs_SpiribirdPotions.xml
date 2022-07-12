@@ -132,6 +132,43 @@
 			</li>
 		</stages>
 	</HediffDef>
+	<!-- ==========[Pink]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_SpiribirdElixirBase">
+		<defName>Mashed_Spiribird_SpiribirdElixirPink</defName>
+		<label>spiribird elixir (pink)</label>
+		<description>An elixir made from pink spiribird pollen. Reduces mental break threshold by 10%, and increases pain shock threshold by 10%, for up to 48 hours.</description>
+		<descriptionHyperlinks>
+			<HediffDef>Mashed_Spiribird_SpiribirdElixirPink_High</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Mashed_SpiribirdPotion_Pink</texPath>
+		</graphicData>
+		<ingestible>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Mashed_Spiribird_SpiribirdElixirPink_High</hediffDef>
+					<severity>0.25</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<costList>
+			<Mashed_Spiribird_PollenPink>4</Mashed_Spiribird_PollenPink>
+		</costList>
+	</ThingDef>
+	<HediffDef ParentName="Mashed_Spiribird_PotionHediffBase">
+		<defName>Mashed_Spiribird_SpiribirdElixirPink_High</defName>
+		<label>spiribird elixir (pink)</label>
+		<description>Reduces mental break threshold by 10%, and increases pain shock threshold by 10%, for up to 48 hours.</description>
+		<stages>
+			<li>
+				<statOffsets>
+					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+					<PainShockThreshold>0.1</PainShockThreshold>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
 	<!-- ==========[Red]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdElixirBase">
 		<defName>Mashed_Spiribird_SpiribirdElixirRed</defName>

@@ -34,6 +34,17 @@
 			</li>
 		</comps>
 	</ThingDef>
+	<!-- ==========[Pink]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_EggBase">
+		<defName>Mashed_Spiribird_EggPinkFertilized</defName>
+		<label>pink spiridird egg (fert.)</label>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>3.5</hatcherDaystoHatch>
+				<hatcherPawn>Mashed_Spiribird_SpiribirdPink</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
 	<!-- ==========[Red]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_EggBase">
 		<defName>Mashed_Spiribird_EggRedFertilized</defName>

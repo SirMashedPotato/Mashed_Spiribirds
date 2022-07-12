@@ -13,6 +13,7 @@ namespace Mashed_Spiribirds
         {
             spiribirds.Add(PawnKindDefOf.Mashed_Spiribird_SpiribirdGreen, 5f);
             spiribirds.Add(PawnKindDefOf.Mashed_Spiribird_SpiribirdOrange, 5f);
+            spiribirds.Add(PawnKindDefOf.Mashed_Spiribird_SpiribirdPink, 5f);
             spiribirds.Add(PawnKindDefOf.Mashed_Spiribird_SpiribirdRed, 5f);
             spiribirds.Add(PawnKindDefOf.Mashed_Spiribird_SpiribirdYellow, 5f);
             spiribirds.Add(PawnKindDefOf.Mashed_Spiribird_SpiribirdPrism, 1f);
