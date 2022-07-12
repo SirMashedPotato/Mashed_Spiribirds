@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Base]========== -->
+	<ThingDef Name="Mashed_Spiribird_ApparelPetalaceBase" ParentName="ApparelNoQualityBase" Abstract="True">
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<tradeTags>
+			<li>Mashed_Spiribird_ApparelPetalace</li>
+		</tradeTags>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+				<li MayRequire="dankpyon.medieval.overhaul">DankPyon_TailorsBench</li>
+			</recipeUsers>
+			<unfinishedThingDef>Mashed_Spiribird_UnfinishedPetalace</unfinishedThingDef>
+			<skillRequirements>
+				<Plants>7</Plants>
+			</skillRequirements>
+			<researchPrerequisites>
+				<li>ComplexClothing</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>0.5</Mass>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>Mashed_Spiribird_ApparelPetalace</li>
+		</thingCategories>
+		<apparel>
+			<tags>
+				<li>Mashed_Spiribird_ApparelPetalace</li>
+			</tags>
+			<scoreOffset>4</scoreOffset>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+		</apparel>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<tradeNeverStack>true</tradeNeverStack>
+		<smeltable>true</smeltable>
+		<burnableByRecipe>false</burnableByRecipe>
+		<drawGUIOverlay>false</drawGUIOverlay>
+		<comps>
+			<li Class="CompProperties_Styleable"/>
+		</comps>
+	</ThingDef>
+	<!-- ==========[Green]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase">
+		<defName>Mashed_Spiribird_ApparelPetalaceGreen</defName>
+		<label>petalace (green)</label>
+		<description>A petalace imbued with green spiribird pollen. Increases both immunity gain speed, and injury healing factor, by 10%.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Mashed_Petalace/Mashed_Petalace_Green</texPath>
+		</graphicData>
+		<costList>
+			<Mashed_Spiribird_SpiribushFlower>1</Mashed_Spiribird_SpiribushFlower>
+			<Mashed_Spiribird_PollenGreen>16</Mashed_Spiribird_PollenGreen>
+		</costList>
+		<equippedStatOffsets>
+			<ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+			<InjuryHealingFactor>0.1</InjuryHealingFactor>
+		</equippedStatOffsets>
+	</ThingDef>
+	<!-- ==========[Orange]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase">
+		<defName>Mashed_Spiribird_ApparelPetalaceOrange</defName>
+		<label>petalace (orange)</label>
+		<description>A petalace imbued with orange spiribird pollen. Increases both blunt and sharp armour by 10%.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Mashed_Petalace/Mashed_Petalace_Orange</texPath>
+		</graphicData>
+		<costList>
+			<Mashed_Spiribird_SpiribushFlower>1</Mashed_Spiribird_SpiribushFlower>
+			<Mashed_Spiribird_PollenOrange>16</Mashed_Spiribird_PollenOrange>
+		</costList>
+		<equippedStatOffsets>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+		</equippedStatOffsets>
+	</ThingDef>
+	<!-- ==========[Red]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase">
+		<defName>Mashed_Spiribird_ApparelPetalaceRed</defName>
+		<label>petalace (red)</label>
+		<description>A petalace imbued with red spiribird pollen. Increases both melee hit chance, and shooting accuracy, by 1 point.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Mashed_Petalace/Mashed_Petalace_Red</texPath>
+		</graphicData>
+		<costList>
+			<Mashed_Spiribird_SpiribushFlower>1</Mashed_Spiribird_SpiribushFlower>
+			<Mashed_Spiribird_PollenRed>16</Mashed_Spiribird_PollenRed>
+		</costList>
+		<equippedStatOffsets>
+			<MeleeHitChance>1</MeleeHitChance>
+			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+	</ThingDef>
+	<!-- ==========[Yellow]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase">
+		<defName>Mashed_Spiribird_ApparelPetalaceYellow</defName>
+		<label>petalace (yellow)</label>
+		<description>A petalace imbued with yellow spiribird pollen. Decreases hunger rate multiplier by -10%, and increases rest rate multiplier by 10%.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Mashed_Petalace/Mashed_Petalace_Yellow</texPath>
+		</graphicData>
+		<costList>
+			<Mashed_Spiribird_SpiribushFlower>1</Mashed_Spiribird_SpiribushFlower>
+			<Mashed_Spiribird_PollenYellow>16</Mashed_Spiribird_PollenYellow>
+		</costList>
+		<equippedStatOffsets>
+			<HungerRateMultiplier>-0.1</HungerRateMultiplier>
+			<RestRateMultiplier>0.1</RestRateMultiplier>
+		</equippedStatOffsets>
+	</ThingDef>
+	<!-- ==========[Prism]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase">
+		<defName>Mashed_Spiribird_ApparelPetalacePrism</defName>
+		<label>petalace (prism)</label>
+		<description>A petalace imbued with prism spiribird pollen. Grants the bonuses of all petalaces, though at half the strength.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Mashed_Petalace/Mashed_Petalace_Prism</texPath>
+		</graphicData>
+		<costList>
+			<Mashed_Spiribird_SpiribushFlower>1</Mashed_Spiribird_SpiribushFlower>
+			<Mashed_Spiribird_PollenPrism>16</Mashed_Spiribird_PollenPrism>
+		</costList>
+		<equippedStatOffsets>
+			<ImmunityGainSpeed>0.05</ImmunityGainSpeed>
+			<InjuryHealingFactor>0.05</InjuryHealingFactor>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+			<MeleeHitChance>0.5</MeleeHitChance>
+			<ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
+			<RestRateMultiplier>0.05</RestRateMultiplier>
+		</equippedStatOffsets>
+	</ThingDef>
+</Defs>

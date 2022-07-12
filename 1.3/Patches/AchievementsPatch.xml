@@ -113,6 +113,21 @@
 						
 						<!-- Crafting -->
 						
+						<AchievementsExpanded.AchievementDef>
+							<defName>Mashed_AchievementSpiribirds_PetalacePrism</defName>
+							<label>Prismatic</label>
+							<description>Craft a prism petalace</description>
+							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
+							<tab>SMP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.ItemCraftTracker">
+								<def>Mashed_Spiribird_ApparelPetalacePrism</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/Mashed_AchievementSpiribirds_PetalacePrism</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+						
 						<!-- Selling -->
 
 					</value>

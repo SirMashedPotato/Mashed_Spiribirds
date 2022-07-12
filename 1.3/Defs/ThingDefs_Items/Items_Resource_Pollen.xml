@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- ==========[Bases]========== -->
+	<!-- ==========[Base]========== -->
 	<ThingDef ParentName="RoughPlantBase" Name="Mashed_Spiribird_PollenBase" Abstract="True">
 		<statBases>
 			<MarketValue>1.6</MarketValue>
