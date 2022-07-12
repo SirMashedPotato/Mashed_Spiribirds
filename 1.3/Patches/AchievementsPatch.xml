@@ -174,7 +174,50 @@
 						</AchievementsExpanded.AchievementDef>
 						
 						<!-- Selling -->
+						
 						<!-- Stats tracking -->
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>Mashed_AchievementSpiribirds_InteractFirst</defName>
+							<label>Spiribird Acquaintance</label>
+							<description>Have a spiribird interact with a pawn wearing a petalace for the first time</description>
+							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
+							<tab>SMP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.RecordEventTracker">
+								<def>Mashed_Spiribird_SpiribirdInteractions</def>
+								<count>1</count>
+							</tracker>
+							<texPath>Achievements/Mashed_AchievementSpiribirds_InteractFirst</texPath>
+							<points>5</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>Mashed_AchievementSpiribirds_InteractMany</defName>
+							<label>Spiribird Friend</label>
+							<description>Have a spiribird interact with a pawn wearing a petalace for the tenth time</description>
+							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
+							<tab>SMP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.RecordEventTracker">
+								<def>Mashed_Spiribird_SpiribirdInteractions</def>
+								<count>10</count>
+							</tracker>
+							<texPath>Achievements/Mashed_AchievementSpiribirds_InteractMany</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>Mashed_AchievementSpiribirds_InteractMore</defName>
+							<label>Spiribird Magnet</label>
+							<description>Have a spiribird interact with a pawn wearing a petalace for the 25th time</description>
+							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
+							<tab>SMP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.RecordEventTracker">
+								<def>Mashed_Spiribird_SpiribirdInteractions</def>
+								<count>25</count>
+							</tracker>
+							<texPath>Achievements/Mashed_AchievementSpiribirds_InteractMore</texPath>
+							<points>15</points>
+						</AchievementsExpanded.AchievementDef>
 					</value>
 				</li>
 			</operations>
