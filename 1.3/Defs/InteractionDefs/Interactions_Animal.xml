@@ -9,7 +9,7 @@
 		<logRulesInitiator>
 			<rulesStrings>
 				<li>r_logentry(p=2)->[INITIATOR_nameDef] [interactadverb] [interacted] [RECIPIENT_nameDef]'s petalace.</li>
-				<li>interacted(p=2)->interacted</li>
+				<li>interacted(p=2)->interacted with</li>
 				<li>interacted->rested upon</li>
 				<li>interactadverb(p=4)-></li>
 				<li>interactadverb->gently</li>
