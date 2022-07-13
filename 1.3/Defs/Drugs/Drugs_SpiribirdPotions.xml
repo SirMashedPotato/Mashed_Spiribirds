@@ -45,26 +45,13 @@
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
-	<HediffDef Name="Mashed_Spiribird_PotionHediffBase" Abstract="True">
-		<hediffClass>Hediff_High</hediffClass>
-		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
-		<scenarioCanAdd>true</scenarioCanAdd>
-		<maxSeverity>1.0</maxSeverity>
-		<isBad>false</isBad>
-		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-0.5</severityPerDay>
-				<showHoursToRecover>true</showHoursToRecover>
-			</li>
-		</comps>
-	</HediffDef>
 	<!-- ==========[Green]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdElixirBase">
 		<defName>Mashed_Spiribird_SpiribirdElixirGreen</defName>
 		<label>spiribird elixir (green)</label>
-		<description>An elixir made from green spiribird pollen. Increases both immunity gain speed and injury healing factor by 10%, for up to 48 hours.</description>
+		<description>A concentrated dose of green spiribird pollen. Use increases the strength of the green pollen effect by 25%.</description>
 		<descriptionHyperlinks>
-			<HediffDef>Mashed_Spiribird_SpiribirdElixirGreen_High</HediffDef>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenGreen</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Drug/Mashed_SpiribirdPotion_Green</texPath>
@@ -73,7 +60,7 @@
 			<drugCategory>Medical</drugCategory>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>Mashed_Spiribird_SpiribirdElixirGreen_High</hediffDef>
+					<hediffDef>Mashed_Spiribird_SpiribirdPollenGreen</hediffDef>
 					<severity>0.25</severity>
 				</li>
 			</outcomeDoers>
@@ -82,26 +69,13 @@
 			<Mashed_Spiribird_PollenGreen>4</Mashed_Spiribird_PollenGreen>
 		</costList>
 	</ThingDef>
-	<HediffDef ParentName="Mashed_Spiribird_PotionHediffBase">
-		<defName>Mashed_Spiribird_SpiribirdElixirGreen_High</defName>
-		<label>spiribird elixir (green)</label>
-		<description>Increases both immunity gain speed and injury healing factor by 10%, for up to 48 hours.</description>
-		<stages>
-			<li>
-				<statOffsets>
-					<ImmunityGainSpeed>0.1</ImmunityGainSpeed>
-					<InjuryHealingFactor>0.1</InjuryHealingFactor>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
 	<!-- ==========[Orange]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdElixirBase">
 		<defName>Mashed_Spiribird_SpiribirdElixirOrange</defName>
 		<label>spiribird elixir (orange)</label>
-		<description>An elixir made from orange spiribird pollen. Increases both blunt and sharp armour by 10%, for up to 48 hours.</description>
+		<description>A concentrated dose of orange spiribird pollen. Use increases the strength of the orange pollen effect by 25%.</description>
 		<descriptionHyperlinks>
-			<HediffDef>Mashed_Spiribird_SpiribirdElixirOrange_High</HediffDef>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenOrange</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Drug/Mashed_SpiribirdPotion_Orange</texPath>
@@ -110,7 +84,7 @@
 			<drugCategory>Medical</drugCategory>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>Mashed_Spiribird_SpiribirdElixirOrange_High</hediffDef>
+					<hediffDef>Mashed_Spiribird_SpiribirdPollenOrange</hediffDef>
 					<severity>0.25</severity>
 				</li>
 			</outcomeDoers>
@@ -119,26 +93,13 @@
 			<Mashed_Spiribird_PollenOrange>4</Mashed_Spiribird_PollenOrange>
 		</costList>
 	</ThingDef>
-	<HediffDef ParentName="Mashed_Spiribird_PotionHediffBase">
-		<defName>Mashed_Spiribird_SpiribirdElixirOrange_High</defName>
-		<label>spiribird elixir (orange)</label>
-		<description>Increases both blunt and sharp armour by 10%, for up to 48 hours.</description>
-		<stages>
-			<li>
-				<statOffsets>
-					<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-					<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
 	<!-- ==========[Pink]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdElixirBase">
 		<defName>Mashed_Spiribird_SpiribirdElixirPink</defName>
 		<label>spiribird elixir (pink)</label>
-		<description>An elixir made from pink spiribird pollen. Reduces mental break threshold by 10%, and increases pain shock threshold by 10%, for up to 48 hours.</description>
+		<description>A concentrated dose of pink spiribird pollen. Use increases the strength of the pink pollen effect by 25%.</description>
 		<descriptionHyperlinks>
-			<HediffDef>Mashed_Spiribird_SpiribirdElixirPink_High</HediffDef>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenPink</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Drug/Mashed_SpiribirdPotion_Pink</texPath>
@@ -147,7 +108,7 @@
 			<drugCategory>Medical</drugCategory>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>Mashed_Spiribird_SpiribirdElixirPink_High</hediffDef>
+					<hediffDef>Mashed_Spiribird_SpiribirdPollenPink</hediffDef>
 					<severity>0.25</severity>
 				</li>
 			</outcomeDoers>
@@ -156,26 +117,13 @@
 			<Mashed_Spiribird_PollenPink>4</Mashed_Spiribird_PollenPink>
 		</costList>
 	</ThingDef>
-	<HediffDef ParentName="Mashed_Spiribird_PotionHediffBase">
-		<defName>Mashed_Spiribird_SpiribirdElixirPink_High</defName>
-		<label>spiribird elixir (pink)</label>
-		<description>Reduces mental break threshold by 10%, and increases pain shock threshold by 10%, for up to 48 hours.</description>
-		<stages>
-			<li>
-				<statOffsets>
-					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
-					<PainShockThreshold>0.1</PainShockThreshold>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
 	<!-- ==========[Red]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdElixirBase">
 		<defName>Mashed_Spiribird_SpiribirdElixirRed</defName>
 		<label>spiribird elixir (red)</label>
-		<description>An elixir made from red spiribird pollen. Increases both melee hit chance and shooting accuracy by 10%, for up to 48 hours.</description>
+		<description>A concentrated dose of red spiribird pollen. Use increases the strength of the red pollen effect by 25%.</description>
 		<descriptionHyperlinks>
-			<HediffDef>Mashed_Spiribird_SpiribirdElixirRed_High</HediffDef>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenRed</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Drug/Mashed_SpiribirdPotion_Red</texPath>
@@ -184,7 +132,7 @@
 			<drugCategory>Medical</drugCategory>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>Mashed_Spiribird_SpiribirdElixirRed_High</hediffDef>
+					<hediffDef>Mashed_Spiribird_SpiribirdPollenRed</hediffDef>
 					<severity>0.25</severity>
 				</li>
 			</outcomeDoers>
@@ -193,26 +141,13 @@
 			<Mashed_Spiribird_PollenRed>4</Mashed_Spiribird_PollenRed>
 		</costList>
 	</ThingDef>
-	<HediffDef ParentName="Mashed_Spiribird_PotionHediffBase">
-		<defName>Mashed_Spiribird_SpiribirdElixirRed_High</defName>
-		<label>spiribird elixir (red)</label>
-		<description>Increases both melee hit chance and shooting accuracy by 1 point, for up to 48 hours.</description>
-		<stages>
-			<li>
-				<statOffsets>
-					<MeleeHitChance>1</MeleeHitChance>
-					<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
 	<!-- ==========[Yellow]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdElixirBase">
 		<defName>Mashed_Spiribird_SpiribirdElixirYellow</defName>
 		<label>spiribird elixir (yellow)</label>
-		<description>An elixir made from yellow spiribird pollen. Decreases hunger rate multiplier by -10%, and increases rest rate multiplier by 10%, for up to 48 hours.</description>
+		<description>A concentrated dose of yellow spiribird pollen. Use increases the strength of the yellow pollen effect by 25%</description>
 		<descriptionHyperlinks>
-			<HediffDef>Mashed_Spiribird_SpiribirdElixirYellow_High</HediffDef>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenYellow</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Drug/Mashed_SpiribirdPotion_Yellow</texPath>
@@ -221,7 +156,7 @@
 			<drugCategory>Medical</drugCategory>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>Mashed_Spiribird_SpiribirdElixirYellow_High</hediffDef>
+					<hediffDef>Mashed_Spiribird_SpiribirdPollenYellow</hediffDef>
 					<severity>0.25</severity>
 				</li>
 			</outcomeDoers>
@@ -230,17 +165,4 @@
 			<Mashed_Spiribird_PollenYellow>4</Mashed_Spiribird_PollenYellow>
 		</costList>
 	</ThingDef>
-	<HediffDef ParentName="Mashed_Spiribird_PotionHediffBase">
-		<defName>Mashed_Spiribird_SpiribirdElixirYellow_High</defName>
-		<label>spiribird elixir (yellow)</label>
-		<description>Decreases hunger rate multiplier by -10%, and increases rest rate multiplier by 10%, for up to 48 hours.</description>
-		<stages>
-			<li>
-				<statOffsets>
-					<HungerRateMultiplier>-0.1</HungerRateMultiplier>
-					<RestRateMultiplier>0.1</RestRateMultiplier>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
 </Defs>

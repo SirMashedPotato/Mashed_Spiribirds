@@ -2,7 +2,7 @@
 <Defs>
 	<!-- ==========[Bases]========== -->
 	<ThingDef ParentName="AnimalThingBase" Name="Mashed_Spiribird_SpiribirdThingBase" Abstract="True">
-		<description>A small bird, with a belly coated in pollen. Highly adaptable, spiribirds are found almost everywhere, you just need to know where to look for them.\n\nDifferent species of spiribirds have affinities towards different flowers, thus collecting specific types of pollen on their belly. This pollen can be collected off of their bellies, but only if the spiribird has become accustomed to human interaction.</description>
+		<description>A small bird, with a belly coated in pollen. Highly adaptable, spiribirds are found almost everywhere, you just need to know where to look for them.\n\nDifferent species of spiribirds have affinities towards different flowers, thus collecting specific types of pollen on their belly. This pollen can be collected off of their bellies, but only if the spiribird has become accustomed to human interaction.\n\nBoth wild and tame spiribirds are attracted to petalaces. They will occasionally visit anyone wearing a petalace, leaving some pollen on it in the process.</description>
 		<descriptionHyperlinks>
 			<ThingDef>Mashed_Spiribird_Spiribush</ThingDef>
 		</descriptionHyperlinks>
@@ -95,6 +95,14 @@
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
 		<defName>Mashed_Spiribird_SpiribirdGreen</defName>
 		<label>green spiribird</label>
+		<descriptionHyperlinks>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenGreen</HediffDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="Mashed_Spiribirds.SpiribirdProperties">
+				<pollenHediff>Mashed_Spiribird_SpiribirdPollenGreen</pollenHediff>
+			</li>
+		</modExtensions>
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>Mashed_Spiribird_EggGreenFertilized</eggFertilizedDef>
@@ -156,6 +164,14 @@
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
 		<defName>Mashed_Spiribird_SpiribirdOrange</defName>
 		<label>orange spiribird</label>
+		<descriptionHyperlinks>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenOrange</HediffDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="Mashed_Spiribirds.SpiribirdProperties">
+				<pollenHediff>Mashed_Spiribird_SpiribirdPollenOrange</pollenHediff>
+			</li>
+		</modExtensions>
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>Mashed_Spiribird_EggOrangeFertilized</eggFertilizedDef>
@@ -217,6 +233,14 @@
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
 		<defName>Mashed_Spiribird_SpiribirdPink</defName>
 		<label>pink spiribird</label>
+		<descriptionHyperlinks>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenPink</HediffDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="Mashed_Spiribirds.SpiribirdProperties">
+				<pollenHediff>Mashed_Spiribird_SpiribirdPollenPink</pollenHediff>
+			</li>
+		</modExtensions>
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>Mashed_Spiribird_EggPinkFertilized</eggFertilizedDef>
@@ -278,6 +302,14 @@
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
 		<defName>Mashed_Spiribird_SpiribirdRed</defName>
 		<label>red spiribird</label>
+		<descriptionHyperlinks>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenRed</HediffDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="Mashed_Spiribirds.SpiribirdProperties">
+				<pollenHediff>Mashed_Spiribird_SpiribirdPollenRed</pollenHediff>
+			</li>
+		</modExtensions>
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>Mashed_Spiribird_EggRedFertilized</eggFertilizedDef>
@@ -339,6 +371,14 @@
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
 		<defName>Mashed_Spiribird_SpiribirdYellow</defName>
 		<label>yellow spiribird</label>
+		<descriptionHyperlinks>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenYellow</HediffDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="Mashed_Spiribirds.SpiribirdProperties">
+				<pollenHediff>Mashed_Spiribird_SpiribirdPollenYellow</pollenHediff>
+			</li>
+		</modExtensions>
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>Mashed_Spiribird_EggYellowFertilized</eggFertilizedDef>
@@ -400,6 +440,19 @@
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
 		<defName>Mashed_Spiribird_SpiribirdPrism</defName>
 		<label>prism spiribird</label>
+		<description>A small bird, with a belly coated in pollen. Highly adaptable, spiribirds are found almost everywhere, you just need to know where to look for them.\n\nThe pollen coating the belly of prism spiribirds can be refined into any kind of spiribird pollen. This pollen can be collected off of their bellies, but only if the spiribird has become accustomed to human interaction.\n\nBoth wild and tame spiribirds are attracted to petalaces. They will occasionally visit anyone wearing a petalace, leaving some pollen on it in the process.</description>
+		<descriptionHyperlinks>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenGreen</HediffDef>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenOrange</HediffDef>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenPink</HediffDef>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenRed</HediffDef>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenYellow</HediffDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="Mashed_Spiribirds.SpiribirdProperties">
+				<isPrismatic>true</isPrismatic>
+			</li>
+		</modExtensions>
 		<statBases>
 			<MarketValue>125</MarketValue>
 		</statBases>

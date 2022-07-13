@@ -24,7 +24,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_PollenBase">
 		<defName>Mashed_Spiribird_PollenGreen</defName>
 		<label>green spiribird pollen</label>
-		<description>Pollen collected from a green spiribird, can be used to create potions and petalaces that boost healing factor and immunity gain.</description>
+		<description>Pollen collected from a green spiribird, known to boost healing factor and immunity gain.</description>
 		<descriptionHyperlinks>
 			<ThingDef>Mashed_Spiribird_SpiribirdGreen</ThingDef>
 		</descriptionHyperlinks>
@@ -36,7 +36,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_PollenBase">
 		<defName>Mashed_Spiribird_PollenOrange</defName>
 		<label>orange spiribird pollen</label>
-		<description>Pollen collected from a orange spiribird, can be used to create potions and petalaces that boost blunt and sharp armour.</description>
+		<description>Pollen collected from a orange spiribird, known to boost blunt and sharp armour.</description>
 		<descriptionHyperlinks>
 			<ThingDef>Mashed_Spiribird_SpiribirdOrange</ThingDef>
 		</descriptionHyperlinks>
@@ -48,7 +48,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_PollenBase">
 		<defName>Mashed_Spiribird_PollenPink</defName>
 		<label>pink spiribird pollen</label>
-		<description>Pollen collected from a pink spiribird, can be used to create potions and petalaces that boost mental break and pain shock thresholds.</description>
+		<description>Pollen collected from a pink spiribird, known to boost mental break and pain shock thresholds.</description>
 		<descriptionHyperlinks>
 			<ThingDef>Mashed_Spiribird_SpiribirdPink</ThingDef>
 		</descriptionHyperlinks>
@@ -60,7 +60,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_PollenBase">
 		<defName>Mashed_Spiribird_PollenRed</defName>
 		<label>red spiribird pollen</label>
-		<description>Pollen collected from a red spiribird, can be used to create potions and petalaces that boost melee hit chance and shooting accuracy.</description>
+		<description>Pollen collected from a red spiribird, known to boost melee hit chance and shooting accuracy.</description>
 		<descriptionHyperlinks>
 			<ThingDef>Mashed_Spiribird_SpiribirdRed</ThingDef>
 		</descriptionHyperlinks>
@@ -72,7 +72,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_PollenBase">
 		<defName>Mashed_Spiribird_PollenYellow</defName>
 		<label>yellow spiribird pollen</label>
-		<description>Pollen collected from a yellow spiribird, can be used to create potions and petalaces that decrease fatigue gain and hunger rate.</description>
+		<description>Pollen collected from a yellow spiribird, known to decrease fatigue gain and hunger rate.</description>
 		<descriptionHyperlinks>
 			<ThingDef>Mashed_Spiribird_SpiribirdYellow</ThingDef>
 		</descriptionHyperlinks>

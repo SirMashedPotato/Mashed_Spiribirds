@@ -27,7 +27,6 @@ namespace Mashed_Spiribirds
 
     public class Plant_Spiribush : Plant
     {
-
         public override void PlantCollected(Pawn by)
         {
             if (this.HarvestableNow)

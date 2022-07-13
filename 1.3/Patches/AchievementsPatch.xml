@@ -61,7 +61,7 @@
 						
 						<AchievementsExpanded.AchievementDef>
 							<defName>Mashed_AchievementSpiribirds_TamerAll</defName>
-							<label>Spiribird Collector</label>
+							<label>Spiribird Enthusiast</label>
 							<description>Have all kinds of spiribird at the same time, excluding prism</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
 							<tab>SMP_AchievementsTab</tab>
@@ -98,8 +98,8 @@
 						
 						<AchievementsExpanded.AchievementDef>
 							<defName>Mashed_AchievementSpiribirds_TamerFiveOf</defName>
-							<label>Spiribird Enthusiast</label>
-							<description>Have five of a single kind of spiribird at the same time, excluding prism</description>
+							<label>Spiribird Collector</label>
+							<description>Have five of a single kind of spiribird at the same time</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
 							<tab>SMP_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.KindDefTracker">
@@ -123,6 +123,10 @@
 									</li>
 									<li>
 										<key>Mashed_Spiribird_SpiribirdYellow</key>
+										<value>5</value>
+									</li>
+									<li>
+										<key>Mashed_Spiribird_SpiribirdPrism</key>
 										<value>5</value>
 									</li>
 								</kindDefs>
@@ -161,16 +165,17 @@
 						<AchievementsExpanded.AchievementDef>
 							<defName>Mashed_AchievementSpiribirds_PetalacePrism</defName>
 							<label>Prismatic</label>
-							<description>Craft a prism petalace</description>
+							<description>Craft a legendary quality prism petalace</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
 							<tab>SMP_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.ItemCraftTracker">
 								<def>Mashed_Spiribird_ApparelPetalacePrism</def>
+								<quality>Legendary</quality>
 								<count>1</count>
 							</tracker>
 
 							<texPath>Achievements/Mashed_AchievementSpiribirds_PetalacePrism</texPath>
-							<points>10</points>
+							<points>20</points>
 						</AchievementsExpanded.AchievementDef>
 						
 						<!-- Selling -->
