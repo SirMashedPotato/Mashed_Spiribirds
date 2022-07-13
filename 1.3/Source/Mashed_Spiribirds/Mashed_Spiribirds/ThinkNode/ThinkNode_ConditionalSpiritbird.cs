@@ -8,7 +8,7 @@ namespace Mashed_Spiribirds
 
         protected override bool Satisfied(Pawn pawn)
         {
-            return pawn.def.tradeTags.Contains("Mashed_Spiribird_Spiribird");
+            return pawn.def.tradeTags.Contains("Mashed_Spiribird_Spiribird") && pawn.ageTracker.CurLifeStageIndex > 0;
         }
     }
 }

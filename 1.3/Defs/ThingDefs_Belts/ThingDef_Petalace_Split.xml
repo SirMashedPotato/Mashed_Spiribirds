@@ -4,7 +4,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_GreenPink</defName>
 		<label>petalace (green/pink)</label>
-		<description>A petalace imbued with green and pink spiribird pollen. The effects of green and pink pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.</description>
+		<description>A petalace imbued with green and pink spiribird pollen. The effects of green and pink pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
 		<modExtensions>
 			<li Class="Mashed_Spiribirds.PetalaceProperties">
 				<pollenAffinity>
@@ -44,7 +44,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_GreenRed</defName>
 		<label>petalace (green/red)</label>
-		<description>A petalace imbued with green and red spiribird pollen. The effects of green and red pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.</description>
+		<description>A petalace imbued with green and red spiribird pollen. The effects of green and red pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
 		<modExtensions>
 			<li Class="Mashed_Spiribirds.PetalaceProperties">
 				<pollenAffinity>
@@ -84,7 +84,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_OrangeGreen</defName>
 		<label>petalace (orange/green)</label>
-		<description>A petalace imbued with orange and green spiribird pollen. The effects of orange and green pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.</description>
+		<description>A petalace imbued with orange and green spiribird pollen. The effects of orange and green pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
 		<modExtensions>
 			<li Class="Mashed_Spiribirds.PetalaceProperties">
 				<pollenAffinity>
@@ -124,7 +124,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_OrangeYellow</defName>
 		<label>petalace (orange/yellow)</label>
-		<description>A petalace imbued with orange and yellow spiribird pollen. The effects of orange and yellow pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.</description>
+		<description>A petalace imbued with orange and yellow spiribird pollen. The effects of orange and yellow pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
 		<modExtensions>
 			<li Class="Mashed_Spiribirds.PetalaceProperties">
 				<pollenAffinity>
@@ -164,7 +164,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_PinkOrange</defName>
 		<label>petalace (pink/orange)</label>
-		<description>A petalace imbued with pink and orange spiribird pollen. The effects of pink and orange pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.</description>
+		<description>A petalace imbued with pink and orange spiribird pollen. The effects of pink and orange pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
 		<modExtensions>
 			<li Class="Mashed_Spiribirds.PetalaceProperties">
 				<pollenAffinity>
@@ -204,7 +204,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_PinkYellow</defName>
 		<label>petalace (pinl/yellow)</label>
-		<description>A petalace imbued with pink and yellow spiribird pollen. The effects of pink and yellow pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.</description>
+		<description>A petalace imbued with pink and yellow spiribird pollen. The effects of pink and yellow pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
 		<modExtensions>
 			<li Class="Mashed_Spiribirds.PetalaceProperties">
 				<pollenAffinity>
@@ -244,7 +244,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_RedOrange</defName>
 		<label>petalace (red/orange)</label>
-		<description>A petalace imbued with red and orange spiribird pollen. The effects of red and orange pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.</description>
+		<description>A petalace imbued with red and orange spiribird pollen. The effects of red and orange pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
 		<modExtensions>
 			<li Class="Mashed_Spiribirds.PetalaceProperties">
 				<pollenAffinity>
@@ -284,7 +284,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_RedPink</defName>
 		<label>petalace (red/pink)</label>
-		<description>A petalace imbued with red and pink spiribird pollen. The effects of red and pink pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.</description>
+		<description>A petalace imbued with red and pink spiribird pollen. The effects of red and pink pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
 		<modExtensions>
 			<li Class="Mashed_Spiribirds.PetalaceProperties">
 				<pollenAffinity>
@@ -324,7 +324,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_YellowRed</defName>
 		<label>petalace (yellow/red)</label>
-		<description>A petalace imbued with yellow and red spiribird pollen. The effects of yellow and red pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.</description>
+		<description>A petalace imbued with yellow and red spiribird pollen. The effects of yellow and red pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
 		<modExtensions>
 			<li Class="Mashed_Spiribirds.PetalaceProperties">
 				<pollenAffinity>
@@ -364,7 +364,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_YellowGreen</defName>
 		<label>petalace (yellow/green)</label>
-		<description>A petalace imbued with yellow and green spiribird pollen. The effects of yellow and green pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.</description>
+		<description>A petalace imbued with yellow and green spiribird pollen. The effects of yellow and green pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
 		<modExtensions>
 			<li Class="Mashed_Spiribirds.PetalaceProperties">
 				<pollenAffinity>
