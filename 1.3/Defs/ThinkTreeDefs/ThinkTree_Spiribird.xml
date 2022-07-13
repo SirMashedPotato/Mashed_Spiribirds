@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThinkTreeDef>
+		<defName>Mashed_Spiribird_InteractWithPetalace</defName>
+		<insertTag>Animal_PreMain</insertTag>
+		<insertPriority>5</insertPriority>
+		<thinkRoot Class="Mashed_Spiribirds.ThinkNode_ConditionalSpiritbird">
+			<subNodes>
+				<li Class="ThinkNode_ChancePerHour_Constant">
+					<mtbHours>4</mtbHours>
+					<subNodes>
+						<li Class="Mashed_Spiribirds.JobGiver_InteractWithPetalace">
+							<radiusTame>6</radiusTame>
+							<radiusWild>4</radiusWild>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+</Defs>

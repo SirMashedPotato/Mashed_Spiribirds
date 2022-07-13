@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="DefModExtensions\PetalaceProperties.cs" />
     <Compile Include="DefModExtensions\SpiribirdProperties.cs" />
+    <Compile Include="DefOf\JobDefOf.cs" />
     <Compile Include="DefOf\RecordDefOf.cs" />
     <Compile Include="DefOf\ThingCategoryDefOf.cs" />
     <Compile Include="DefOf\ThingDefOf.cs" />
@@ -62,7 +63,9 @@
     <Compile Include="DefOf\PawnKindDefOf.cs" />
     <Compile Include="ThingClass\Plant_Spiribush.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ThinkNodes\Utility.cs" />
+    <Compile Include="ThinkNode\JobDriver_InteractWithPetalace.cs" />
+    <Compile Include="ThinkNode\JobGiver_InteractWithPetalace.cs" />
+    <Compile Include="ThinkNode\ThinkNode_ConditionalSpiritbird.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

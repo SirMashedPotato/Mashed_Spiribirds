@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<JobDef>
+		<defName>Mashed_Spiribirds_InteractWithPetalace</defName>
+		<driverClass>Mashed_Spiribirds.JobDriver_InteractWithPetalace</driverClass>
+		<reportString>interacting with petalace worn by TargetA.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+</Defs>
