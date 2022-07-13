@@ -1,42 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Verse;
-using Verse.AI;
 using RimWorld;
 
 namespace Mashed_Spiribirds
 {
-    class JobDriver_InteractWithPetalace : JobDriver
+    public class InteractionWorker_SpiribirdInteraction : InteractionWorker
     {
-        private Pawn Target
-        {
-            get
-            {
-                return (Pawn)this.job.GetTarget(TargetIndex.A).Thing;
-            }
-        }
+		public override void Interacted(Pawn initiator, Pawn recipient, List<RulePackDef> extraSentencePacks, out string letterText, out string letterLabel, out LetterDef letterDef, out LookTargets lookTargets)
+		{
+			this.ReadyPollen(initiator, recipient);
+			letterText = null;
+			letterLabel = null;
+			letterDef = null;
+			lookTargets = null;
+		}
 
-        public override bool TryMakePreToilReservations(bool errorOnFailed)
+        public void ReadyPollen(Pawn spiribird, Pawn target)
         {
-            return this.pawn.CanReach(Target, PathEndMode.Touch, Danger.None);
-        }
-
-        protected override IEnumerable<Toil> MakeNewToils()
-        {
-            yield return Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.OnCell).FailOnDespawnedOrNull(TargetIndex.A);
-            Toil toil = Toils_General.Wait(DurationTicks, TargetIndex.None);
-            toil.WithProgressBarToilDelay(TargetIndex.A, false, -0.5f);
-            toil.FailOnDespawnedOrNull(TargetIndex.A);
-            toil.FailOnCannotTouch(TargetIndex.A, PathEndMode.Touch);
-            yield return toil;
-            yield return Toils_General.Do(new Action(ReadyPollen));
-            yield break;
-        }
-
-        public void ReadyPollen()
-        {
-            Pawn spiribird = this.pawn;
-            Pawn target = Target;
             if (spiribird != null && target != null)
             {
                 var spiribirdProps = SpiribirdProperties.Get(spiribird.def);
@@ -85,7 +65,5 @@ namespace Mashed_Spiribirds
                 recipient.needs.mood.thoughts.memories.TryGainMemory(newThought, null);
             }
         }
-
-        private const int DurationTicks = 10;
     }
 }
