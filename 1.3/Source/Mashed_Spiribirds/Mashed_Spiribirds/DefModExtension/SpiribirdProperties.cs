@@ -2,7 +2,7 @@
 
 namespace Mashed_Spiribirds
 {
-    class SpiribirdProperties : DefModExtension
+    public class SpiribirdProperties : DefModExtension
     {
         public HediffDef pollenHediff;
         public bool isPrismatic = false;

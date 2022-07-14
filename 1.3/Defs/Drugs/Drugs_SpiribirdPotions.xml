@@ -41,15 +41,18 @@
 			<bulkRecipeCount>4</bulkRecipeCount>
 			<workAmount>500</workAmount>
 			<recipeUsers>
-				<li>DrugLab</li>
+				<li>Mashed_Spiribird_TablePetalace</li>
 			</recipeUsers>
+			<researchPrerequisites>
+				<li>Mashed_Spiribird_ElixirCrafting</li>
+			</researchPrerequisites>
 		</recipeMaker>
 	</ThingDef>
 	<!-- ==========[Green]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdElixirBase">
 		<defName>Mashed_Spiribird_SpiribirdElixirGreen</defName>
 		<label>spiribird elixir (green)</label>
-		<description>A concentrated dose of green spiribird pollen. Use increases the strength of the green pollen effect by 25%.</description>
+		<description>A concentrated dose of green spiribird pollen. Use increases the strength of the green pollen effect by 15%.</description>
 		<descriptionHyperlinks>
 			<HediffDef>Mashed_Spiribird_SpiribirdPollenGreen</HediffDef>
 		</descriptionHyperlinks>
@@ -61,7 +64,7 @@
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>Mashed_Spiribird_SpiribirdPollenGreen</hediffDef>
-					<severity>0.25</severity>
+					<severity>0.15</severity>
 				</li>
 			</outcomeDoers>
 		</ingestible>
@@ -73,7 +76,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdElixirBase">
 		<defName>Mashed_Spiribird_SpiribirdElixirOrange</defName>
 		<label>spiribird elixir (orange)</label>
-		<description>A concentrated dose of orange spiribird pollen. Use increases the strength of the orange pollen effect by 25%.</description>
+		<description>A concentrated dose of orange spiribird pollen. Use increases the strength of the orange pollen effect by 15%.</description>
 		<descriptionHyperlinks>
 			<HediffDef>Mashed_Spiribird_SpiribirdPollenOrange</HediffDef>
 		</descriptionHyperlinks>
@@ -85,7 +88,7 @@
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>Mashed_Spiribird_SpiribirdPollenOrange</hediffDef>
-					<severity>0.25</severity>
+					<severity>0.15</severity>
 				</li>
 			</outcomeDoers>
 		</ingestible>
@@ -97,7 +100,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdElixirBase">
 		<defName>Mashed_Spiribird_SpiribirdElixirPink</defName>
 		<label>spiribird elixir (pink)</label>
-		<description>A concentrated dose of pink spiribird pollen. Use increases the strength of the pink pollen effect by 25%.</description>
+		<description>A concentrated dose of pink spiribird pollen. Use increases the strength of the pink pollen effect by 15%.</description>
 		<descriptionHyperlinks>
 			<HediffDef>Mashed_Spiribird_SpiribirdPollenPink</HediffDef>
 		</descriptionHyperlinks>
@@ -109,7 +112,7 @@
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>Mashed_Spiribird_SpiribirdPollenPink</hediffDef>
-					<severity>0.25</severity>
+					<severity>0.15</severity>
 				</li>
 			</outcomeDoers>
 		</ingestible>
@@ -121,7 +124,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdElixirBase">
 		<defName>Mashed_Spiribird_SpiribirdElixirRed</defName>
 		<label>spiribird elixir (red)</label>
-		<description>A concentrated dose of red spiribird pollen. Use increases the strength of the red pollen effect by 25%.</description>
+		<description>A concentrated dose of red spiribird pollen. Use increases the strength of the red pollen effect by 15%.</description>
 		<descriptionHyperlinks>
 			<HediffDef>Mashed_Spiribird_SpiribirdPollenRed</HediffDef>
 		</descriptionHyperlinks>
@@ -133,7 +136,7 @@
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>Mashed_Spiribird_SpiribirdPollenRed</hediffDef>
-					<severity>0.25</severity>
+					<severity>0.15</severity>
 				</li>
 			</outcomeDoers>
 		</ingestible>
@@ -145,7 +148,7 @@
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdElixirBase">
 		<defName>Mashed_Spiribird_SpiribirdElixirYellow</defName>
 		<label>spiribird elixir (yellow)</label>
-		<description>A concentrated dose of yellow spiribird pollen. Use increases the strength of the yellow pollen effect by 25%</description>
+		<description>A concentrated dose of yellow spiribird pollen. Use increases the strength of the yellow pollen effect by 15%</description>
 		<descriptionHyperlinks>
 			<HediffDef>Mashed_Spiribird_SpiribirdPollenYellow</HediffDef>
 		</descriptionHyperlinks>
@@ -157,7 +160,7 @@
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>Mashed_Spiribird_SpiribirdPollenYellow</hediffDef>
-					<severity>0.25</severity>
+					<severity>0.15</severity>
 				</li>
 			</outcomeDoers>
 		</ingestible>

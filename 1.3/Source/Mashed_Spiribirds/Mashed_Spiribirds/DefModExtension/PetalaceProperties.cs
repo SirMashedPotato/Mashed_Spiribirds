@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Mashed_Spiribirds
 {
-    class PetalaceProperties : DefModExtension
+    public class PetalaceProperties : DefModExtension
     {
         public List<PollenAffinity> pollenAffinity;
 

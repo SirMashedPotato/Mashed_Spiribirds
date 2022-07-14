@@ -2,7 +2,7 @@
 
 namespace Mashed_Spiribirds
 {
-    class Comp_PetalaceUnequipCheck : ThingComp
+    public class Comp_PetalaceUnequipCheck : ThingComp
     {
         public override void Notify_Unequipped(Pawn pawn)
         {

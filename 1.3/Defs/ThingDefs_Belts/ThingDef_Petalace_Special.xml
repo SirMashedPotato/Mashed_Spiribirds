@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Base]========== -->
+	<ThingDef Name="Mashed_Spiribird_ApparelPetalaceBase_Special" ParentName="Mashed_Spiribird_ApparelPetalaceBase" Abstract="True">
+		<recipeMaker>
+			<skillRequirements Inherit="False">
+				<Plants>8</Plants>
+			</skillRequirements>
+			<researchPrerequisites Inherit="False">
+				<li>Mashed_Spiribird_SpecialPetalaceCrafting</li>
+			</researchPrerequisites>
+		</recipeMaker>
+	</ThingDef>
+	<!-- ==========[Prism]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Special">
+		<defName>Mashed_Spiribird_ApparelPetalacePrism</defName>
+		<label>petalace (prism)</label>
+		<description>A petalace imbued with prism spiribird pollen. The effect of all pollen deposited by spiribirds is slightly increased, causing more pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
+		<modExtensions>
+			<li Class="Mashed_Spiribirds.PetalaceProperties">
+				<pollenAffinity>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenGreen</pollenHediff>
+						<severityGain>0.15</severityGain>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenOrange</pollenHediff>
+						<severityGain>0.15</severityGain>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenPink</pollenHediff>
+						<severityGain>0.15</severityGain>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenRed</pollenHediff>
+						<severityGain>0.15</severityGain>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenYellow</pollenHediff>
+						<severityGain>0.15</severityGain>
+					</li>
+				</pollenAffinity>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Mashed_Petalace/Mashed_Petalace_Prism</texPath>
+		</graphicData>
+		<costList>
+			<Mashed_Spiribird_SpiribushFlower>1</Mashed_Spiribird_SpiribushFlower>
+			<Mashed_Spiribird_PollenPrism>16</Mashed_Spiribird_PollenPrism>
+		</costList>
+	</ThingDef>
+</Defs>

@@ -5,7 +5,7 @@ using RimWorld;
 
 namespace Mashed_Spiribirds
 {
-    class IncidentWorker_SpiribushSprout : IncidentWorker
+	public class IncidentWorker_SpiribushSprout : IncidentWorker
     {
 		protected override bool CanFireNowSub(IncidentParms parms)
 		{

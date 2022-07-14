@@ -6,7 +6,7 @@ using RimWorld;
 
 namespace Mashed_Spiribirds
 {
-    class JobDriver_InteractWithPetalace : JobDriver
+    public class JobDriver_InteractWithPetalace : JobDriver
     {
 
         /// <summary>

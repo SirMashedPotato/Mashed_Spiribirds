@@ -20,8 +20,6 @@
 							<label>SMP Misc</label>
 						</AchievementsExpanded.AchievementTabDef>
 
-						<!-- Taming -->
-						
 						<AchievementsExpanded.AchievementDef>
 							<defName>Mashed_AchievementSpiribirds_TamerFirst</defName>
 							<label>Spiribird Tamer</label>
@@ -157,11 +155,7 @@
 							<texPath>Achievements/Mashed_AchievementSpiribirds_TamerPrism</texPath>
 							<points>15</points>
 						</AchievementsExpanded.AchievementDef>
-						
-						<!-- Collecting -->
-						
-						<!-- Crafting -->
-						<!-- craft any petalace? -->
+
 						<AchievementsExpanded.AchievementDef>
 							<defName>Mashed_AchievementSpiribirds_PetalacePrism</defName>
 							<label>Prismatic</label>
@@ -177,10 +171,6 @@
 							<texPath>Achievements/Mashed_AchievementSpiribirds_PetalacePrism</texPath>
 							<points>20</points>
 						</AchievementsExpanded.AchievementDef>
-						
-						<!-- Selling -->
-						
-						<!-- Stats tracking -->
 						
 						<AchievementsExpanded.AchievementDef>
 							<defName>Mashed_AchievementSpiribirds_InteractFirst</defName>

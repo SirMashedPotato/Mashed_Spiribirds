@@ -31,7 +31,8 @@ namespace Mashed_Spiribirds
         {
             if (this.HarvestableNow)
             {
-                if (Rand.Chance(0.15f)) //could possibly be a setting
+                float chance = this.sown ? chanceSown : chanceWild;
+                if (Rand.Chance(chance))
                 {
                     Pawn newP = PawnGenerator.GeneratePawn(SpiribirdList.RandomKind(), null);
                     GenSpawn.Spawn(newP, this.Position, this.Map);
@@ -40,5 +41,8 @@ namespace Mashed_Spiribirds
 
             base.PlantCollected(by);
         }
+
+        public static float chanceWild = 0.15f;
+        public static float chanceSown = 0.05f;
     }
 }

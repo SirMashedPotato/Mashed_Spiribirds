@@ -71,8 +71,6 @@
     <Compile Include="Job\JobGiver_InteractWithPetalace.cs" />
     <Compile Include="ThinkNode\ThinkNode_ConditionalSpiritbird.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ThingComp\Props\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

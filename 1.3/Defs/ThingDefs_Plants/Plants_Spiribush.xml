@@ -51,6 +51,13 @@
 			<visualSizeRange>0.95~1.7</visualSizeRange>
 			<topWindExposure>0.3</topWindExposure>
 			<wildOrder>2</wildOrder>
+			<!-- sowing -->
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<sowResearchPrerequisites>
+				<li>Mashed_Spiribird_SpiribushSowing</li>
+			</sowResearchPrerequisites>
 		</plant>
 	</ThingDef>
 </Defs>

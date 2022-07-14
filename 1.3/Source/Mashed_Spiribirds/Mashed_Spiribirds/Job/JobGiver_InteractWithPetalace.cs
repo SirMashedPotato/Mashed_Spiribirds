@@ -4,7 +4,7 @@ using RimWorld;
 
 namespace Mashed_Spiribirds
 {
-    class JobGiver_InteractWithPetalace : ThinkNode_JobGiver
+	public class JobGiver_InteractWithPetalace : ThinkNode_JobGiver
     {
 		protected override Job TryGiveJob(Pawn pawn)
 		{

@@ -3,7 +3,7 @@ using Verse.AI;
 
 namespace Mashed_Spiribirds
 {
-    class ThinkNode_ConditionalSpiritbird : ThinkNode_Conditional
+    public class ThinkNode_ConditionalSpiritbird : ThinkNode_Conditional
     {
 
         protected override bool Satisfied(Pawn pawn)
