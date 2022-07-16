@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="XSD_FILE_PATH">
+
+	<Mashed_Spiribird_PollenAffinity>The affinity towards {0}. Higher affinities will result in a greater buildup of pollen per spiribird interaction.\n\n\nLimit: {1}\nBase affinity: {2}\nAffinity based on quality level of petalace: {3}</Mashed_Spiribird_PollenAffinity>
+
+</LanguageData>

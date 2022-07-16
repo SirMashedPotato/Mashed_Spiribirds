@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Verse;
 using RimWorld;
+using UnityEngine;
 
 namespace Mashed_Spiribirds
 {
@@ -32,15 +33,19 @@ namespace Mashed_Spiribirds
                         {
                             foreach (PollenAffinity pa in petalaceProps.pollenAffinity)
                             {
-                                AddPollen(target, pa.pollenHediff, pa.severityGain, q);
+                                AddPollen(target, pa.pollenHediff, pa.severityGain, pa.limit, q);
                             }
                         }
                         else
                         {
                             if (spiribirdProps.pollenHediff != null)
                             {
-                                float severity = petalaceProps.pollenAffinity.Find(x => x.pollenHediff == spiribirdProps.pollenHediff).severityGain;
-                                AddPollen(target, spiribirdProps.pollenHediff, severity, q);
+                                PollenAffinity pa = petalaceProps.pollenAffinity.Find(x => x.pollenHediff == spiribirdProps.pollenHediff);
+                                if (pa != null)
+                                {
+                                    AddPollen(target, pa.pollenHediff, pa.severityGain, pa.limit, q);
+                                }
+                            
                             }
                         }
                         AddThought(target);
@@ -49,11 +54,16 @@ namespace Mashed_Spiribirds
                 }
             }
         }
-        public void AddPollen(Pawn target, HediffDef hediff, float severity, float quality)
+        public void AddPollen(Pawn target, HediffDef hediff, float severity, float limit, float quality)
         {
+            Hediff h = target.health.hediffSet.GetFirstHediffOfDef(hediff);
+            if (h != null && h.Severity >= limit)
+            {
+                return;
+            }
             float actualSeverity = severity * quality;
             Hediff pollen = HediffMaker.MakeHediff(hediff, target, null);
-            pollen.Severity = actualSeverity;
+            pollen.Severity = Mathf.Clamp(actualSeverity, 0f, limit);
             target.health.AddHediff(pollen);
         }
 

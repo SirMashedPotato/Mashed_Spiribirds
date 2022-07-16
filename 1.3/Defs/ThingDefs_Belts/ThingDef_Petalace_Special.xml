@@ -22,22 +22,27 @@
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenGreen</pollenHediff>
 						<severityGain>0.15</severityGain>
+						<limit>1</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenOrange</pollenHediff>
 						<severityGain>0.15</severityGain>
+						<limit>1</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenPink</pollenHediff>
 						<severityGain>0.15</severityGain>
+						<limit>1</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenRed</pollenHediff>
 						<severityGain>0.15</severityGain>
+						<limit>1</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenYellow</pollenHediff>
 						<severityGain>0.15</severityGain>
+						<limit>1</limit>
 					</li>
 				</pollenAffinity>
 			</li>

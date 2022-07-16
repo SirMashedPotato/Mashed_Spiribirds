@@ -64,7 +64,53 @@
 			<li>
 				<compClass>Mashed_Spiribirds.Comp_PetalaceUnequipCheck</compClass>
 			</li>
+			<li>
+				<compClass>Mashed_Spiribirds.Comp_PetalaceStats</compClass>
+			</li>
 		</comps>
+	</ThingDef>
+	<!-- ==========[Basic]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase">
+		<defName>Mashed_Spiribird_ApparelPetalaceBasic</defName>
+		<label>petalace (basic)</label>
+		<description>A basic petalace, with no affinity towards any specific type of spiribird pollen. Both the effect, and maximum strength, of all spiribird pollen is reduced.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
+		<modExtensions>
+			<li Class="Mashed_Spiribirds.PetalaceProperties">
+				<pollenAffinity>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenGreen</pollenHediff>
+						<severityGain>0.05</severityGain>
+						<limit>0.25</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenOrange</pollenHediff>
+						<severityGain>0.05</severityGain>
+						<limit>0.25</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenPink</pollenHediff>
+						<severityGain>0.05</severityGain>
+						<limit>0.25</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenRed</pollenHediff>
+						<severityGain>0.05</severityGain>
+						<limit>0.25</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenYellow</pollenHediff>
+						<severityGain>0.05</severityGain>
+						<limit>0.25</limit>
+					</li>
+				</pollenAffinity>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Mashed_Petalace/Mashed_Petalace_Basic</texPath>
+		</graphicData>
+		<costList>
+			<Mashed_Spiribird_SpiribushFlower>1</Mashed_Spiribird_SpiribushFlower>
+		</costList>
 	</ThingDef>
 	<!-- ==========[Green]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase">
@@ -77,22 +123,27 @@
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenGreen</pollenHediff>
 						<severityGain>0.2</severityGain>
+						<limit>1</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenOrange</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenPink</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenRed</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenYellow</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 				</pollenAffinity>
 			</li>
@@ -116,22 +167,27 @@
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenGreen</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenOrange</pollenHediff>
 						<severityGain>0.2</severityGain>
+						<limit>1</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenPink</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenRed</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenYellow</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 				</pollenAffinity>
 			</li>
@@ -155,22 +211,27 @@
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenGreen</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenOrange</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenPink</pollenHediff>
 						<severityGain>0.2</severityGain>
+						<limit>1</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenRed</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenYellow</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 				</pollenAffinity>
 			</li>
@@ -194,22 +255,27 @@
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenGreen</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenOrange</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenPink</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenRed</pollenHediff>
 						<severityGain>0.2</severityGain>
+						<limit>1</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenYellow</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 				</pollenAffinity>
 			</li>
@@ -233,22 +299,27 @@
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenGreen</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenOrange</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenPink</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenRed</pollenHediff>
 						<severityGain>0.1</severityGain>
+						<limit>0.75</limit>
 					</li>
 					<li>
 						<pollenHediff>Mashed_Spiribird_SpiribirdPollenYellow</pollenHediff>
 						<severityGain>0.2</severityGain>
+						<limit>1</limit>
 					</li>
 				</pollenAffinity>
 			</li>

@@ -7,7 +7,7 @@
 		<thinkRoot Class="Mashed_Spiribirds.ThinkNode_ConditionalSpiritbird">
 			<subNodes>
 				<li Class="ThinkNode_ChancePerHour_Constant">
-					<mtbHours>1</mtbHours>	<!-- TODO change to 4 -->
+					<mtbHours>4</mtbHours>
 					<subNodes>
 						<li Class="Mashed_Spiribirds.JobGiver_InteractWithPetalace">
 							<radiusTame>6</radiusTame>

@@ -17,5 +17,6 @@ namespace Mashed_Spiribirds
     {
         public HediffDef pollenHediff;
         public float severityGain = 0.1f;
+        public float limit = 1f;
     }
 }
