@@ -22,7 +22,6 @@ namespace Mashed_Spiribirds
                         0, null, null, false);
                 }
             }
-            //return base.SpecialDisplayStats();
         }
     }
 }

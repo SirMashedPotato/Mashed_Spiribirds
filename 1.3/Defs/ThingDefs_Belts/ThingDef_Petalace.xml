@@ -11,7 +11,7 @@
 		</tradeTags>
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-			<workSkill>Crafting</workSkill>
+			<workSkill>Plants</workSkill>
 			<effectWorking>Tailor</effectWorking>
 			<soundWorking>Recipe_Tailor</soundWorking>
 			<recipeUsers>
@@ -153,7 +153,7 @@
 		</graphicData>
 		<costList>
 			<Mashed_Spiribird_SpiribushFlower>1</Mashed_Spiribird_SpiribushFlower>
-			<Mashed_Spiribird_PollenGreen>16</Mashed_Spiribird_PollenGreen>
+			<Mashed_Spiribird_PollenGreen>8</Mashed_Spiribird_PollenGreen>
 		</costList>
 	</ThingDef>
 	<!-- ==========[Orange]========== -->
@@ -197,7 +197,7 @@
 		</graphicData>
 		<costList>
 			<Mashed_Spiribird_SpiribushFlower>1</Mashed_Spiribird_SpiribushFlower>
-			<Mashed_Spiribird_PollenOrange>16</Mashed_Spiribird_PollenOrange>
+			<Mashed_Spiribird_PollenOrange>8</Mashed_Spiribird_PollenOrange>
 		</costList>
 	</ThingDef>
 	<!-- ==========[Pink]========== -->
@@ -241,7 +241,7 @@
 		</graphicData>
 		<costList>
 			<Mashed_Spiribird_SpiribushFlower>1</Mashed_Spiribird_SpiribushFlower>
-			<Mashed_Spiribird_PollenPink>16</Mashed_Spiribird_PollenPink>
+			<Mashed_Spiribird_PollenPink>8</Mashed_Spiribird_PollenPink>
 		</costList>
 	</ThingDef>
 	<!-- ==========[Red]========== -->
@@ -285,7 +285,7 @@
 		</graphicData>
 		<costList>
 			<Mashed_Spiribird_SpiribushFlower>1</Mashed_Spiribird_SpiribushFlower>
-			<Mashed_Spiribird_PollenRed>16</Mashed_Spiribird_PollenRed>
+			<Mashed_Spiribird_PollenRed>8</Mashed_Spiribird_PollenRed>
 		</costList>
 	</ThingDef>
 	<!-- ==========[Yellow]========== -->
@@ -329,7 +329,7 @@
 		</graphicData>
 		<costList>
 			<Mashed_Spiribird_SpiribushFlower>1</Mashed_Spiribird_SpiribushFlower>
-			<Mashed_Spiribird_PollenYellow>16</Mashed_Spiribird_PollenYellow>
+			<Mashed_Spiribird_PollenYellow>8</Mashed_Spiribird_PollenYellow>
 		</costList>
 	</ThingDef>
 </Defs>

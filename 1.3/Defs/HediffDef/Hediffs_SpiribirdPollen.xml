@@ -5,7 +5,7 @@
 		<hediffClass>Hediff_High</hediffClass>
 		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
 		<scenarioCanAdd>true</scenarioCanAdd>
-		<maxSeverity>1.0</maxSeverity>
+		<maxSeverity>1.5</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
@@ -89,6 +89,42 @@
 					<InjuryHealingFactor>0.2</InjuryHealingFactor>
 				</statOffsets>
 			</li>
+			<!-- Past normal limit -->
+			<li>
+				<minSeverity>1.01</minSeverity>
+				<statOffsets>
+					<ImmunityGainSpeed>0.22</ImmunityGainSpeed>
+					<InjuryHealingFactor>0.22</InjuryHealingFactor>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.1</minSeverity>
+				<statOffsets>
+					<ImmunityGainSpeed>0.24</ImmunityGainSpeed>
+					<InjuryHealingFactor>0.24</InjuryHealingFactor>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.2</minSeverity>
+				<statOffsets>
+					<ImmunityGainSpeed>0.26</ImmunityGainSpeed>
+					<InjuryHealingFactor>0.26</InjuryHealingFactor>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.3</minSeverity>
+				<statOffsets>
+					<ImmunityGainSpeed>0.28</ImmunityGainSpeed>
+					<InjuryHealingFactor>0.28</InjuryHealingFactor>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.4</minSeverity>
+				<statOffsets>
+					<ImmunityGainSpeed>0.3</ImmunityGainSpeed>
+					<InjuryHealingFactor>0.3</InjuryHealingFactor>
+				</statOffsets>
+			</li>
 		</stages>
 	</HediffDef>
 	<!-- ==========[Orange]========== -->
@@ -164,6 +200,42 @@
 				<statOffsets>
 					<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 					<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+				</statOffsets>
+			</li>
+			<!-- Past normal limit -->
+			<li>
+				<minSeverity>1.01</minSeverity>
+				<statOffsets>
+					<ArmorRating_Blunt>0.22</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.22</ArmorRating_Sharp>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.1</minSeverity>
+				<statOffsets>
+					<ArmorRating_Blunt>0.24</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.24</ArmorRating_Sharp>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.2</minSeverity>
+				<statOffsets>
+					<ArmorRating_Blunt>0.26</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.26</ArmorRating_Sharp>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.3</minSeverity>
+				<statOffsets>
+					<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.28</ArmorRating_Sharp>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.4</minSeverity>
+				<statOffsets>
+					<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
 				</statOffsets>
 			</li>
 		</stages>
@@ -243,6 +315,42 @@
 					<PainShockThreshold>0.2</PainShockThreshold>
 				</statOffsets>
 			</li>
+			<!-- Past normal limit -->
+			<li>
+				<minSeverity>1.01</minSeverity>
+				<statOffsets>
+					<MentalBreakThreshold>-0.22</MentalBreakThreshold>
+					<PainShockThreshold>0.22</PainShockThreshold>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.1</minSeverity>
+				<statOffsets>
+					<MentalBreakThreshold>-0.24</MentalBreakThreshold>
+					<PainShockThreshold>0.24</PainShockThreshold>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.2</minSeverity>
+				<statOffsets>
+					<MentalBreakThreshold>-0.26</MentalBreakThreshold>
+					<PainShockThreshold>0.26</PainShockThreshold>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.3</minSeverity>
+				<statOffsets>
+					<MentalBreakThreshold>-0.28</MentalBreakThreshold>
+					<PainShockThreshold>0.28</PainShockThreshold>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.4</minSeverity>
+				<statOffsets>
+					<MentalBreakThreshold>-0.3</MentalBreakThreshold>
+					<PainShockThreshold>0.3</PainShockThreshold>
+				</statOffsets>
+			</li>
 		</stages>
 	</HediffDef>
 	<!-- ==========[Red]========== -->
@@ -320,6 +428,42 @@
 					<ShootingAccuracyPawn>2</ShootingAccuracyPawn>
 				</statOffsets>
 			</li>
+			<!-- Past normal limit -->
+			<li>
+				<minSeverity>1.01</minSeverity>
+				<statOffsets>
+					<MeleeHitChance>2.2</MeleeHitChance>
+					<ShootingAccuracyPawn>2.2</ShootingAccuracyPawn>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.1</minSeverity>
+				<statOffsets>
+					<MeleeHitChance>2.4</MeleeHitChance>
+					<ShootingAccuracyPawn>2.4</ShootingAccuracyPawn>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.2</minSeverity>
+				<statOffsets>
+					<MeleeHitChance>2.6</MeleeHitChance>
+					<ShootingAccuracyPawn>2.6</ShootingAccuracyPawn>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.3</minSeverity>
+				<statOffsets>
+					<MeleeHitChance>2.8</MeleeHitChance>
+					<ShootingAccuracyPawn>2.8</ShootingAccuracyPawn>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.4</minSeverity>
+				<statOffsets>
+					<MeleeHitChance>3</MeleeHitChance>
+					<ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+				</statOffsets>
+			</li>
 		</stages>
 	</HediffDef>
 	<!-- ==========[Yellow]========== -->
@@ -395,6 +539,42 @@
 				<statOffsets>
 					<HungerRateMultiplier>-0.2</HungerRateMultiplier>
 					<RestRateMultiplier>0.2</RestRateMultiplier>
+				</statOffsets>
+			</li>
+			<!-- Past normal limit -->
+			<li>
+				<minSeverity>1.01</minSeverity>
+				<statOffsets>
+					<HungerRateMultiplier>-0.22</HungerRateMultiplier>
+					<RestRateMultiplier>0.22</RestRateMultiplier>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.1</minSeverity>
+				<statOffsets>
+					<HungerRateMultiplier>-0.24</HungerRateMultiplier>
+					<RestRateMultiplier>0.24</RestRateMultiplier>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.2</minSeverity>
+				<statOffsets>
+					<HungerRateMultiplier>-0.26</HungerRateMultiplier>
+					<RestRateMultiplier>0.26</RestRateMultiplier>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.3</minSeverity>
+				<statOffsets>
+					<HungerRateMultiplier>-0.28</HungerRateMultiplier>
+					<RestRateMultiplier>0.28</RestRateMultiplier>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1.4</minSeverity>
+				<statOffsets>
+					<HungerRateMultiplier>-0.3</HungerRateMultiplier>
+					<RestRateMultiplier>0.3</RestRateMultiplier>
 				</statOffsets>
 			</li>
 		</stages>

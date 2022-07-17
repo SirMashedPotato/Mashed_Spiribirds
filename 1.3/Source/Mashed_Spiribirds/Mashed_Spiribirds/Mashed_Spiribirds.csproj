@@ -73,6 +73,8 @@
     <Compile Include="Job\JobGiver_InteractWithPetalace.cs" />
     <Compile Include="ThinkNode\ThinkNode_ConditionalSpiritbird.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="IngestionOutcomeDoer\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

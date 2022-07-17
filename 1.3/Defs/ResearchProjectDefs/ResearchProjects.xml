@@ -26,18 +26,32 @@
 			<li>Mashed_Spiribird_BasicPetalaceCrafting</li>
 		</prerequisites>
 	</ResearchProjectDef>
-	<!-- ==========[Petalace branch, special petalaces]========== -->
+	<!-- ==========[Petalace branch, pure petalaces]========== -->
 	<ResearchProjectDef>
-		<defName>Mashed_Spiribird_SpecialPetalaceCrafting</defName>
-		<label>special petalace crafting</label>
-		<description>Learn how to craft special petalace at the petalace crafting bench.\n\nThese petalaces have unique affinity combinations towards spiribird pollen colours.</description>
-		<baseCost>500</baseCost>
+		<defName>Mashed_Spiribird_PurePetalaceCrafting</defName>
+		<label>pure petalace crafting</label>
+		<description>Learn how to craft pure petalace at the petalace crafting bench.\n\nThese petalaces have an increased affinity towards a single colour, at the cost of their affinity towards other colours.</description>
+		<baseCost>250</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>2.00</researchViewX>
 		<researchViewY>0.00</researchViewY>
 		<tab>SMP_ResearchTab</tab>
 		<prerequisites>
 			<li>Mashed_Spiribird_SplitPetalaceCrafting</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!-- ==========[Petalace branch, special petalaces]========== -->
+	<ResearchProjectDef>
+		<defName>Mashed_Spiribird_SpecialPetalaceCrafting</defName>
+		<label>prism petalace crafting</label>
+		<description>Learn how to craft prism petalace at the petalace crafting bench.\n\nThese petalaces have a reasonable affinity towards all spiribird pollen colours.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<tab>SMP_ResearchTab</tab>
+		<prerequisites>
+			<li>Mashed_Spiribird_PurePetalaceCrafting</li>
 		</prerequisites>
 	</ResearchProjectDef>
 	<!-- ==========[Row 2]========== -->
@@ -53,6 +67,7 @@
 		<tab>SMP_ResearchTab</tab>
 	</ResearchProjectDef>
 	<!-- ==========[Alchemy branch, potions]========== -->
+	<!--
 	<ResearchProjectDef>
 		<defName>Mashed_Spiribird_ElixirCrafting</defName>
 		<label>pollen elixir crafting</label>
@@ -66,4 +81,5 @@
 			<li>Mashed_Spiribird_BasicPetalaceCrafting</li>
 		</prerequisites>
 	</ResearchProjectDef>
+	-->
 </Defs>
