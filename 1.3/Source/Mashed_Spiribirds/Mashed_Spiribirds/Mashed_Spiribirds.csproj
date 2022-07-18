@@ -65,13 +65,16 @@
     <Compile Include="IncidentWorker\IncidentWorker_SpiribushSprout.cs" />
     <Compile Include="DefOf\PawnKindDefOf.cs" />
     <Compile Include="InteractionWorker\InteractionWorker_SpiribirdInteraction.cs" />
+    <Compile Include="Job\Driver\JobDriver_FeedFromSpiribush.cs" />
+    <Compile Include="Job\Giver\JobGiver_FeedFromSpiribush.cs" />
     <Compile Include="ThingClass\Plant_Spiribush.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThingComp\Comp_PetalaceStats.cs" />
     <Compile Include="ThingComp\Comp_PetalaceUnequipCheck.cs" />
-    <Compile Include="Job\JobDriver_InteractWithPetalace.cs" />
-    <Compile Include="Job\JobGiver_InteractWithPetalace.cs" />
-    <Compile Include="ThinkNode\ThinkNode_ConditionalSpiritbird.cs" />
+    <Compile Include="Job\Driver\JobDriver_InteractWithPetalace.cs" />
+    <Compile Include="Job\Giver\JobGiver_InteractWithPetalace.cs" />
+    <Compile Include="ThinkNode\ThinkNode_ConditionalSpiribird.cs" />
+    <Compile Include="ThinkNode\ThinkNode_ConditionalSpiribirdMature.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="IngestionOutcomeDoer\" />

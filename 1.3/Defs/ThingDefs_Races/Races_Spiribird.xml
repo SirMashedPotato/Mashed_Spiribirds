@@ -27,7 +27,7 @@
 			<baseHungerRate>0.15</baseHungerRate>
 			<baseBodySize>0.1</baseBodySize>
 			<baseHealthScale>0.15</baseHealthScale>
-			<foodType>VegetarianRoughAnimal</foodType>
+			<foodType>VegetarianAnimal</foodType>
 			<trainability>None</trainability>
 			<wildness>0.3</wildness>
 			<roamMtbDays>7</roamMtbDays>

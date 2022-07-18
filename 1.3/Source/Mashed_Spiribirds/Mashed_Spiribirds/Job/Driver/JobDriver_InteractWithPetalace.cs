@@ -24,7 +24,7 @@ namespace Mashed_Spiribirds
             yield return Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.Touch);
             yield return Toils_Interpersonal.WaitToBeAbleToInteract(this.pawn);
             Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.Touch).socialMode = RandomSocialMode.Off;
-            Toils_General.WaitWith(TargetIndex.A, 100, false, true).socialMode = RandomSocialMode.Off;
+            Toils_General.WaitWith(TargetIndex.A, DurationTicks, false, true).socialMode = RandomSocialMode.Off;
             yield return Toils_General.Do(delegate
             {
                 Pawn recipient = (Pawn)this.pawn.CurJob.targetA.Thing;
@@ -32,8 +32,6 @@ namespace Mashed_Spiribirds
             });
             yield break;
         }
-
-        
 
         private const int DurationTicks = 100;
     }

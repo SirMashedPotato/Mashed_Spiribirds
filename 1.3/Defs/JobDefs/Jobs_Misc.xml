@@ -6,4 +6,10 @@
 		<reportString>interacting with petalace worn by TargetA.</reportString>
 		<casualInterruptible>false</casualInterruptible>
 	</JobDef>
+	<JobDef>
+		<defName>Mashed_Spiribirds_FeedFromSpiribush</defName>
+		<driverClass>Mashed_Spiribirds.JobDriver_FeedFromSpiribush</driverClass>
+		<reportString>feeding from spiribush.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
 </Defs>

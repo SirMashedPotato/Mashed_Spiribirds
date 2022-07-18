@@ -12,5 +12,6 @@ namespace Mashed_Spiribirds
         }
 
         public static JobDef Mashed_Spiribirds_InteractWithPetalace;
+        public static JobDef Mashed_Spiribirds_FeedFromSpiribush;
     }
 }

@@ -14,10 +14,8 @@ namespace Mashed_Spiribirds
 			{
 				if (t is Pawn target)
 				{
-					Log.Message("Checking for pawn: " + pawn.NameFullColored + ", target is: " + target.NameFullColored);
 					if (target.apparel != null)
                     {
-						Log.Message("Checking for pawn: " + pawn.NameFullColored + ", apparel target is: " + target.NameFullColored);
 						Apparel petalace = target.apparel.WornApparel.Find(x => x.def.thingCategories.Contains(ThingCategoryDefOf.Mashed_Spiribird_ApparelPetalace));
 						if (petalace != null)
 						{

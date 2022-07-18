@@ -3,7 +3,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>Mashed_Spiribird_Spiribush</defName>
 		<label>spiribush</label>
-		<description>An incredibly hardy small bushy plant with multi coloured flowers, which can be found growing almost everywhere. Named after the spiribirds that can sometimes be found hiding in it.</description>
+		<description>An incredibly hardy small bushy plant with multi coloured flowers, which can be found growing almost everywhere. Named after the spiribirds that can sometimes be found hiding in it, and will often feed from the flowers that grow on it.</description>
 		<descriptionHyperlinks>
 			<ThingDef>Mashed_Spiribird_SpiribirdGreen</ThingDef>
 			<ThingDef>Mashed_Spiribird_SpiribirdOrange</ThingDef>
