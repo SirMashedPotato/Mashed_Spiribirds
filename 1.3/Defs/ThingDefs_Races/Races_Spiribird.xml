@@ -150,8 +150,8 @@
 					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Green</texPath>
 					<drawSize>0.87</drawSize>
 					<shadowData>
-						<volume>(0.3, 0.4, 0.3)</volume>
-						<offset>(0,0,-0.05)</offset>
+						<volume>(0.2, 0.3, 0.2)</volume>
+						<offset>(0,0,-0.1)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -219,8 +219,8 @@
 					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Orange</texPath>
 					<drawSize>0.87</drawSize>
 					<shadowData>
-						<volume>(0.3, 0.4, 0.3)</volume>
-						<offset>(0,0,-0.05)</offset>
+						<volume>(0.2, 0.3, 0.2)</volume>
+						<offset>(0,0,-0.1)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -288,8 +288,8 @@
 					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Pink</texPath>
 					<drawSize>0.87</drawSize>
 					<shadowData>
-						<volume>(0.3, 0.4, 0.3)</volume>
-						<offset>(0,0,-0.05)</offset>
+						<volume>(0.2, 0.3, 0.2)</volume>
+						<offset>(0,0,-0.1)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -357,8 +357,8 @@
 					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Red</texPath>
 					<drawSize>0.87</drawSize>
 					<shadowData>
-						<volume>(0.3, 0.4, 0.3)</volume>
-						<offset>(0,0,-0.05)</offset>
+						<volume>(0.2, 0.3, 0.2)</volume>
+						<offset>(0,0,-0.1)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -426,8 +426,8 @@
 					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Yellow</texPath>
 					<drawSize>0.87</drawSize>
 					<shadowData>
-						<volume>(0.3, 0.4, 0.3)</volume>
-						<offset>(0,0,-0.05)</offset>
+						<volume>(0.2, 0.3, 0.2)</volume>
+						<offset>(0,0,-0.1)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -506,8 +506,8 @@
 					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Prism</texPath>
 					<drawSize>1.02</drawSize>
 					<shadowData>
-						<volume>(0.3, 0.4, 0.3)</volume>
-						<offset>(0,0,-0.05)</offset>
+						<volume>(0.2, 0.3, 0.2)</volume>
+						<offset>(0,0,-0.1)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
