@@ -2,7 +2,7 @@
 <Defs>
 	<!-- ==========[Bases]========== -->
 	<ThingDef ParentName="AnimalThingBase" Name="Mashed_Spiribird_SpiribirdThingBase" Abstract="True">
-		<description>A small bird, with a belly coated in pollen. Highly adaptable, spiribirds are found almost everywhere, you just need to know where to look for them.\n\nDifferent species of spiribirds have affinities towards different flowers, thus collecting specific types of pollen on their belly. This pollen can be collected off of their bellies, but only if the spiribird has become accustomed to human interaction.\n\nBoth wild and tame spiribirds are attracted to petalaces. They will occasionally visit anyone wearing a petalace, leaving some pollen on it in the process.</description>
+		<description>A small bird, often found with a belly coated in pollen. Highly adaptable, spiribirds are found almost everywhere, you just need to know where to look for them.\n\nNo one knows where spiribirds originally came from. Some cultures believe they are wandering souls, while others simply believe they are the result of some strange genetic experiment.\n\nSpiribirds have a unique relationship with the spiribush plant. They appear to be the only pollinator of the plant, and will often hide within spiribushes, only appearing when the bush is harvested for its flowers. Different species of spiribirds have affinities towards different coloured flowers, thus collecting specific types of pollen on their belly. This pollen can be collected off of their bellies, but only if the spiribird has become accustomed to human interaction.\n\nBoth wild and tame spiribirds are attracted to petalaces. They will occasionally visit anyone wearing a petalace, leaving some pollen on it in the process.</description>
 		<descriptionHyperlinks>
 			<ThingDef>Mashed_Spiribird_Spiribush</ThingDef>
 		</descriptionHyperlinks>
@@ -34,6 +34,7 @@
 			<mateMtbHours>8</mateMtbHours>
 			<lifeExpectancy>2</lifeExpectancy>
 			<useMeatFrom>Cassowary</useMeatFrom>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<!-- TODO sounds -->
 			<lifeStageAges>
 				<li>
@@ -91,6 +92,7 @@
 	<PawnKindDef ParentName="AnimalKindBase" Name="Mashed_Spiribird_SpiribirdKindBase" Abstract="True">
 		<combatPower>1</combatPower>
 		<ecoSystemWeight>0.1</ecoSystemWeight>
+		<canArriveManhunter>false</canArriveManhunter>
 	</PawnKindDef>
 	<!-- ==========[Green]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
@@ -441,7 +443,9 @@
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
 		<defName>Mashed_Spiribird_SpiribirdPrism</defName>
 		<label>prism spiribird</label>
-		<description>A small bird, with a belly coated in pollen. Highly adaptable, spiribirds are found almost everywhere, you just need to know where to look for them.\n\nThe pollen coating the belly of prism spiribirds can be refined into any kind of spiribird pollen. This pollen can be collected off of their bellies, but only if the spiribird has become accustomed to human interaction.\n\nBoth wild and tame spiribirds are attracted to petalaces. They will occasionally visit anyone wearing a petalace, leaving some pollen on it in the process.</description>
+		<description>A small bird, often found with a belly coated in pollen. Highly adaptable, spiribirds are found almost everywhere, you just need to know where to look for them.\n\nNo one knows where spiribirds originally came from. Some cultures believe they are wandering souls, while others simply believe they are the result of some strange genetic experiment.
+		\n\nSpiribirds have a unique relationship with the spiribush plant. They appear to be the only pollinator of the plant, and will often hide within spiribushes, only appearing when the bush is harvested for its flowers. Unlike other kinds of spiribird, prism spiribirds will feed from any coloured spiribush flower, causing them to collect several types of pollen on their belly. This pollen can be collected off of their bellies, but only if the spiribird has become accustomed to human interaction.
+		\n\nBoth wild and tame spiribirds are attracted to petalaces. They will occasionally visit anyone wearing a petalace, leaving some pollen on it in the process.</description>
 		<descriptionHyperlinks>
 			<HediffDef>Mashed_Spiribird_SpiribirdPollenGreen</HediffDef>
 			<HediffDef>Mashed_Spiribird_SpiribirdPollenOrange</HediffDef>
