@@ -35,15 +35,10 @@
 			<lifeExpectancy>2</lifeExpectancy>
 			<useMeatFrom>Cassowary</useMeatFrom>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
-			<!-- TODO sounds -->
 			<lifeStageAges>
 				<li>
 					<def>AnimalBabyTiny</def>
 					<minAge>0</minAge>
-					<soundWounded>Pawn_Chick_Call</soundWounded>
-					<soundDeath>Pawn_Chick_Call</soundDeath>
-					<soundCall>Pawn_Chick_Call</soundCall>
-					<soundAngry>Pawn_Chick_Call</soundAngry>
 				</li>
 				<li>
 					<def>AnimalJuvenile</def>
@@ -52,10 +47,10 @@
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>0.2</minAge>
-					<soundWounded>Pawn_Chicken_Wounded</soundWounded>
-					<soundDeath>Pawn_Chicken_Death</soundDeath>
-					<soundCall>Pawn_Chicken_Call</soundCall>
-					<soundAngry>Pawn_Chicken_Angry</soundAngry>
+					<soundWounded>Pawn_Hare_Death</soundWounded>
+					<soundDeath>Pawn_Rodent_Death</soundDeath>
+					<soundCall>Pawn_Boomrat_Call</soundCall>
+					<soundAngry>Pawn_GuineaPig_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
