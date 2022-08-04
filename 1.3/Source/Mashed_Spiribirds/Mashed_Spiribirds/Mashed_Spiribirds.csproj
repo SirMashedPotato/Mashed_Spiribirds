@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="DefModExtension\PetalaceProperties.cs" />
     <Compile Include="DefModExtension\SpiribirdProperties.cs" />
+    <Compile Include="DefModExtension\SpiribushProperties.cs" />
     <Compile Include="DefOf\InteractionDefOf.cs" />
     <Compile Include="DefOf\JobDefOf.cs" />
     <Compile Include="DefOf\RecordDefOf.cs" />
@@ -76,8 +77,6 @@
     <Compile Include="ThinkNode\ThinkNode_ConditionalSpiribird.cs" />
     <Compile Include="ThinkNode\ThinkNode_ConditionalSpiribirdMature.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="IngestionOutcomeDoer\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
