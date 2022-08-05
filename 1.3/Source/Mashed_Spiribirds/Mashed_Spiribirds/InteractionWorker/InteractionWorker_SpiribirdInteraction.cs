@@ -48,7 +48,6 @@ namespace Mashed_Spiribirds
                             
                             }
                         }
-                        AddThought(target);
                         target.records.Increment(RecordDefOf.Mashed_Spiribird_SpiribirdInteractions);
                     }
                 }
@@ -65,15 +64,6 @@ namespace Mashed_Spiribirds
             Hediff pollen = HediffMaker.MakeHediff(hediff, target, null);
             pollen.Severity = Mathf.Clamp(actualSeverity, 0f, limit);
             target.health.AddHediff(pollen);
-        }
-
-        private void AddThought(Pawn recipient)
-        {
-            Thought_Memory newThought = (Thought_Memory)ThoughtMaker.MakeThought(ThoughtDefOf.Mashed_Spiribird_SpiribirdThought);
-            if (recipient.needs.mood != null)
-            {
-                recipient.needs.mood.thoughts.memories.TryGainMemory(newThought, null);
-            }
         }
     }
 }

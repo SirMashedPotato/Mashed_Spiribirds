@@ -66,6 +66,7 @@
     <Compile Include="IncidentWorker\IncidentWorker_SpiribushSprout.cs" />
     <Compile Include="DefOf\PawnKindDefOf.cs" />
     <Compile Include="InteractionWorker\InteractionWorker_SpiribirdInteraction.cs" />
+    <Compile Include="InteractionWorker\InteractionWorker_SpiribugInteraction.cs" />
     <Compile Include="Job\Driver\JobDriver_FeedFromSpiribush.cs" />
     <Compile Include="Job\Giver\JobGiver_FeedFromSpiribush.cs" />
     <Compile Include="ThingClass\Plant_Spiribush.cs" />
@@ -74,8 +75,12 @@
     <Compile Include="ThingComp\Comp_PetalaceUnequipCheck.cs" />
     <Compile Include="Job\Driver\JobDriver_InteractWithPetalace.cs" />
     <Compile Include="Job\Giver\JobGiver_InteractWithPetalace.cs" />
-    <Compile Include="ThinkNode\ThinkNode_ConditionalSpiribird.cs" />
-    <Compile Include="ThinkNode\ThinkNode_ConditionalSpiribirdMature.cs" />
+    <Compile Include="ThingComp\Comp_SpiribugMolt.cs" />
+    <Compile Include="ThingComp\Properties\CompProperties_SpiribugMolt.cs" />
+    <Compile Include="ThinkNode\Spiribird\ThinkNode_ConditionalSpiribird.cs" />
+    <Compile Include="ThinkNode\Spiribird\ThinkNode_ConditionalSpiribirdMature.cs" />
+    <Compile Include="ThinkNode\Spiribug\ThinkNode_ConditionalSpiribug.cs" />
+    <Compile Include="ThinkNode\Spiribug\ThinkNode_ConditionalSpiribugMature.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
