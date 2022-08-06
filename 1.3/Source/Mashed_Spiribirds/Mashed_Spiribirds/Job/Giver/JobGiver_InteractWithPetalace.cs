@@ -14,12 +14,13 @@ namespace Mashed_Spiribirds
 			{
 				if (t is Pawn target)
 				{
-					if (target.apparel != null)
-                    {
+					if (target.apparel != null && target.CanCasuallyInteractNow(false, false, false))
+					{
 						Apparel petalace = target.apparel.WornApparel.Find(x => x.def.thingCategories.Contains(ThingCategoryDefOf.Mashed_Spiribird_ApparelPetalace));
 						if (petalace != null)
 						{
 							thing = t;
+							break;
 						}
 					}
 				}
