@@ -4,5 +4,6 @@
     xsi:noNamespaceSchemaLocation="XSD_FILE_PATH">
 
 	<Mashed_Spiribird_PollenAffinity>The affinity towards {0}. Higher affinities will result in a greater buildup of pollen per spiribird interaction.\n\n\nLimit: {1}\nBase affinity: {2}\nAffinity based on quality level of petalace: {3}</Mashed_Spiribird_PollenAffinity>
+	<Mashed_Spiribird_MoltAffinity>This petalace has an affinity towards {0}, causing additional molt progress per spiribug interaction.\n\nMolt gain based on quality level of petalace: {1}</Mashed_Spiribird_MoltAffinity>
 	<Mashed_Spiribird_MoltProgress>Progress until {0} molt: {1}</Mashed_Spiribird_MoltProgress>
 </LanguageData>

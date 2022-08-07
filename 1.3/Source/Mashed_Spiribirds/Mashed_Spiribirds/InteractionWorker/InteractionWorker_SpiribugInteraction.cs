@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using Verse;
 using RimWorld;
-using UnityEngine;
 
 namespace Mashed_Spiribirds
 {
@@ -28,7 +27,12 @@ namespace Mashed_Spiribirds
                     if (petalaceProps != null)
                     {
                         petalace.TryGetQuality(out QualityCategory qc);
-                        float q = ((float)qc + 1) / 3;  //Lower than normal quality < 1, higher than normal quality > 1, normal quality == 1
+                        float q = ((float)qc + 1);  //Lower than normal quality < 1, higher than normal quality > 1, normal quality == 1
+                        if (petalaceProps.spiribugKind != null && spiribug.def == petalaceProps.spiribugKind)
+                        {
+                            q += petalaceProps.extraMoltGain;
+                        }
+                        q /= 3;
                         ///potential increase from specific petalaces
                         moltComp.IncrementProgress(q);
                         target.records.Increment(moltComp.Props.recordDef);

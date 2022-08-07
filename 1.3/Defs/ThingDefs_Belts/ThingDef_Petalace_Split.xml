@@ -239,7 +239,7 @@
 	<!-- ==========[Pink/Yellow]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Split">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_PinkYellow</defName>
-		<label>petalace (pinl/yellow)</label>
+		<label>petalace (pink/yellow)</label>
 		<description>A petalace imbued with pink and yellow spiribird pollen. The effects of pink and yellow pollen deposited by spiribirds is increased, causing more pollen buildup per interaction. However the effects of other pollen are decreased, causing less pollen buildup per interaction.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
 		<modExtensions>
 			<li Class="Mashed_Spiribirds.PetalaceProperties">
