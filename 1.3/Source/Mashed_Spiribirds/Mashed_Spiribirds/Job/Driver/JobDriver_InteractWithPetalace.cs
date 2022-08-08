@@ -28,9 +28,22 @@ namespace Mashed_Spiribirds
             yield return Toils_General.Do(delegate
             {
                 Pawn recipient = (Pawn)this.pawn.CurJob.targetA.Thing;
-                this.pawn.interactions.TryInteractWith(recipient, InteractionDefOf.Mashed_Spiribird_SpiribirdInteraction);
+                if (PawnIsSpiribug(this.pawn))
+                {
+                    InteractionDef def = DefDatabase<InteractionDef>.GetNamed("Mashed_Spiribug_SpiribugInteraction");
+                    this.pawn.interactions.TryInteractWith(recipient, def);
+                }
+                else
+                {
+                    this.pawn.interactions.TryInteractWith(recipient, InteractionDefOf.Mashed_Spiribird_SpiribirdInteraction);
+                }
             });
             yield break;
+        }
+
+        private bool PawnIsSpiribug(Pawn p)
+        {
+            return !p.def.tradeTags.NullOrEmpty() && p.def.tradeTags.Contains("Mashed_Spiribug_Spiribug");
         }
 
         private const int DurationTicks = 100;

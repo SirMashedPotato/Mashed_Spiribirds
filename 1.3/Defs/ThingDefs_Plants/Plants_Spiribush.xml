@@ -14,6 +14,49 @@
 		</descriptionHyperlinks>
 		<thingClass>Mashed_Spiribirds.Plant_Spiribush</thingClass>
 		<modExtensions>
+			<li Class="Mashed_Spiribirds.SpiribushProperties">
+				<chanceWild>0.15</chanceWild>
+				<chanceSown>0.05</chanceSown>
+				<spirbushSpawns>
+					<li>
+						<kindDef>Mashed_Spiribird_SpiribirdGreen</kindDef>
+						<weight>5</weight>
+					</li>
+					<li>
+						<kindDef>Mashed_Spiribird_SpiribirdOrange</kindDef>
+						<weight>5</weight>
+					</li>
+					<li>
+						<kindDef>Mashed_Spiribird_SpiribirdPink</kindDef>
+						<weight>5</weight>
+					</li>
+					<li>
+						<kindDef>Mashed_Spiribird_SpiribirdRed</kindDef>
+						<weight>5</weight>
+					</li>
+					<li>
+						<kindDef>Mashed_Spiribird_SpiribirdYellow</kindDef>
+						<weight>5</weight>
+					</li>
+					<li>
+						<kindDef>Mashed_Spiribird_SpiribirdPrism</kindDef>
+						<weight>1</weight>
+					</li>
+					<!-- =====[Spiribugs]===== -->
+					<li MayRequire="SirMashedPotato.Spiribugs">
+						<kindDef>Mashed_Spiribug_SpiribugSilver</kindDef>
+						<weight>5</weight>
+					</li>
+					<li MayRequire="SirMashedPotato.Spiribugs">
+						<kindDef>Mashed_Spiribug_SpiribugJade</kindDef>
+						<weight>3</weight>
+					</li>
+					<li MayRequire="SirMashedPotato.Spiribugs">
+						<kindDef>Mashed_Spiribug_SpiribugGold</kindDef>
+						<weight>1</weight>
+					</li>
+				</spirbushSpawns>
+			</li>
 			<li Class="MorrowRim.ExtendedRaceProperties" MayRequire="SirMashedPotato.MorrowRim">
 				<ashResistant>Resistant</ashResistant>
 			</li>

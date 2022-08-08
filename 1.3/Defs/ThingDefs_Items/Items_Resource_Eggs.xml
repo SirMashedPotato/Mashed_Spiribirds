@@ -15,7 +15,7 @@
 	<!-- ==========[Green]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_EggBase">
 		<defName>Mashed_Spiribird_EggGreenFertilized</defName>
-		<label>green spiridird egg (fert.)</label>
+		<label>green spiribird egg (fert.)</label>
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>3.5</hatcherDaystoHatch>
@@ -26,7 +26,7 @@
 	<!-- ==========[Orange]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_EggBase">
 		<defName>Mashed_Spiribird_EggOrangeFertilized</defName>
-		<label>orange spiridird egg (fert.)</label>
+		<label>orange spiribird egg (fert.)</label>
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>3.5</hatcherDaystoHatch>
@@ -37,7 +37,7 @@
 	<!-- ==========[Pink]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_EggBase">
 		<defName>Mashed_Spiribird_EggPinkFertilized</defName>
-		<label>pink spiridird egg (fert.)</label>
+		<label>pink spiribird egg (fert.)</label>
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>3.5</hatcherDaystoHatch>
@@ -48,7 +48,7 @@
 	<!-- ==========[Red]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_EggBase">
 		<defName>Mashed_Spiribird_EggRedFertilized</defName>
-		<label>red spiridird egg (fert.)</label>
+		<label>red spiribird egg (fert.)</label>
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>3.5</hatcherDaystoHatch>
@@ -59,7 +59,7 @@
 	<!-- ==========[Yellow]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_EggBase">
 		<defName>Mashed_Spiribird_EggYellowFertilized</defName>
-		<label>yellow spiridird egg (fert.)</label>
+		<label>yellow spiribird egg (fert.)</label>
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>3.5</hatcherDaystoHatch>
@@ -70,7 +70,7 @@
 	<!-- ==========[Prism]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_EggBase">
 		<defName>Mashed_Spiribird_EggPrismFertilized</defName>
-		<label>prsim spiridird egg (fert.)</label>
+		<label>prism spiribird egg (fert.)</label>
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>4</hatcherDaystoHatch>

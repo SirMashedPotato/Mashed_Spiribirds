@@ -1,0 +1,19 @@
+<Defs>
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Mashed_Spiribird_Spiribush</defName>
+		<label>spiribush seeds</label>
+		<descriptionHyperlinks>
+			<ThingDef>Mashed_Spiribird_Spiribush</ThingDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Mashed_Spiribird_Spiribush</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Mashed_Spiribush_Seeds</texPath>
+		</graphicData>
+	</ThingDef>
+</Defs>
