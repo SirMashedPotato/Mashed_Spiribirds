@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-  <version>1.0.0</version>
-  <manifestUri></manifestUri>
-  <downloadUri></downloadUri>
-  <showCrossPromotions>true</showCrossPromotions>
+	<identifier>Mashed_Spiribirds</identifier>
+	<version>1.0.4</version>
+	<suggests>
+		<li>Mashed_Spiribugs</li>
+		<li>Mashed_Lynians</li>
+	</suggests>
+	<showCrossPromotions>true</showCrossPromotions>
 </Manifest>

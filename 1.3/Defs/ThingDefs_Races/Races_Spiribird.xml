@@ -107,6 +107,7 @@
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>2</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 			</li>
 			<li Class="CompProperties_Milkable">
 				<milkDef>Mashed_Spiribird_PollenGreen</milkDef>
@@ -176,6 +177,7 @@
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>2</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 			</li>
 			<li Class="CompProperties_Milkable">
 				<milkDef>Mashed_Spiribird_PollenOrange</milkDef>
@@ -245,6 +247,7 @@
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>2</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 			</li>
 			<li Class="CompProperties_Milkable">
 				<milkDef>Mashed_Spiribird_PollenPink</milkDef>
@@ -314,6 +317,7 @@
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>2</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 			</li>
 			<li Class="CompProperties_Milkable">
 				<milkDef>Mashed_Spiribird_PollenRed</milkDef>
@@ -383,6 +387,7 @@
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>2</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 			</li>
 			<li Class="CompProperties_Milkable">
 				<milkDef>Mashed_Spiribird_PollenYellow</milkDef>
@@ -462,6 +467,7 @@
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>2</eggLayIntervalDays>
 				<eggCountRange>1</eggCountRange>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 			</li>
 			<li Class="CompProperties_Milkable">
 				<milkDef>Mashed_Spiribird_PollenPrism</milkDef>
