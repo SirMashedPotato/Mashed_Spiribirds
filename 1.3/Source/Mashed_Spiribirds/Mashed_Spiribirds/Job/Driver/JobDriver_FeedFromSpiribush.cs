@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Verse.AI;
 using RimWorld;
+using Verse;
 
 namespace Mashed_Spiribirds
 {
@@ -20,6 +21,11 @@ namespace Mashed_Spiribirds
             yield return Toils_General.Do(delegate
             {
                 this.pawn.needs.TryGetNeed(NeedDefOf.Food).CurLevel = this.pawn.needs.TryGetNeed(NeedDefOf.Food).MaxLevel;
+                Comp_SpiribugMolt moltComp = this.pawn.TryGetComp<Comp_SpiribugMolt>();
+                if (moltComp != null)
+                {
+                    moltComp.IncrementProgress(0.01f);
+                }
             });
             yield break;
         }
