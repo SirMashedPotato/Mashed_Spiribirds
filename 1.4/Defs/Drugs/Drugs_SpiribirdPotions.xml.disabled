@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Bases]========== -->
+	<ThingDef Name="Mashed_Spiribird_SpiribirdElixirBase" ParentName="DrugBase" Abstract="True">
+		<ingestible>
+			<foodType>Fluid, Processed</foodType>
+			<baseIngestTicks>100</baseIngestTicks>
+			<chairSearchRadius>0</chairSearchRadius>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<nurseable>true</nurseable>
+			<ingestHoldUsesTable>false</ingestHoldUsesTable>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+		</ingestible>
+		<socialPropernessMatters>false</socialPropernessMatters>
+		<rotatable>false</rotatable>
+		<techLevel>Medieval</techLevel>
+		<stackLimit>25</stackLimit>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+			</li>
+		</comps>
+		<graphicData>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.85</drawSize>
+		</graphicData>
+		<descriptionHyperlinks>
+		</descriptionHyperlinks>
+		<statBases>
+			<MarketValue>25</MarketValue>
+			<Mass>0.01</Mass>
+			<Flammability>0.7</Flammability>
+		</statBases>
+		<recipeMaker>
+			<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+			<workSkill>Intellectual</workSkill>
+			<effectWorking>Cook</effectWorking>
+			<soundWorking>Recipe_CookMeal</soundWorking>
+			<productCount>1</productCount>
+			<bulkRecipeCount>4</bulkRecipeCount>
+			<workAmount>500</workAmount>
+			<recipeUsers>
+				<li>Mashed_Spiribird_TablePetalace</li>
+			</recipeUsers>
+			<researchPrerequisites>
+				<li>Mashed_Spiribird_ElixirCrafting</li>
+			</researchPrerequisites>
+		</recipeMaker>
+	</ThingDef>
+	<!-- ==========[Green]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_SpiribirdElixirBase">
+		<defName>Mashed_Spiribird_SpiribirdElixirGreen</defName>
+		<label>spiribird elixir (green)</label>
+		<description>A concentrated dose of green spiribird pollen. Use increases the strength of the green pollen effect by 15%.</description>
+		<descriptionHyperlinks>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenGreen</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Mashed_SpiribirdPotion_Green</texPath>
+		</graphicData>
+		<ingestible>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Mashed_Spiribird_SpiribirdPollenGreen</hediffDef>
+					<severity>0.15</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<costList>
+			<Mashed_Spiribird_PollenGreen>4</Mashed_Spiribird_PollenGreen>
+		</costList>
+	</ThingDef>
+	<!-- ==========[Orange]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_SpiribirdElixirBase">
+		<defName>Mashed_Spiribird_SpiribirdElixirOrange</defName>
+		<label>spiribird elixir (orange)</label>
+		<description>A concentrated dose of orange spiribird pollen. Use increases the strength of the orange pollen effect by 15%.</description>
+		<descriptionHyperlinks>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenOrange</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Mashed_SpiribirdPotion_Orange</texPath>
+		</graphicData>
+		<ingestible>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Mashed_Spiribird_SpiribirdPollenOrange</hediffDef>
+					<severity>0.15</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<costList>
+			<Mashed_Spiribird_PollenOrange>4</Mashed_Spiribird_PollenOrange>
+		</costList>
+	</ThingDef>
+	<!-- ==========[Pink]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_SpiribirdElixirBase">
+		<defName>Mashed_Spiribird_SpiribirdElixirPink</defName>
+		<label>spiribird elixir (pink)</label>
+		<description>A concentrated dose of pink spiribird pollen. Use increases the strength of the pink pollen effect by 15%.</description>
+		<descriptionHyperlinks>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenPink</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Mashed_SpiribirdPotion_Pink</texPath>
+		</graphicData>
+		<ingestible>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Mashed_Spiribird_SpiribirdPollenPink</hediffDef>
+					<severity>0.15</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<costList>
+			<Mashed_Spiribird_PollenPink>4</Mashed_Spiribird_PollenPink>
+		</costList>
+	</ThingDef>
+	<!-- ==========[Red]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_SpiribirdElixirBase">
+		<defName>Mashed_Spiribird_SpiribirdElixirRed</defName>
+		<label>spiribird elixir (red)</label>
+		<description>A concentrated dose of red spiribird pollen. Use increases the strength of the red pollen effect by 15%.</description>
+		<descriptionHyperlinks>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenRed</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Mashed_SpiribirdPotion_Red</texPath>
+		</graphicData>
+		<ingestible>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Mashed_Spiribird_SpiribirdPollenRed</hediffDef>
+					<severity>0.15</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<costList>
+			<Mashed_Spiribird_PollenRed>4</Mashed_Spiribird_PollenRed>
+		</costList>
+	</ThingDef>
+	<!-- ==========[Yellow]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_SpiribirdElixirBase">
+		<defName>Mashed_Spiribird_SpiribirdElixirYellow</defName>
+		<label>spiribird elixir (yellow)</label>
+		<description>A concentrated dose of yellow spiribird pollen. Use increases the strength of the yellow pollen effect by 15%</description>
+		<descriptionHyperlinks>
+			<HediffDef>Mashed_Spiribird_SpiribirdPollenYellow</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Mashed_SpiribirdPotion_Yellow</texPath>
+		</graphicData>
+		<ingestible>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Mashed_Spiribird_SpiribirdPollenYellow</hediffDef>
+					<severity>0.15</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<costList>
+			<Mashed_Spiribird_PollenYellow>4</Mashed_Spiribird_PollenYellow>
+		</costList>
+	</ThingDef>
+</Defs>

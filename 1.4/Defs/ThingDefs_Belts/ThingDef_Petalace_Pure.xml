@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Base]========== -->
+	<ThingDef Name="Mashed_Spiribird_ApparelPetalaceBase_Pure" ParentName="Mashed_Spiribird_ApparelPetalaceBase" Abstract="True">
+		<recipeMaker>
+			<skillRequirements Inherit="False">
+				<Plants>8</Plants>
+			</skillRequirements>
+			<researchPrerequisites Inherit="False">
+				<li>Mashed_Spiribird_PurePetalaceCrafting</li>
+			</researchPrerequisites>
+		</recipeMaker>
+	</ThingDef>
+	<!-- ==========[Green]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Pure">
+		<defName>Mashed_Spiribird_ApparelPetalacePure_Green</defName>
+		<label>petalace (pure green)</label>
+		<description>A petalace greatly imbued with green spiribird pollen. The effect of green pollen deposited by spiribirds is increased, and can empower the petalace beyond the normal limit. However the effect of all other pollen is greatly weakened.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
+		<modExtensions>
+			<li Class="Mashed_Spiribirds.PetalaceProperties">
+				<pollenAffinity>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenGreen</pollenHediff>
+						<severityGain>0.3</severityGain>
+						<limit>1.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenOrange</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenPink</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenRed</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenYellow</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+				</pollenAffinity>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Mashed_Petalace/Mashed_Petalace_PureGreen</texPath>
+		</graphicData>
+		<costList>
+			<Mashed_Spiribird_SpiribushFlower>1</Mashed_Spiribird_SpiribushFlower>
+			<Mashed_Spiribird_PollenGreen>16</Mashed_Spiribird_PollenGreen>
+		</costList>
+	</ThingDef>
+	<!-- ==========[Orange]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Pure">
+		<defName>Mashed_Spiribird_ApparelPetalacePure_Orange</defName>
+		<label>petalace (pure orange)</label>
+		<description>A petalace greatly imbued with orange spiribird pollen. The effect of orange pollen deposited by spiribirds is increased, and can empower the petalace beyond the normal limit. However the effect of all other pollen is greatly weakened.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
+		<modExtensions>
+			<li Class="Mashed_Spiribirds.PetalaceProperties">
+				<pollenAffinity>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenGreen</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenOrange</pollenHediff>
+						<severityGain>0.3</severityGain>
+						<limit>1.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenPink</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenRed</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenYellow</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+				</pollenAffinity>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Mashed_Petalace/Mashed_Petalace_PureOrange</texPath>
+		</graphicData>
+		<costList>
+			<Mashed_Spiribird_SpiribushFlower>1</Mashed_Spiribird_SpiribushFlower>
+			<Mashed_Spiribird_PollenOrange>16</Mashed_Spiribird_PollenOrange>
+		</costList>
+	</ThingDef>
+	<!-- ==========[Pink]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Pure">
+		<defName>Mashed_Spiribird_ApparelPetalacePure_Pink</defName>
+		<label>petalace (pure pink)</label>
+		<description>A petalace greatly imbued with pink spiribird pollen. The effect of pink pollen deposited by spiribirds is increased, and can empower the petalace beyond the normal limit. However the effect of all other pollen is greatly weakened.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
+		<modExtensions>
+			<li Class="Mashed_Spiribirds.PetalaceProperties">
+				<pollenAffinity>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenGreen</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenOrange</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenPink</pollenHediff>
+						<severityGain>0.3</severityGain>
+						<limit>1.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenRed</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenYellow</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+				</pollenAffinity>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Mashed_Petalace/Mashed_Petalace_PurePink</texPath>
+		</graphicData>
+		<costList>
+			<Mashed_Spiribird_SpiribushFlower>1</Mashed_Spiribird_SpiribushFlower>
+			<Mashed_Spiribird_PollenPink>16</Mashed_Spiribird_PollenPink>
+		</costList>
+	</ThingDef>
+	<!-- ==========[Red]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Pure">
+		<defName>Mashed_Spiribird_ApparelPetalacePure_Red</defName>
+		<label>petalace (pure red)</label>
+		<description>A petalace greatly imbued with red spiribird pollen. The effect of red pollen deposited by spiribirds is increased, and can empower the petalace beyond the normal limit. However the effect of all other pollen is greatly weakened.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
+		<modExtensions>
+			<li Class="Mashed_Spiribirds.PetalaceProperties">
+				<pollenAffinity>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenGreen</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenOrange</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenPink</pollenHediff>
+						<severityGain>0.3</severityGain>
+						<limit>1.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenRed</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenYellow</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+				</pollenAffinity>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Mashed_Petalace/Mashed_Petalace_PureRed</texPath>
+		</graphicData>
+		<costList>
+			<Mashed_Spiribird_SpiribushFlower>1</Mashed_Spiribird_SpiribushFlower>
+			<Mashed_Spiribird_PollenRed>16</Mashed_Spiribird_PollenRed>
+		</costList>
+	</ThingDef>
+	<!-- ==========[Orange]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Pure">
+		<defName>Mashed_Spiribird_ApparelPetalacePure_Yellow</defName>
+		<label>petalace (pure yellow)</label>
+		<description>A petalace greatly imbued with yellow spiribird pollen. The effect of yellow pollen deposited by spiribirds is increased, and can empower the petalace beyond the normal limit. However the effect of all other pollen is greatly weakened.\n\nThe quality of the petalace will also affect the amount of pollen left behind.\n\nThe effects of pollen are lost if the petalace is unequipped.</description>
+		<modExtensions>
+			<li Class="Mashed_Spiribirds.PetalaceProperties">
+				<pollenAffinity>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenGreen</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenOrange</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenPink</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenRed</pollenHediff>
+						<severityGain>0.025</severityGain>
+						<limit>0.5</limit>
+					</li>
+					<li>
+						<pollenHediff>Mashed_Spiribird_SpiribirdPollenYellow</pollenHediff>
+						<severityGain>0.3</severityGain>
+						<limit>1.5</limit>
+					</li>
+				</pollenAffinity>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Mashed_Petalace/Mashed_Petalace_PureYellow</texPath>
+		</graphicData>
+		<costList>
+			<Mashed_Spiribird_SpiribushFlower>1</Mashed_Spiribird_SpiribushFlower>
+			<Mashed_Spiribird_PollenYellow>16</Mashed_Spiribird_PollenYellow>
+		</costList>
+	</ThingDef>
+</Defs>

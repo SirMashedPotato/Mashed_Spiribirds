@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ESCP - Sload</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_SloadRace"]/alienRace/raceRestriction/whiteApparelList</xpath>
+					<value>
+						<li>Mashed_Spiribird_ApparelPetalaceBasic</li>
+						<li>Mashed_Spiribird_ApparelPetalaceGreen</li>
+						<li>Mashed_Spiribird_ApparelPetalaceOrange</li>
+						<li>Mashed_Spiribird_ApparelPetalacePink</li>
+						<li>Mashed_Spiribird_ApparelPetalaceRed</li>
+						<li>Mashed_Spiribird_ApparelPetalaceYellow</li>
+						<li>Mashed_Spiribird_ApparelPetalaceSplit_GreenPink</li>
+						<li>Mashed_Spiribird_ApparelPetalaceSplit_GreenRed</li>
+						<li>Mashed_Spiribird_ApparelPetalaceSplit_OrangeGreen</li>
+						<li>Mashed_Spiribird_ApparelPetalaceSplit_OrangeYellow</li>
+						<li>Mashed_Spiribird_ApparelPetalaceSplit_PinkOrange</li>
+						<li>Mashed_Spiribird_ApparelPetalaceSplit_PinkYellow</li>
+						<li>Mashed_Spiribird_ApparelPetalaceSplit_RedOrange</li>
+						<li>Mashed_Spiribird_ApparelPetalaceSplit_RedPink</li>
+						<li>Mashed_Spiribird_ApparelPetalaceSplit_YellowRed</li>
+						<li>Mashed_Spiribird_ApparelPetalaceSplit_YellowGreen</li>
+						<li>Mashed_Spiribird_ApparelPetalacePrism</li>
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+		
+	</Operation>
+
+
+</Patch>
+

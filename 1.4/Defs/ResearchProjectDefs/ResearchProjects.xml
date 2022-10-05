@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Row 1]========== -->
+	<!-- ==========[Starting point, basic petalaces and table]========== -->
+	<ResearchProjectDef>
+		<defName>Mashed_Spiribird_BasicPetalaceCrafting</defName>
+		<label>basic petalace crafting</label>
+		<description>Learn how to craft basic petalace at the petalace crafting bench.\n\nPetalaces may attract nearby spiribirds, who will leave some pollen behind on the petalace. This pollen will empower the petalace, conferring a buff to the wearer. The strength of the buff depends on both the type, and quality, of the petalace.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<tab>SMP_ResearchTab</tab>
+	</ResearchProjectDef>
+	<!-- ==========[Petalace branch, split petalaces]========== -->
+	<ResearchProjectDef>
+		<defName>Mashed_Spiribird_SplitPetalaceCrafting</defName>
+		<label>split petalace crafting</label>
+		<description>Learn how to craft split petalace at the petalace crafting bench.\n\nThese petalaces have an affinity towards two colours of spiribird pollen, but subsequently have a decreased affinity towards all other colours.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<tab>SMP_ResearchTab</tab>
+		<prerequisites>
+			<li>Mashed_Spiribird_BasicPetalaceCrafting</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!-- ==========[Petalace branch, pure petalaces]========== -->
+	<ResearchProjectDef>
+		<defName>Mashed_Spiribird_PurePetalaceCrafting</defName>
+		<label>pure petalace crafting</label>
+		<description>Learn how to craft pure petalace at the petalace crafting bench.\n\nThese petalaces have an increased affinity towards a single colour, at the cost of their affinity towards other colours.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<tab>SMP_ResearchTab</tab>
+		<prerequisites>
+			<li>Mashed_Spiribird_SplitPetalaceCrafting</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!-- ==========[Petalace branch, special petalaces]========== -->
+	<ResearchProjectDef>
+		<defName>Mashed_Spiribird_SpecialPetalaceCrafting</defName>
+		<label>prism petalace crafting</label>
+		<description>Learn how to craft prism petalace at the petalace crafting bench.\n\nThese petalaces have a reasonable affinity towards all spiribird pollen colours.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<tab>SMP_ResearchTab</tab>
+		<prerequisites>
+			<li>Mashed_Spiribird_PurePetalaceCrafting</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!-- ==========[Row 2]========== -->
+	<!-- ==========[Sowing spiribush]========== -->
+	<ResearchProjectDef>
+		<defName>Mashed_Spiribird_SpiribushSowing</defName>
+		<label>spiribush sowing</label>
+		<description>Learn how to sow spiribush.\n\nSown spiribush is less likely to attract wild spiribirds, as such there is a decreased chance spiribirds will emerge from the bush when it is harvested.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<tab>SMP_ResearchTab</tab>
+	</ResearchProjectDef>
+	<!-- ==========[Alchemy branch, potions]========== -->
+	<!--
+	<ResearchProjectDef>
+		<defName>Mashed_Spiribird_ElixirCrafting</defName>
+		<label>pollen elixir crafting</label>
+		<description>Learn how to craft spiribird pollen elixirs at the petalace crafting bench.\n\nThese can be used to gain spiribird pollen buffs without the use of a petalace.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<tab>SMP_ResearchTab</tab>
+		<prerequisites>
+			<li>Mashed_Spiribird_BasicPetalaceCrafting</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	-->
+</Defs>
