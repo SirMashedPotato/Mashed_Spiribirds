@@ -470,110 +470,110 @@
 	<HediffDef ParentName="Mashed_Spiribird_PollenHediffBase">
 		<defName>Mashed_Spiribird_SpiribirdPollenYellow</defName>
 		<label>spiribird pollen (yellow)</label>
-		<description>Increases hunger rate multiplier by up to 20%, and increases rest rate multiplier by up to 20%, for up to 48 hours.</description>
+		<description>Decreases hunger rate factor by up to 20%, and increases rest rate multiplier by up to 20%, for up to 48 hours.</description>
 		<stages>
 			<li>
+				<hungerRateFactorOffset>-0.02</hungerRateFactorOffset>
 				<statOffsets>
-					<MaxNutrition>0.02</MaxNutrition>
 					<RestRateMultiplier>0.02</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>0.1</minSeverity>
+				<hungerRateFactorOffset>-0.04</hungerRateFactorOffset>
 				<statOffsets>
-					<MaxNutrition>0.04</MaxNutrition>
 					<RestRateMultiplier>0.04</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>0.2</minSeverity>
+				<hungerRateFactorOffset>-0.06</hungerRateFactorOffset>
 				<statOffsets>
-					<MaxNutrition>0.06</MaxNutrition>
 					<RestRateMultiplier>0.06</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>0.3</minSeverity>
+				<hungerRateFactorOffset>-0.08</hungerRateFactorOffset>
 				<statOffsets>
-					<MaxNutrition>0.08</MaxNutrition>
 					<RestRateMultiplier>0.08</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>0.4</minSeverity>
+				<hungerRateFactorOffset>-0.1</hungerRateFactorOffset>
 				<statOffsets>
-					<MaxNutrition>0.1</MaxNutrition>
 					<RestRateMultiplier>0.1</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>0.5</minSeverity>
+				<hungerRateFactorOffset>-0.12</hungerRateFactorOffset>
 				<statOffsets>
-					<MaxNutrition>0.12</MaxNutrition>
 					<RestRateMultiplier>0.12</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>0.6</minSeverity>
+				<hungerRateFactorOffset>-0.14</hungerRateFactorOffset>
 				<statOffsets>
-					<MaxNutrition>0.14</MaxNutrition>
 					<RestRateMultiplier>0.14</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>0.7</minSeverity>
+				<hungerRateFactorOffset>-0.16</hungerRateFactorOffset>
 				<statOffsets>
-					<MaxNutrition>0.16</MaxNutrition>
 					<RestRateMultiplier>0.16</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>0.8</minSeverity>
+				<hungerRateFactorOffset>-0.18</hungerRateFactorOffset>
 				<statOffsets>
-					<MaxNutrition>0.18</MaxNutrition>
 					<RestRateMultiplier>0.18</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>0.9</minSeverity>
+				<hungerRateFactorOffset>-0.2</hungerRateFactorOffset>
 				<statOffsets>
-					<MaxNutrition>0.2</MaxNutrition>
 					<RestRateMultiplier>0.2</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<!-- Past normal limit -->
 			<li>
 				<minSeverity>1.01</minSeverity>
+				<hungerRateFactorOffset>-0.22</hungerRateFactorOffset>
 				<statOffsets>
-					<MaxNutrition>0.22</MaxNutrition>
 					<RestRateMultiplier>0.22</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>1.1</minSeverity>
+				<hungerRateFactorOffset>-0.24</hungerRateFactorOffset>
 				<statOffsets>
-					<MaxNutrition>0.24</MaxNutrition>
 					<RestRateMultiplier>0.24</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>1.2</minSeverity>
+				<hungerRateFactorOffset>-0.26</hungerRateFactorOffset>
 				<statOffsets>
-					<MaxNutrition>0.26</MaxNutrition>
 					<RestRateMultiplier>0.26</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>1.3</minSeverity>
+				<hungerRateFactorOffset>-0.28</hungerRateFactorOffset>
 				<statOffsets>
-					<MaxNutrition>0.28</MaxNutrition>
 					<RestRateMultiplier>0.28</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>1.4</minSeverity>
+				<hungerRateFactorOffset>-0.3</hungerRateFactorOffset>
 				<statOffsets>
-					<MaxNutrition>0.3</MaxNutrition>
 					<RestRateMultiplier>0.3</RestRateMultiplier>
 				</statOffsets>
 			</li>
