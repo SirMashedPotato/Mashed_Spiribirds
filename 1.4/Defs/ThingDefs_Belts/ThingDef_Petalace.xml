@@ -34,6 +34,8 @@
 			<li>Mashed_Spiribird_ApparelPetalace</li>
 		</thingCategories>
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<tags>
 				<li>Mashed_Spiribird_ApparelPetalace</li>
 			</tags>
