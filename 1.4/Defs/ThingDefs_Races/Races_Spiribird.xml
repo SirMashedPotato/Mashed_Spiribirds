@@ -35,6 +35,7 @@
 			<lifeExpectancy>2</lifeExpectancy>
 			<useMeatFrom>Cassowary</useMeatFrom>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<canBePredatorPrey>false</canBePredatorPrey>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBabyTiny</def>
