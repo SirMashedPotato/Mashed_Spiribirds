@@ -10,7 +10,7 @@
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>0.00</researchViewX>
 		<researchViewY>0.00</researchViewY>
-		<tab>SMP_ResearchTab</tab>
+		<tab>Mashed_ResearchTab_MonsterHunter</tab>
 	</ResearchProjectDef>
 	<!-- ==========[Petalace branch, split petalaces]========== -->
 	<ResearchProjectDef>
@@ -21,7 +21,7 @@
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>1.00</researchViewX>
 		<researchViewY>0.00</researchViewY>
-		<tab>SMP_ResearchTab</tab>
+		<tab>Mashed_ResearchTab_MonsterHunter</tab>
 		<prerequisites>
 			<li>Mashed_Spiribird_BasicPetalaceCrafting</li>
 		</prerequisites>
@@ -35,7 +35,7 @@
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>2.00</researchViewX>
 		<researchViewY>0.00</researchViewY>
-		<tab>SMP_ResearchTab</tab>
+		<tab>Mashed_ResearchTab_MonsterHunter</tab>
 		<prerequisites>
 			<li>Mashed_Spiribird_SplitPetalaceCrafting</li>
 		</prerequisites>
@@ -49,7 +49,7 @@
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>3.00</researchViewX>
 		<researchViewY>0.00</researchViewY>
-		<tab>SMP_ResearchTab</tab>
+		<tab>Mashed_ResearchTab_MonsterHunter</tab>
 		<prerequisites>
 			<li>Mashed_Spiribird_PurePetalaceCrafting</li>
 		</prerequisites>
@@ -64,7 +64,7 @@
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>0.00</researchViewX>
 		<researchViewY>1.00</researchViewY>
-		<tab>SMP_ResearchTab</tab>
+		<tab>Mashed_ResearchTab_MonsterHunter</tab>
 	</ResearchProjectDef>
 	<!-- ==========[Alchemy branch, potions]========== -->
 	<!--
@@ -76,7 +76,7 @@
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>1.00</researchViewX>
 		<researchViewY>1.00</researchViewY>
-		<tab>SMP_ResearchTab</tab>
+		<tab>Mashed_ResearchTab_MonsterHunter</tab>
 		<prerequisites>
 			<li>Mashed_Spiribird_BasicPetalaceCrafting</li>
 		</prerequisites>

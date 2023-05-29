@@ -16,8 +16,8 @@
 					<value>
 
 						<AchievementsExpanded.AchievementTabDef>
-							<defName>SMP_AchievementsTab</defName>
-							<label>SMP Misc</label>
+							<defName>Mashed_AchievementsTab</defName>
+							<label>Mashed</label>
 						</AchievementsExpanded.AchievementTabDef>
 
 						<AchievementsExpanded.AchievementDef>
@@ -25,7 +25,7 @@
 							<label>Spiribird Tamer</label>
 							<description>Tame your first spiribird of any kind, excluding prism</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
-							<tab>SMP_AchievementsTab</tab>
+							<tab>Mashed_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<requireAll>false</requireAll>
 								<kindDefs>
@@ -62,7 +62,7 @@
 							<label>Spiribird Enthusiast</label>
 							<description>Have all kinds of spiribird at the same time, excluding prism</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
-							<tab>SMP_AchievementsTab</tab>
+							<tab>Mashed_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<requireAll>true</requireAll>
 								<kindDefs>
@@ -99,7 +99,7 @@
 							<label>Spiribird Collector</label>
 							<description>Have five of a single kind of spiribird at the same time</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
-							<tab>SMP_AchievementsTab</tab>
+							<tab>Mashed_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<requireAll>false</requireAll>
 								<kindDefs>
@@ -140,7 +140,7 @@
 							<label>All the Colours of the Rainbow</label>
 							<description>Tame your first prism spiribird</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
-							<tab>SMP_AchievementsTab</tab>
+							<tab>Mashed_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<requireAll>false</requireAll>
 								<kindDefs>
@@ -161,7 +161,7 @@
 							<label>Prismatic</label>
 							<description>Craft a legendary quality prism petalace</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
-							<tab>SMP_AchievementsTab</tab>
+							<tab>Mashed_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.ItemCraftTracker">
 								<def>Mashed_Spiribird_ApparelPetalacePrism</def>
 								<quality>Legendary</quality>
@@ -177,7 +177,7 @@
 							<label>Spiribird Acquaintance</label>
 							<description>Have a spiribird interact with a pawn wearing a petalace for the first time</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
-							<tab>SMP_AchievementsTab</tab>
+							<tab>Mashed_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.RecordEventTracker">
 								<def>Mashed_Spiribird_SpiribirdInteractions</def>
 								<count>1</count>
@@ -191,7 +191,7 @@
 							<label>Spiribird Friend</label>
 							<description>Have a spiribird interact with a pawn wearing a petalace for the tenth time</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
-							<tab>SMP_AchievementsTab</tab>
+							<tab>Mashed_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.RecordEventTracker">
 								<def>Mashed_Spiribird_SpiribirdInteractions</def>
 								<count>10</count>
@@ -205,7 +205,7 @@
 							<label>Spiribird Magnet</label>
 							<description>Have a spiribird interact with a pawn wearing a petalace for the 25th time</description>
 							<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
-							<tab>SMP_AchievementsTab</tab>
+							<tab>Mashed_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.RecordEventTracker">
 								<def>Mashed_Spiribird_SpiribirdInteractions</def>
 								<count>25</count>
