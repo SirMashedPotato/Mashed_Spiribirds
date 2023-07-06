@@ -17,10 +17,10 @@
 			<LeatherAmount>0</LeatherAmount>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
 			<FilthRate>1</FilthRate>
+			<Mashed_Ashlands_AshResistance MayRequire="SirMashedPotato.Ashlands">1</Mashed_Ashlands_AshResistance>
 		</statBases>
 		<comps>
-			<li Class="AnimalBehaviours.CompProperties_Floating" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
-			</li>
+			<li Class="AnimalBehaviours.CompProperties_Floating" MayRequire="oskarpotocki.vanillafactionsexpanded.core"/>
 		</comps>
 		<race>
 			<body>Bird</body>

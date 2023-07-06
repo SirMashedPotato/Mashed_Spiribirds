@@ -66,6 +66,7 @@
 			<Nutrition>0.50</Nutrition>
 			<Beauty>4</Beauty>
 			<BeautyOutdoors>4</BeautyOutdoors>
+			<Mashed_Ashlands_AshResistance MayRequire="SirMashedPotato.Ashlands">1</Mashed_Ashlands_AshResistance>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plant/Mashed_Spiribush</texPath>
