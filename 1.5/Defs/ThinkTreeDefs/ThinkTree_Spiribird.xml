@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThinkTreeDef>
+		<defName>Mashed_Spiribird_FeedFromSpiribush</defName>
+		<insertTag>Animal_PreMain</insertTag>
+		<insertPriority>1</insertPriority>
+		<thinkRoot Class="Mashed_Spiribirds.ThinkNode_ConditionalSpiribird">
+			<subNodes>
+				<li Class="ThinkNode_ChancePerHour_Constant">
+					<mtbHours>2</mtbHours>
+					<subNodes>
+						<li Class="ThinkNode_Tagger">
+							<tagToGive>SatisfyingNeeds</tagToGive>
+							<subNodes>
+								<li Class="Mashed_Spiribirds.JobGiver_FeedFromSpiribush">
+									<radius>25</radius>
+								</li>
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+	<ThinkTreeDef>
+		<defName>Mashed_Spiribird_InteractWithPetalace</defName>
+		<insertTag>Animal_PreWander</insertTag>
+		<insertPriority>5</insertPriority>
+		<thinkRoot Class="Mashed_Spiribirds.ThinkNode_ConditionalSpiribirdMature">
+			<subNodes>
+				<li Class="ThinkNode_ChancePerHour_Constant">
+					<mtbHours>4</mtbHours>
+					<subNodes>
+						<li Class="Mashed_Spiribirds.JobGiver_InteractWithPetalace">
+							<radiusTame>6</radiusTame>
+							<radiusWild>4</radiusWild>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+</Defs>

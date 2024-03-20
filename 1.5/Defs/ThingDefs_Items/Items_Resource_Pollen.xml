@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Base]========== -->
+	<ThingDef ParentName="RoughPlantBase" Name="Mashed_Spiribird_PollenBase" Abstract="True">
+		<statBases>
+			<MarketValue>1.6</MarketValue>
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>30</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>PlantMatter</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>DesperateOnly</preferability>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
+	</ThingDef>
+	<!-- ==========[Green]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_PollenBase">
+		<defName>Mashed_Spiribird_PollenGreen</defName>
+		<label>green spiribird pollen</label>
+		<description>Pollen collected from a green spiribird, known to boost healing factor and immunity gain.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mashed_Spiribird_SpiribirdGreen</ThingDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Resource/Mashed_SpiribirdPollen_Green</texPath>
+		</graphicData>
+	</ThingDef>
+	<!-- ==========[Orange]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_PollenBase">
+		<defName>Mashed_Spiribird_PollenOrange</defName>
+		<label>orange spiribird pollen</label>
+		<description>Pollen collected from a orange spiribird, known to boost blunt and sharp armour.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mashed_Spiribird_SpiribirdOrange</ThingDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Resource/Mashed_SpiribirdPollen_Orange</texPath>
+		</graphicData>
+	</ThingDef>
+	<!-- ==========[Pink]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_PollenBase">
+		<defName>Mashed_Spiribird_PollenPink</defName>
+		<label>pink spiribird pollen</label>
+		<description>Pollen collected from a pink spiribird, known to boost mental break and pain shock thresholds.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mashed_Spiribird_SpiribirdPink</ThingDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Resource/Mashed_SpiribirdPollen_Pink</texPath>
+		</graphicData>
+	</ThingDef>
+	<!-- ==========[Red]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_PollenBase">
+		<defName>Mashed_Spiribird_PollenRed</defName>
+		<label>red spiribird pollen</label>
+		<description>Pollen collected from a red spiribird, known to boost melee hit chance and shooting accuracy.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mashed_Spiribird_SpiribirdRed</ThingDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Resource/Mashed_SpiribirdPollen_Red</texPath>
+		</graphicData>
+	</ThingDef>
+	<!-- ==========[Yellow]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_PollenBase">
+		<defName>Mashed_Spiribird_PollenYellow</defName>
+		<label>yellow spiribird pollen</label>
+		<description>Pollen collected from a yellow spiribird, known to decrease fatigue gain and hunger rate.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mashed_Spiribird_SpiribirdYellow</ThingDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Resource/Mashed_SpiribirdPollen_Yellow</texPath>
+		</graphicData>
+	</ThingDef>
+	<!-- ==========[Prism]========== -->
+	<ThingDef ParentName="Mashed_Spiribird_PollenBase">
+		<defName>Mashed_Spiribird_PollenPrism</defName>
+		<label>prism spiribird pollen</label>
+		<description>Pollen collected from a prism spiribird, can be used to create any kind of spiribird pollen.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mashed_Spiribird_SpiribirdPrism</ThingDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<MarketValue>3.8</MarketValue>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/Mashed_SpiribirdPollen_Prism</texPath>
+		</graphicData>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<IncidentDef>
+		<defName>Mashed_Spiribird_SpiribushSprout</defName>
+		<label>spiribush sprout</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>Mashed_Spiribirds.IncidentWorker_SpiribushSprout</workerClass>
+		<baseChance>0.5</baseChance>
+		<letterLabel>Spiribush sprout</letterLabel>
+		<letterText>A grove of spiribush has sprouted nearby! If you wait for the plants to grow, you'll be able to harvest them for their flowers, and possibly encounter some spiribirds in the process.</letterText>
+		<letterDef>PositiveEvent</letterDef>
+	</IncidentDef>
+</Defs>

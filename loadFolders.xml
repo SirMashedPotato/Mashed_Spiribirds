@@ -12,4 +12,10 @@
 		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">Mods/VEF</li>
 		<li IfModActive="Owlchemist.SeedsPleaseLite">Mods/SeedsPleaseLite</li>
 	</v1.4>
+	<v1.5>
+		<li>Common</li>
+		<li>1.5</li>
+		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">Mods/VEF</li>
+		<li IfModActive="owlchemist.seedspleaselite,evyatar108.seedspleaseliteredux">Mods/SeedsPleaseLite</li>
+	</v1.5>
 </loadFolders>

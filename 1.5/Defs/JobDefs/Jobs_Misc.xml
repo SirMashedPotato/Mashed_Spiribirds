@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<JobDef>
+		<defName>Mashed_Spiribirds_InteractWithPetalace</defName>
+		<driverClass>Mashed_Spiribirds.JobDriver_InteractWithPetalace</driverClass>
+		<reportString>interacting with petalace worn by TargetA.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	<JobDef>
+		<defName>Mashed_Spiribirds_FeedFromSpiribush</defName>
+		<driverClass>Mashed_Spiribirds.JobDriver_FeedFromSpiribush</driverClass>
+		<reportString>feeding from spiribush.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+</Defs>
