@@ -1,70 +1,108 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+	<!-- ==========[Mashed_Lynians_ResearchBase]==========-->
+	<ResearchProjectDef Name="MashedSpiribird_ResearchBase" Abstract="True">
+		<techLevel>Neolithic</techLevel>
+		<tab>Mashed_ResearchTab_MonsterHunter</tab>
+		<generalRules>
+			<rulesStrings>
+				<li>subject_story->how members of a particularly friendly [race] tribe [observation]</li>
+				<li>race->Felyne</li>
+				<li>race->Melynx</li>
+				<li>race->Uruki</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
 	<!-- ==========[Row 1]========== -->
 	<!-- ==========[Starting point, basic petalaces and table]========== -->
-	<ResearchProjectDef>
+	<ResearchProjectDef ParentName="MashedSpiribird_ResearchBase">
 		<defName>Mashed_Spiribird_BasicPetalaceCrafting</defName>
 		<label>basic petalace crafting</label>
 		<description>Learn how to craft basic petalace at the petalace crafting bench.\n\nPetalaces may attract nearby spiribirds, who will leave some pollen behind on the petalace. This pollen will empower the petalace, conferring a buff to the wearer. The strength of the buff depends on both the type, and quality, of the petalace.</description>
 		<baseCost>250</baseCost>
-		<techLevel>Neolithic</techLevel>
 		<researchViewX>0.00</researchViewX>
 		<researchViewY>0.00</researchViewY>
-		<tab>Mashed_ResearchTab_MonsterHunter</tab>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->crafting basic petalaces</li>
+				<li>observation->would craft simple petalaces to attract spiribirds. There are several notes documenting the creation process. Starting from picking the perfect spiribush flowers, all the way to infusing them with spiribird pollen</li>
+				<li>subject_gerund->basic petalace crafting</li>
+			</rulesStrings>
+		</generalRules>
 	</ResearchProjectDef>
 	<!-- ==========[Petalace branch, split petalaces]========== -->
-	<ResearchProjectDef>
+	<ResearchProjectDef ParentName="MashedSpiribird_ResearchBase">
 		<defName>Mashed_Spiribird_SplitPetalaceCrafting</defName>
 		<label>split petalace crafting</label>
 		<description>Learn how to craft split petalace at the petalace crafting bench.\n\nThese petalaces have an affinity towards two colours of spiribird pollen, but subsequently have a decreased affinity towards all other colours.</description>
 		<baseCost>250</baseCost>
-		<techLevel>Neolithic</techLevel>
 		<researchViewX>1.00</researchViewX>
 		<researchViewY>0.00</researchViewY>
-		<tab>Mashed_ResearchTab_MonsterHunter</tab>
 		<prerequisites>
 			<li>Mashed_Spiribird_BasicPetalaceCrafting</li>
 		</prerequisites>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->crafting split petalaces</li>
+				<li>observation->would craft more complex petalaces, designed to have a higher affinity than normal towards two specific colour of spiribird pollen. There are several notes documenting the process of infusing a spiribush flower with two colours of pollen</li>
+				<li>subject_gerund->split petalace crafting</li>
+			</rulesStrings>
+		</generalRules>
 	</ResearchProjectDef>
 	<!-- ==========[Petalace branch, pure petalaces]========== -->
-	<ResearchProjectDef>
+	<ResearchProjectDef ParentName="MashedSpiribird_ResearchBase">
 		<defName>Mashed_Spiribird_PurePetalaceCrafting</defName>
 		<label>pure petalace crafting</label>
-		<description>Learn how to craft pure petalace at the petalace crafting bench.\n\nThese petalaces have an increased affinity towards a single colour, at the cost of their affinity towards other colours.</description>
+		<description>Learn how to craft pure petalace at the petalace crafting bench.\n\nThese petalaces have an increased affinity towards a single colour, at the cost of their affinity towards other colours</description>
 		<baseCost>250</baseCost>
-		<techLevel>Neolithic</techLevel>
 		<researchViewX>2.00</researchViewX>
 		<researchViewY>0.00</researchViewY>
-		<tab>Mashed_ResearchTab_MonsterHunter</tab>
 		<prerequisites>
 			<li>Mashed_Spiribird_SplitPetalaceCrafting</li>
 		</prerequisites>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->crafting pure petalaces</li>
+				<li>observation->would craft more complex petalaces, designed to have a very high affinity towards a single colour of spiribird pollen. There are several notes documenting the process of infusing a spiribush flower to such a degree</li>
+				<li>subject_gerund->pure petalace crafting</li>
+			</rulesStrings>
+		</generalRules>
 	</ResearchProjectDef>
 	<!-- ==========[Petalace branch, special petalaces]========== -->
-	<ResearchProjectDef>
+	<ResearchProjectDef ParentName="MashedSpiribird_ResearchBase">
 		<defName>Mashed_Spiribird_SpecialPetalaceCrafting</defName>
 		<label>prism petalace crafting</label>
 		<description>Learn how to craft prism petalace at the petalace crafting bench.\n\nThese petalaces have a reasonable affinity towards all spiribird pollen colours.</description>
 		<baseCost>500</baseCost>
-		<techLevel>Neolithic</techLevel>
 		<researchViewX>3.00</researchViewX>
 		<researchViewY>0.00</researchViewY>
-		<tab>Mashed_ResearchTab_MonsterHunter</tab>
 		<prerequisites>
 			<li>Mashed_Spiribird_PurePetalaceCrafting</li>
 		</prerequisites>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->crafting prism petalaces</li>
+				<li>observation->would craft incredibly complex petalaces using a rare type of pollen. There are several notes documenting the process of infusing a spiribush flower with prism pollen</li>
+				<li>subject_gerund->prism petalace crafting</li>
+			</rulesStrings>
+		</generalRules>
 	</ResearchProjectDef>
 	<!-- ==========[Row 2]========== -->
 	<!-- ==========[Sowing spiribush]========== -->
-	<ResearchProjectDef>
+	<ResearchProjectDef ParentName="MashedSpiribird_ResearchBase">
 		<defName>Mashed_Spiribird_SpiribushSowing</defName>
 		<label>spiribush sowing</label>
 		<description>Learn how to sow spiribush.\n\nSown spiribush is less likely to attract wild spiribirds, as such there is a decreased chance spiribirds will emerge from the bush when it is harvested.</description>
 		<baseCost>500</baseCost>
-		<techLevel>Neolithic</techLevel>
 		<researchViewX>0.00</researchViewX>
 		<researchViewY>1.00</researchViewY>
-		<tab>Mashed_ResearchTab_MonsterHunter</tab>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->growing your own spiribush</li>
+				<li>observation->would grow their own small spiribush gardens to attract wild spiribirds. There are notes documenting how to properly care for a spiribush, and how to ensure wild spiribirds are not afraid to feed on it</li>
+				<li>subject_gerund->growing spiribush</li>
+			</rulesStrings>
+		</generalRules>
 	</ResearchProjectDef>
 	<!-- ==========[Alchemy branch, potions]========== -->
 	<!--
