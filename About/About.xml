@@ -3,7 +3,7 @@
 	<name>Mashed's Spiribirds</name>
 	<packageId>SirMashedPotato.Spiribirds</packageId>
 	<author>SirMashedPotato</author>
-	<modVersion IgnoreIfNoMatchingField="True">1.0.13</modVersion>
+	<modVersion IgnoreIfNoMatchingField="True">1.0.14</modVersion>
 	<supportedVersions>
 		<li>1.3</li>
 		<li>1.4</li>
@@ -18,7 +18,6 @@
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Ideology</li>
 		<li>Ludeon.RimWorld.Royalty</li>
-		<li>oskarpotocki.vanillafactionsexpanded.core</li>
 		<li>regrowth.botr.core</li>
 		<li>Owlchemist.SeedsPleaseLite</li>
 	</loadAfter>

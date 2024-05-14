@@ -3,19 +3,22 @@
 	<v1.3>
 		<li>Common</li>
 		<li>1.3</li>
-		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">Mods/VEF</li>
+		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">Mods/VE_Framework</li>
 		<li IfModActive="Owlchemist.SeedsPleaseLite">Mods/SeedsPleaseLite</li>
+		<li IfModActive="vanillaexpanded.achievements">Mods/VE_Achievements</li>
 	</v1.3>
 	<v1.4>
 		<li>Common</li>
 		<li>1.4</li>
-		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">Mods/VEF</li>
+		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">Mods/VE_Framework</li>
 		<li IfModActive="Owlchemist.SeedsPleaseLite">Mods/SeedsPleaseLite</li>
+		<li IfModActive="vanillaexpanded.achievements">Mods/VE_Achievements</li>
 	</v1.4>
 	<v1.5>
 		<li>Common</li>
 		<li>1.5</li>
-		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">Mods/VEF</li>
+		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">Mods/VE_Framework</li>
 		<li IfModActive="owlchemist.seedspleaselite,evyatar108.seedspleaseliteredux">Mods/SeedsPleaseLite</li>
+		<li IfModActive="vanillaexpanded.achievements">Mods/VE_Achievements</li>
 	</v1.5>
 </loadFolders>
