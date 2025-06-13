@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- ==========[Base]========== -->
+	<!-- ==========[Mashed_Spiribird_CreatePollenBase]========== -->
 	<RecipeDef Name="Mashed_Spiribird_CreatePollenBase" Abstract="True">
 		<jobString>Creating spiribird pollen.</jobString>
 		<effectWorking>Cremate</effectWorking>
@@ -15,7 +15,7 @@
 			<Intellectual>4</Intellectual>
 		</skillRequirements>
 	</RecipeDef>
-	<!-- ==========[Green]========== -->
+	<!-- ==========[Mashed_Spiribird_CreatePollenGreen]========== -->
 	<RecipeDef ParentName="Mashed_Spiribird_CreatePollenBase">
 		<defName>Mashed_Spiribird_CreatePollenGreen</defName>
 		<label>create green spiribird pollen</label>
@@ -40,7 +40,7 @@
 			<Mashed_Spiribird_PollenGreen>4</Mashed_Spiribird_PollenGreen>
 		</products>
 	</RecipeDef>
-	<!-- ==========[Orange]========== -->
+	<!-- ==========[Mashed_Spiribird_CreatePollenOrange]========== -->
 	<RecipeDef ParentName="Mashed_Spiribird_CreatePollenBase">
 		<defName>Mashed_Spiribird_CreatePollenOrange</defName>
 		<label>create orange spiribird pollen</label>
@@ -65,7 +65,7 @@
 			<Mashed_Spiribird_PollenOrange>4</Mashed_Spiribird_PollenOrange>
 		</products>
 	</RecipeDef>
-	<!-- ==========[Pink]========== -->
+	<!-- ==========[Mashed_Spiribird_CreatePollenPink]========== -->
 	<RecipeDef ParentName="Mashed_Spiribird_CreatePollenBase">
 		<defName>Mashed_Spiribird_CreatePollenPink</defName>
 		<label>create pink spiribird pollen</label>
@@ -90,7 +90,7 @@
 			<Mashed_Spiribird_PollenPink>4</Mashed_Spiribird_PollenPink>
 		</products>
 	</RecipeDef>
-	<!-- ==========[Red]========== -->
+	<!-- ==========[Mashed_Spiribird_CreatePollenRed]========== -->
 	<RecipeDef ParentName="Mashed_Spiribird_CreatePollenBase">
 		<defName>Mashed_Spiribird_CreatePollenRed</defName>
 		<label>create red spiribird pollen</label>
@@ -115,7 +115,7 @@
 			<Mashed_Spiribird_PollenRed>4</Mashed_Spiribird_PollenRed>
 		</products>
 	</RecipeDef>
-	<!-- ==========[Yellow]========== -->
+	<!-- ==========[Mashed_Spiribird_CreatePollenYellow]========== -->
 	<RecipeDef ParentName="Mashed_Spiribird_CreatePollenBase">
 		<defName>Mashed_Spiribird_CreatePollenYellow</defName>
 		<label>create yellow spiribird pollen</label>

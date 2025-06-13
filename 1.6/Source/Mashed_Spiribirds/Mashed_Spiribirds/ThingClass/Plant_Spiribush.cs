@@ -7,17 +7,17 @@ namespace Mashed_Spiribirds
     {
         public override void PlantCollected(Pawn by, PlantDestructionMode plantDestructionMode)
         {
-            if (this.HarvestableNow)
+            if (HarvestableNow)
             {
-                var props = SpiribushProperties.Get(this.def);
-                float chance = this.sown ? props.chanceSown : props.chanceWild;
+                var props = SpiribushProperties.Get(def);
+                float chance = sown ? props.chanceSown : props.chanceWild;
                 if (Rand.Chance(chance))
                 {
                     if (props != null && !props.spirbushSpawns.NullOrEmpty())
                     {
-                        PawnKindDef kindDef = props.spirbushSpawns.RandomElementByWeight(x => x.weight).kindDef;
+                        PawnKindDef kindDef = props.spirbushSpawns.RandomElementByWeight(x => x.commonality).animal;
                         Pawn newP = PawnGenerator.GeneratePawn(kindDef, null);
-                        GenSpawn.Spawn(newP, this.Position, this.Map);
+                        GenSpawn.Spawn(newP, Position, Map);
                     }
                 }
             }

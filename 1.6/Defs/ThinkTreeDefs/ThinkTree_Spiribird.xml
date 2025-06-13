@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+	<!-- ==========[Mashed_Spiribird_FeedFromSpiribush]========== -->
 	<ThinkTreeDef>
 		<defName>Mashed_Spiribird_FeedFromSpiribush</defName>
 		<insertTag>Animal_PreMain</insertTag>
 		<insertPriority>1</insertPriority>
 		<thinkRoot Class="Mashed_Spiribirds.ThinkNode_ConditionalSpiribird">
+			<animalDefs>
+				<li>Mashed_Spiribird_SpiribirdGreen</li>
+				<li>Mashed_Spiribird_SpiribirdOrange</li>
+				<li>Mashed_Spiribird_SpiribirdPink</li>
+				<li>Mashed_Spiribird_SpiribirdRed</li>
+				<li>Mashed_Spiribird_SpiribirdYellow</li>
+				<li>Mashed_Spiribird_SpiribirdPrism</li>
+			</animalDefs>
 			<subNodes>
 				<li Class="ThinkNode_ChancePerHour_Constant">
 					<mtbHours>2</mtbHours>
@@ -22,11 +31,20 @@
 			</subNodes>
 		</thinkRoot>
 	</ThinkTreeDef>
+	<!-- ==========[Mashed_Spiribird_InteractWithPetalace]========== -->
 	<ThinkTreeDef>
 		<defName>Mashed_Spiribird_InteractWithPetalace</defName>
 		<insertTag>Animal_PreWander</insertTag>
 		<insertPriority>5</insertPriority>
 		<thinkRoot Class="Mashed_Spiribirds.ThinkNode_ConditionalSpiribirdMature">
+			<animalDefs>
+				<li>Mashed_Spiribird_SpiribirdGreen</li>
+				<li>Mashed_Spiribird_SpiribirdOrange</li>
+				<li>Mashed_Spiribird_SpiribirdPink</li>
+				<li>Mashed_Spiribird_SpiribirdRed</li>
+				<li>Mashed_Spiribird_SpiribirdYellow</li>
+				<li>Mashed_Spiribird_SpiribirdPrism</li>
+			</animalDefs>
 			<subNodes>
 				<li Class="ThinkNode_ChancePerHour_Constant">
 					<mtbHours>4</mtbHours>

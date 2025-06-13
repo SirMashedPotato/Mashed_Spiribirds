@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- ==========[Base]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalaceBase_Pure]========== -->
 	<ThingDef Name="Mashed_Spiribird_ApparelPetalaceBase_Pure" ParentName="Mashed_Spiribird_ApparelPetalaceBase" Abstract="True">
 		<recipeMaker>
 			<skillRequirements Inherit="False">
@@ -11,7 +11,7 @@
 			</researchPrerequisites>
 		</recipeMaker>
 	</ThingDef>
-	<!-- ==========[Green]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalacePure_Green]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Pure">
 		<defName>Mashed_Spiribird_ApparelPetalacePure_Green</defName>
 		<label>petalace (pure green)</label>
@@ -55,7 +55,7 @@
 			<Mashed_Spiribird_PollenGreen>16</Mashed_Spiribird_PollenGreen>
 		</costList>
 	</ThingDef>
-	<!-- ==========[Orange]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalacePure_Orange]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Pure">
 		<defName>Mashed_Spiribird_ApparelPetalacePure_Orange</defName>
 		<label>petalace (pure orange)</label>
@@ -99,7 +99,7 @@
 			<Mashed_Spiribird_PollenOrange>16</Mashed_Spiribird_PollenOrange>
 		</costList>
 	</ThingDef>
-	<!-- ==========[Pink]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalacePure_Pink]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Pure">
 		<defName>Mashed_Spiribird_ApparelPetalacePure_Pink</defName>
 		<label>petalace (pure pink)</label>
@@ -143,7 +143,7 @@
 			<Mashed_Spiribird_PollenPink>16</Mashed_Spiribird_PollenPink>
 		</costList>
 	</ThingDef>
-	<!-- ==========[Red]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalacePure_Red]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Pure">
 		<defName>Mashed_Spiribird_ApparelPetalacePure_Red</defName>
 		<label>petalace (pure red)</label>
@@ -187,7 +187,7 @@
 			<Mashed_Spiribird_PollenRed>16</Mashed_Spiribird_PollenRed>
 		</costList>
 	</ThingDef>
-	<!-- ==========[Orange]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalacePure_Yellow]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Pure">
 		<defName>Mashed_Spiribird_ApparelPetalacePure_Yellow</defName>
 		<label>petalace (pure yellow)</label>

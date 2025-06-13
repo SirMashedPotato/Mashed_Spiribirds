@@ -1,4 +1,5 @@
-﻿using Verse;
+﻿using System.Collections.Generic;
+using Verse;
 using Verse.AI;
 
 namespace Mashed_Spiribirds
@@ -8,7 +9,9 @@ namespace Mashed_Spiribirds
 
         protected override bool Satisfied(Pawn pawn)
         {
-            return !pawn.def.tradeTags.NullOrEmpty() && pawn.def.tradeTags.Contains("Mashed_Spiribird_Spiribird");
+            return animalDefs.Contains(pawn.def);
         }
+
+        public List<ThingDef> animalDefs;
     }
 }

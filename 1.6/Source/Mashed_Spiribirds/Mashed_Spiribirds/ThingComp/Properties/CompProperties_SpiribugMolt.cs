@@ -5,10 +5,7 @@ namespace Mashed_Spiribirds
 {
     public class CompProperties_SpiribugMolt : CompProperties
     {
-        public CompProperties_SpiribugMolt()
-        {
-            this.compClass = typeof(Comp_SpiribugMolt);
-        }
+        public CompProperties_SpiribugMolt() => compClass = typeof(Comp_SpiribugMolt);
 
         public ThingDef thingDef;
         public RecordDef recordDef;

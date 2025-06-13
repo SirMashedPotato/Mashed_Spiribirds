@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- ==========[Base]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalaceBase_Split]========== -->
 	<ThingDef Name="Mashed_Spiribird_ApparelPetalaceBase_Split" ParentName="Mashed_Spiribird_ApparelPetalaceBase" Abstract="True">
 		<recipeMaker>
 			<skillRequirements Inherit="False">
@@ -11,7 +11,7 @@
 			</researchPrerequisites>
 		</recipeMaker>
 	</ThingDef>
-	<!-- ==========[Green/Pink]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalaceSplit_GreenPink]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Split">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_GreenPink</defName>
 		<label>petalace (green/pink)</label>
@@ -56,7 +56,7 @@
 			<Mashed_Spiribird_PollenPink>8</Mashed_Spiribird_PollenPink>
 		</costList>
 	</ThingDef>
-	<!-- ==========[Green/Red]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalaceSplit_GreenRed]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Split">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_GreenRed</defName>
 		<label>petalace (green/red)</label>
@@ -101,7 +101,7 @@
 			<Mashed_Spiribird_PollenRed>8</Mashed_Spiribird_PollenRed>
 		</costList>
 	</ThingDef>
-	<!-- ==========[Orange/Green]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalaceSplit_OrangeGreen]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Split">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_OrangeGreen</defName>
 		<label>petalace (orange/green)</label>
@@ -146,7 +146,7 @@
 			<Mashed_Spiribird_PollenGreen>8</Mashed_Spiribird_PollenGreen>
 		</costList>
 	</ThingDef>
-	<!-- ==========[Orange/Yellow]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalaceSplit_OrangeYellow]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Split">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_OrangeYellow</defName>
 		<label>petalace (orange/yellow)</label>
@@ -191,7 +191,7 @@
 			<Mashed_Spiribird_PollenYellow>8</Mashed_Spiribird_PollenYellow>
 		</costList>
 	</ThingDef>
-	<!-- ==========[Pink/Orange]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalaceSplit_PinkOrange]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Split">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_PinkOrange</defName>
 		<label>petalace (pink/orange)</label>
@@ -236,7 +236,7 @@
 			<Mashed_Spiribird_PollenOrange>8</Mashed_Spiribird_PollenOrange>
 		</costList>
 	</ThingDef>
-	<!-- ==========[Pink/Yellow]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalaceSplit_PinkYellow]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Split">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_PinkYellow</defName>
 		<label>petalace (pink/yellow)</label>
@@ -281,7 +281,7 @@
 			<Mashed_Spiribird_PollenYellow>8</Mashed_Spiribird_PollenYellow>
 		</costList>
 	</ThingDef>
-	<!-- ==========[Red/Orange]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalaceSplit_RedOrange]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Split">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_RedOrange</defName>
 		<label>petalace (red/orange)</label>
@@ -326,7 +326,7 @@
 			<Mashed_Spiribird_PollenOrange>8</Mashed_Spiribird_PollenOrange>
 		</costList>
 	</ThingDef>
-	<!-- ==========[Red/Pink]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalaceSplit_RedPink]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Split">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_RedPink</defName>
 		<label>petalace (red/pink)</label>
@@ -371,7 +371,7 @@
 			<Mashed_Spiribird_PollenPink>8</Mashed_Spiribird_PollenPink>
 		</costList>
 	</ThingDef>
-	<!-- ==========[Yellow/Red]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalaceSplit_YellowRed]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Split">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_YellowRed</defName>
 		<label>petalace (yellow/red)</label>
@@ -416,7 +416,7 @@
 			<Mashed_Spiribird_PollenRed>8</Mashed_Spiribird_PollenRed>
 		</costList>
 	</ThingDef>
-	<!-- ==========[Yellow/Green]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalaceSplit_YellowGreen]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Split">
 		<defName>Mashed_Spiribird_ApparelPetalaceSplit_YellowGreen</defName>
 		<label>petalace (yellow/green)</label>

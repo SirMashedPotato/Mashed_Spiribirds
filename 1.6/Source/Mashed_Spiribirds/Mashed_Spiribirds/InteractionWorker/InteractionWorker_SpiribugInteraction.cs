@@ -8,7 +8,7 @@ namespace Mashed_Spiribirds
     {
 		public override void Interacted(Pawn initiator, Pawn recipient, List<RulePackDef> extraSentencePacks, out string letterText, out string letterLabel, out LetterDef letterDef, out LookTargets lookTargets)
 		{
-			this.ProgressMolt(initiator, recipient);
+			ProgressMolt(initiator, recipient);
 			letterText = null;
 			letterLabel = null;
 			letterDef = null;
@@ -23,7 +23,7 @@ namespace Mashed_Spiribirds
                 if (moltComp != null && !target.apparel.WornApparel.NullOrEmpty())
                 {
                     Apparel petalace = target.apparel.WornApparel.Find(x => x.def.thingCategories.Contains(ThingCategoryDefOf.Mashed_Spiribird_ApparelPetalace));
-                    var petalaceProps = PetalaceProperties.Get(petalace.def);
+                    PetalaceProperties petalaceProps = PetalaceProperties.Get(petalace.def);
                     if (petalaceProps != null)
                     {
                         petalace.TryGetQuality(out QualityCategory qc);

@@ -14,34 +14,33 @@ namespace Mashed_Spiribirds
 				return false;
 			}
 			Map map = (Map)parms.target;
-            return map.weatherManager.growthSeasonMemory.GrowthSeasonOutdoorsNow && this.TryFindRootCell(map, out IntVec3 intVec);
+            if (!PlantUtility.GrowthSeasonNow(map, ThingDefOf.Mashed_Spiribird_Spiribush))
+            {
+                return false;
+            }
+            return TryFindRootCell(map, out _);
         }
 
 		protected override bool TryExecuteWorker(IncidentParms parms)
 		{
 			Map map = (Map)parms.target;
-			IntVec3 intVec;
-			if (!this.TryFindRootCell(map, out intVec))
-			{
-				return false;
-			}
-			Thing thing = null;
+            if (!TryFindRootCell(map, out IntVec3 intVec))
+            {
+                return false;
+            }
+            Thing thing = null;
 			int randomInRange = CountRange.RandomInRange;
 			for (int i = 0; i < randomInRange; i++)
 			{
 				IntVec3 root = intVec;
 				Map map2 = map;
 				int radius = SpawnRadius;
-				IntVec3 intVec2;
-				if (!CellFinder.TryRandomClosewalkCellNear(root, map2, radius, out intVec2, (IntVec3 x) => this.CanSpawnAt(x, map)))
-				{
-					break;
-				}
-				Plant plant = intVec2.GetPlant(map);
-				if (plant != null)
-				{
-					plant.Destroy(DestroyMode.Vanish);
-				}
+                if (!CellFinder.TryRandomClosewalkCellNear(root, map2, radius, out IntVec3 intVec2, (IntVec3 x) => CanSpawnAt(x, map)))
+                {
+                    break;
+                }
+                Plant plant = intVec2.GetPlant(map);
+				plant?.Destroy(DestroyMode.Vanish);
 				Thing thing2 = GenSpawn.Spawn(ThingDefOf.Mashed_Spiribird_Spiribush, intVec2, map, WipeMode.Vanish);
 				if (thing == null)
 				{
@@ -52,7 +51,7 @@ namespace Mashed_Spiribirds
 			{
 				return false;
 			}
-			base.SendStandardLetter(parms, thing, Array.Empty<NamedArgument>());
+			SendStandardLetter(parms, thing, Array.Empty<NamedArgument>());
 			return true;
 		}
 
@@ -63,7 +62,7 @@ namespace Mashed_Spiribirds
 
 		private bool CanSpawnAt(IntVec3 c, Map map)
 		{
-			if (!c.Standable(map) || c.Fogged(map) || map.fertilityGrid.FertilityAt(c) < ThingDefOf.Mashed_Spiribird_Spiribush.plant.fertilityMin || !c.GetRoom(map).PsychologicallyOutdoors || c.GetEdifice(map) != null || !PlantUtility.GrowthSeasonNow(c, map, false))
+			if (!c.Standable(map) || c.Fogged(map) || map.fertilityGrid.FertilityAt(c) < ThingDefOf.Mashed_Spiribird_Spiribush.plant.fertilityMin || !c.GetRoom(map).PsychologicallyOutdoors || c.GetEdifice(map) != null || !PlantUtility.GrowthSeasonNow(map, ThingDefOf.Mashed_Spiribird_Spiribush))
 			{
 				return false;
 			}
@@ -84,9 +83,7 @@ namespace Mashed_Spiribirds
 		}
 
 		private static readonly IntRange CountRange = new IntRange(10, 20);
-
 		private const int MinRoomCells = 64;
-
 		private const int SpawnRadius = 6;
 	}
 }

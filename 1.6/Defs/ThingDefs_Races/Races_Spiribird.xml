@@ -12,11 +12,9 @@
 			<LeatherAmount>0</LeatherAmount>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
 			<FilthRate>1</FilthRate>
+			<Wildness>0.3</Wildness>
 			<Mashed_Ashlands_AshResistance MayRequire="SirMashedPotato.Ashlands">1</Mashed_Ashlands_AshResistance>
 		</statBases>
-		<comps>
-			<li Class="AnimalBehaviours.CompProperties_Floating" MayRequire="oskarpotocki.vanillafactionsexpanded.core"/>
-		</comps>
 		<race>
 			<body>Bird</body>
 			<baseHungerRate>0.15</baseHungerRate>
@@ -24,14 +22,20 @@
 			<baseHealthScale>0.15</baseHealthScale>
 			<foodType>VegetarianAnimal</foodType>
 			<trainability>None</trainability>
-			<wildness>0.3</wildness>
 			<roamMtbDays>7</roamMtbDays>
 			<mateMtbHours>8</mateMtbHours>
-			<lifeExpectancy>2</lifeExpectancy>
 			<useMeatFrom>Cassowary</useMeatFrom>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<canBePredatorPrey>false</canBePredatorPrey>
 			<canBecomeShambler>false</canBecomeShambler>
+			<lifeExpectancy>2</lifeExpectancy>
+			<canCrossBreedWith>
+				<li>Mashed_Spiribird_SpiribirdGreen</li>
+				<li>Mashed_Spiribird_SpiribirdOrange</li>
+				<li>Mashed_Spiribird_SpiribirdPink</li>
+				<li>Mashed_Spiribird_SpiribirdRed</li>
+				<li>Mashed_Spiribird_SpiribirdYellow</li>
+			</canCrossBreedWith>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBabyTiny</def>
@@ -86,7 +90,7 @@
 		<ecoSystemWeight>0.1</ecoSystemWeight>
 		<canArriveManhunter>false</canArriveManhunter>
 	</PawnKindDef>
-	<!-- ==========[Green]========== -->
+	<!-- ==========[Mashed_Spiribird_SpiribirdGreen]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
 		<defName>Mashed_Spiribird_SpiribirdGreen</defName>
 		<label>green spiribird</label>
@@ -101,10 +105,11 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>Mashed_Spiribird_EggGreenFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>Mashed_Spiribird_EggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>2</eggLayIntervalDays>
-				<eggCountRange>1</eggCountRange>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1</eggCountRange>
 			</li>
 			<li Class="CompProperties_Milkable">
 				<milkDef>Mashed_Spiribird_PollenGreen</milkDef>
@@ -156,7 +161,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	<!-- ==========[Orange]========== -->
+	<!-- ==========[Mashed_Spiribird_SpiribirdOrange]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
 		<defName>Mashed_Spiribird_SpiribirdOrange</defName>
 		<label>orange spiribird</label>
@@ -171,10 +176,11 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>Mashed_Spiribird_EggOrangeFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>Mashed_Spiribird_EggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>2</eggLayIntervalDays>
-				<eggCountRange>1</eggCountRange>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1</eggCountRange>
 			</li>
 			<li Class="CompProperties_Milkable">
 				<milkDef>Mashed_Spiribird_PollenOrange</milkDef>
@@ -226,7 +232,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	<!-- ==========[Pink]========== -->
+	<!-- ==========[Mashed_Spiribird_SpiribirdPink]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
 		<defName>Mashed_Spiribird_SpiribirdPink</defName>
 		<label>pink spiribird</label>
@@ -241,10 +247,11 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>Mashed_Spiribird_EggPinkFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>Mashed_Spiribird_EggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>2</eggLayIntervalDays>
-				<eggCountRange>1</eggCountRange>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1</eggCountRange>
 			</li>
 			<li Class="CompProperties_Milkable">
 				<milkDef>Mashed_Spiribird_PollenPink</milkDef>
@@ -296,7 +303,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	<!-- ==========[Red]========== -->
+	<!-- ==========[Mashed_Spiribird_SpiribirdRed]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
 		<defName>Mashed_Spiribird_SpiribirdRed</defName>
 		<label>red spiribird</label>
@@ -311,10 +318,11 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>Mashed_Spiribird_EggRedFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>Mashed_Spiribird_EggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>2</eggLayIntervalDays>
-				<eggCountRange>1</eggCountRange>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1</eggCountRange>
 			</li>
 			<li Class="CompProperties_Milkable">
 				<milkDef>Mashed_Spiribird_PollenRed</milkDef>
@@ -366,7 +374,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	<!-- ==========[Yellow]========== -->
+	<!-- ==========[Mashed_Spiribird_SpiribirdYellow]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
 		<defName>Mashed_Spiribird_SpiribirdYellow</defName>
 		<label>yellow spiribird</label>
@@ -381,10 +389,11 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>Mashed_Spiribird_EggYellowFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>Mashed_Spiribird_EggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>2</eggLayIntervalDays>
-				<eggCountRange>1</eggCountRange>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1</eggCountRange>
 			</li>
 			<li Class="CompProperties_Milkable">
 				<milkDef>Mashed_Spiribird_PollenYellow</milkDef>
@@ -436,7 +445,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	<!-- ==========[Prism]========== -->
+	<!-- ==========[Mashed_Spiribird_SpiribirdPrism]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
 		<defName>Mashed_Spiribird_SpiribirdPrism</defName>
 		<label>prism spiribird</label>
@@ -461,10 +470,11 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>Mashed_Spiribird_EggPrismFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>Mashed_Spiribird_EggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>2</eggLayIntervalDays>
-				<eggCountRange>1</eggCountRange>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1</eggCountRange>
 			</li>
 			<li Class="CompProperties_Milkable">
 				<milkDef>Mashed_Spiribird_PollenPrism</milkDef>
@@ -475,6 +485,7 @@
 		</comps>
 		<race>
 			<baseBodySize>0.15</baseBodySize>
+			<canCrossBreedWith Inherit="False"/>
 		</race>
 	</ThingDef>
 	<PawnKindDef ParentName="Mashed_Spiribird_SpiribirdKindBase">

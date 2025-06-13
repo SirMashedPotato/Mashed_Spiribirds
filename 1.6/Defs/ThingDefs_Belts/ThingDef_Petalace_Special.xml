@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- ==========[Base]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalaceBase_Special]========== -->
 	<ThingDef Name="Mashed_Spiribird_ApparelPetalaceBase_Special" ParentName="Mashed_Spiribird_ApparelPetalaceBase" Abstract="True">
 		<recipeMaker>
 			<skillRequirements Inherit="False">
@@ -11,7 +11,7 @@
 			</researchPrerequisites>
 		</recipeMaker>
 	</ThingDef>
-	<!-- ==========[Prism]========== -->
+	<!-- ==========[Mashed_Spiribird_ApparelPetalacePrism]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_ApparelPetalaceBase_Special">
 		<defName>Mashed_Spiribird_ApparelPetalacePrism</defName>
 		<label>petalace (prism)</label>

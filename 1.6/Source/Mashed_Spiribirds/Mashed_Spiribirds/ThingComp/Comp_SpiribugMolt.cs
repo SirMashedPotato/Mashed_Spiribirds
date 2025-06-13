@@ -5,13 +5,7 @@ namespace Mashed_Spiribirds
 {
     public class Comp_SpiribugMolt : ThingComp
     {
-		public CompProperties_SpiribugMolt Props
-		{
-			get
-			{
-				return (CompProperties_SpiribugMolt)this.props;
-			}
-		}
+		public CompProperties_SpiribugMolt Props => (CompProperties_SpiribugMolt)props;
 
 		private float currentProgress = 0f;
 

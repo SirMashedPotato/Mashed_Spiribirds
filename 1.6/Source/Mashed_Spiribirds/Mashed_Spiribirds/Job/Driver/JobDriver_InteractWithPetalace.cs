@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Verse;
 using Verse.AI;
 using RimWorld;
@@ -22,20 +21,20 @@ namespace Mashed_Spiribirds
             this.FailOnDespawnedNullOrForbidden(TargetIndex.A);
             this.FailOnNotCasualInterruptible(TargetIndex.A);
             yield return Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.Touch);
-            yield return Toils_Interpersonal.WaitToBeAbleToInteract(this.pawn);
+            yield return Toils_Interpersonal.WaitToBeAbleToInteract(pawn);
             Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.Touch).socialMode = RandomSocialMode.Off;
             Toils_General.WaitWith(TargetIndex.A, DurationTicks, false, true).socialMode = RandomSocialMode.Off;
             yield return Toils_General.Do(delegate
             {
-                Pawn recipient = (Pawn)this.pawn.CurJob.targetA.Thing;
-                if (PawnIsSpiribug(this.pawn))
+                Pawn recipient = (Pawn)pawn.CurJob.targetA.Thing;
+                if (PawnIsSpiribug(pawn))
                 {
                     InteractionDef def = DefDatabase<InteractionDef>.GetNamed("Mashed_Spiribug_SpiribugInteraction");
-                    this.pawn.interactions.TryInteractWith(recipient, def);
+                    pawn.interactions.TryInteractWith(recipient, def);
                 }
                 else
                 {
-                    this.pawn.interactions.TryInteractWith(recipient, InteractionDefOf.Mashed_Spiribird_SpiribirdInteraction);
+                    pawn.interactions.TryInteractWith(recipient, InteractionDefOf.Mashed_Spiribird_SpiribirdInteraction);
                 }
             });
             yield break;

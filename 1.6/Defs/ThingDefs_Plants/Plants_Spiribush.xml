@@ -18,47 +18,13 @@
 				<chanceWild>0.15</chanceWild>
 				<chanceSown>0.05</chanceSown>
 				<spirbushSpawns>
-					<li>
-						<kindDef>Mashed_Spiribird_SpiribirdGreen</kindDef>
-						<weight>5</weight>
-					</li>
-					<li>
-						<kindDef>Mashed_Spiribird_SpiribirdOrange</kindDef>
-						<weight>5</weight>
-					</li>
-					<li>
-						<kindDef>Mashed_Spiribird_SpiribirdPink</kindDef>
-						<weight>5</weight>
-					</li>
-					<li>
-						<kindDef>Mashed_Spiribird_SpiribirdRed</kindDef>
-						<weight>5</weight>
-					</li>
-					<li>
-						<kindDef>Mashed_Spiribird_SpiribirdYellow</kindDef>
-						<weight>5</weight>
-					</li>
-					<li>
-						<kindDef>Mashed_Spiribird_SpiribirdPrism</kindDef>
-						<weight>1</weight>
-					</li>
-					<!-- =====[Spiribugs]===== -->
-					<li MayRequire="SirMashedPotato.Spiribugs">
-						<kindDef>Mashed_Spiribug_SpiribugSilver</kindDef>
-						<weight>5</weight>
-					</li>
-					<li MayRequire="SirMashedPotato.Spiribugs">
-						<kindDef>Mashed_Spiribug_SpiribugJade</kindDef>
-						<weight>3</weight>
-					</li>
-					<li MayRequire="SirMashedPotato.Spiribugs">
-						<kindDef>Mashed_Spiribug_SpiribugGold</kindDef>
-						<weight>1</weight>
-					</li>
+					<Mashed_Spiribird_SpiribirdGreen>5</Mashed_Spiribird_SpiribirdGreen>
+					<Mashed_Spiribird_SpiribirdOrange>5</Mashed_Spiribird_SpiribirdOrange>
+					<Mashed_Spiribird_SpiribirdPink>5</Mashed_Spiribird_SpiribirdPink>
+					<Mashed_Spiribird_SpiribirdRed>5</Mashed_Spiribird_SpiribirdRed>
+					<Mashed_Spiribird_SpiribirdYellow>5</Mashed_Spiribird_SpiribirdYellow>
+					<Mashed_Spiribird_SpiribirdPrism>1</Mashed_Spiribird_SpiribirdPrism>
 				</spirbushSpawns>
-			</li>
-			<li Class="MorrowRim.ExtendedRaceProperties" MayRequire="SirMashedPotato.MorrowRim">
-				<ashResistant>Resistant</ashResistant>
 			</li>
 		</modExtensions>
 		<statBases>
@@ -83,6 +49,10 @@
 		<plant>
 			<fertilityMin>0.5</fertilityMin>
 			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<minOptimalGrowthTemperature>-10</minOptimalGrowthTemperature>
+			<maxOptimalGrowthTemperature>50</maxOptimalGrowthTemperature>
+			<minGrowthTemperature>-20</minGrowthTemperature>
+			<maxGrowthTemperature>60</maxGrowthTemperature>
 			<growDays>8</growDays>
 			<immatureGraphicPath>Things/Plant/Mashed_Spiribird_Spiribush_Immature</immatureGraphicPath>
 			<harvestYield>1</harvestYield>
@@ -95,7 +65,6 @@
 			<visualSizeRange>0.95~1.7</visualSizeRange>
 			<topWindExposure>0.3</topWindExposure>
 			<wildOrder>2</wildOrder>
-			<!-- sowing -->
 			<sowTags>
 				<li>Ground</li>
 			</sowTags>

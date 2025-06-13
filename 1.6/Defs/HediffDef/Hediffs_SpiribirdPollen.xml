@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- ==========[Base]========== -->
+	<!-- ==========[Mashed_Spiribird_PollenHediffBase]========== -->
 	<HediffDef Name="Mashed_Spiribird_PollenHediffBase" Abstract="True">
 		<hediffClass>Hediff_High</hediffClass>
 		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
@@ -14,7 +14,7 @@
 			</li>
 		</comps>
 	</HediffDef>
-	<!-- ==========[Green]========== -->
+	<!-- ==========[Mashed_Spiribird_SpiribirdPollenGreen]========== -->
 	<HediffDef ParentName="Mashed_Spiribird_PollenHediffBase">
 		<defName>Mashed_Spiribird_SpiribirdPollenGreen</defName>
 		<label>spiribird pollen (green)</label>
@@ -127,7 +127,7 @@
 			</li>
 		</stages>
 	</HediffDef>
-	<!-- ==========[Orange]========== -->
+	<!-- ==========[Mashed_Spiribird_SpiribirdPollenOrange]========== -->
 	<HediffDef ParentName="Mashed_Spiribird_PollenHediffBase">
 		<defName>Mashed_Spiribird_SpiribirdPollenOrange</defName>
 		<label>spiribird pollen (orange)</label>
@@ -240,7 +240,7 @@
 			</li>
 		</stages>
 	</HediffDef>
-	<!-- ==========[Pink]========== -->
+	<!-- ==========[Mashed_Spiribird_SpiribirdPollenPink]========== -->
 	<HediffDef ParentName="Mashed_Spiribird_PollenHediffBase">
 		<defName>Mashed_Spiribird_SpiribirdPollenPink</defName>
 		<label>spiribird pollen (pink)</label>
@@ -353,7 +353,7 @@
 			</li>
 		</stages>
 	</HediffDef>
-	<!-- ==========[Red]========== -->
+	<!-- ==========[Mashed_Spiribird_SpiribirdPollenRed]========== -->
 	<HediffDef ParentName="Mashed_Spiribird_PollenHediffBase">
 		<defName>Mashed_Spiribird_SpiribirdPollenRed</defName>
 		<label>spiribird pollen (red)</label>
@@ -466,7 +466,7 @@
 			</li>
 		</stages>
 	</HediffDef>
-	<!-- ==========[Yellow]========== -->
+	<!-- ==========[Mashed_Spiribird_SpiribirdPollenYellow]========== -->
 	<HediffDef ParentName="Mashed_Spiribird_PollenHediffBase">
 		<defName>Mashed_Spiribird_SpiribirdPollenYellow</defName>
 		<label>spiribird pollen (yellow)</label>
