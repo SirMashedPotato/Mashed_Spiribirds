@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Base]========== -->
+	<RecipeDef Name="Mashed_Spiribird_CreatePollenBase" Abstract="True">
+		<jobString>Creating spiribird pollen.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>250</workAmount>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<recipeUsers>
+			<li>Mashed_Spiribird_TablePetalace</li>
+		</recipeUsers>
+		<workSkill>Plants</workSkill>
+		<skillRequirements>
+			<Intellectual>4</Intellectual>
+		</skillRequirements>
+	</RecipeDef>
+	<!-- ==========[Green]========== -->
+	<RecipeDef ParentName="Mashed_Spiribird_CreatePollenBase">
+		<defName>Mashed_Spiribird_CreatePollenGreen</defName>
+		<label>create green spiribird pollen</label>
+		<description>Create 4 green spiribird pollen from 1 prism spiribird pollen.</description>
+		<jobString>Creating green spiribird pollen.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mashed_Spiribird_PollenPrism</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mashed_Spiribird_PollenPrism</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mashed_Spiribird_PollenGreen>4</Mashed_Spiribird_PollenGreen>
+		</products>
+	</RecipeDef>
+	<!-- ==========[Orange]========== -->
+	<RecipeDef ParentName="Mashed_Spiribird_CreatePollenBase">
+		<defName>Mashed_Spiribird_CreatePollenOrange</defName>
+		<label>create orange spiribird pollen</label>
+		<description>Create 4 orange spiribird pollen from 1 prism spiribird pollen.</description>
+		<jobString>Creating orange spiribird pollen.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mashed_Spiribird_PollenPrism</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mashed_Spiribird_PollenPrism</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mashed_Spiribird_PollenOrange>4</Mashed_Spiribird_PollenOrange>
+		</products>
+	</RecipeDef>
+	<!-- ==========[Pink]========== -->
+	<RecipeDef ParentName="Mashed_Spiribird_CreatePollenBase">
+		<defName>Mashed_Spiribird_CreatePollenPink</defName>
+		<label>create pink spiribird pollen</label>
+		<description>Create 4 pink spiribird pollen from 1 prism spiribird pollen.</description>
+		<jobString>Creating pink spiribird pollen.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mashed_Spiribird_PollenPrism</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mashed_Spiribird_PollenPrism</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mashed_Spiribird_PollenPink>4</Mashed_Spiribird_PollenPink>
+		</products>
+	</RecipeDef>
+	<!-- ==========[Red]========== -->
+	<RecipeDef ParentName="Mashed_Spiribird_CreatePollenBase">
+		<defName>Mashed_Spiribird_CreatePollenRed</defName>
+		<label>create red spiribird pollen</label>
+		<description>Create 4 red spiribird pollen from 1 prism spiribird pollen.</description>
+		<jobString>Creating red spiribird pollen.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mashed_Spiribird_PollenPrism</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mashed_Spiribird_PollenPrism</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mashed_Spiribird_PollenRed>4</Mashed_Spiribird_PollenRed>
+		</products>
+	</RecipeDef>
+	<!-- ==========[Yellow]========== -->
+	<RecipeDef ParentName="Mashed_Spiribird_CreatePollenBase">
+		<defName>Mashed_Spiribird_CreatePollenYellow</defName>
+		<label>create yellow spiribird pollen</label>
+		<description>Create 4 yellow spiribird pollen from 1 prism spiribird pollen.</description>
+		<jobString>Creating yellow spiribird pollen.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mashed_Spiribird_PollenPrism</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mashed_Spiribird_PollenPrism</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mashed_Spiribird_PollenYellow>4</Mashed_Spiribird_PollenYellow>
+		</products>
+	</RecipeDef>
+</Defs>

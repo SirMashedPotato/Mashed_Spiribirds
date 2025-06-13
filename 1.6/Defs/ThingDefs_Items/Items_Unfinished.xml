@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>Mashed_Spiribird_UnfinishedPetalace</defName>
+		<label>unfinished petalace</label>
+		<description>An unfinished petalace.</description>
+		<statBases>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Unfinished/Mashed_Petalace_Unfinished</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories Inherit="false"/>
+	</ThingDef>
+</Defs>
