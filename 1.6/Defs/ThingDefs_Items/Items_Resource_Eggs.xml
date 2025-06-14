@@ -9,22 +9,18 @@
 		<statBases>
 			<MarketValue>7</MarketValue>
 		</statBases>
-		<comps>
-		</comps>
 	</ThingDef>
 	<!-- ==========[Unfertilized]========== -->
 	<ThingDef ParentName="EggUnfertBase">
 		<defName>Mashed_Spiribird_EggUnfertilized</defName>
 		<label>spiribird egg (unfert.)</label>
-		<description>A unfertilised spiribird egg. It can be eaten raw, but it's much better cooked.</description>
+		<description>An unfertilised spiribird egg. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/Mashed_SpiribirdEggs</texPath>
 		</graphicData>
 		<statBases>
 			<MarketValue>5</MarketValue>
 		</statBases>
-		<comps>
-		</comps>
 	</ThingDef>
 	<!-- ==========[Green]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_EggBase">
