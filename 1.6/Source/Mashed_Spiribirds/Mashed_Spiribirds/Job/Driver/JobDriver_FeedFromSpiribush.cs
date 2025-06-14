@@ -16,16 +16,14 @@ namespace Mashed_Spiribirds
         {
             this.FailOnDespawnedOrNull(TargetIndex.A);
             yield return Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.Touch);
-            Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.Touch);
-            Toils_General.WaitWith(TargetIndex.A, DurationTicks, false, true);
+            Toil toilWait = Toils_General.WaitWith(TargetIndex.A, DurationTicks, false, true);
+            toilWait.WithProgressBarToilDelay(TargetIndex.A);
+            yield return toilWait;
             yield return Toils_General.Do(delegate
             {
-                this.pawn.needs.TryGetNeed(NeedDefOf.Food).CurLevel = this.pawn.needs.TryGetNeed(NeedDefOf.Food).MaxLevel;
-                Comp_SpiribugMolt moltComp = this.pawn.TryGetComp<Comp_SpiribugMolt>();
-                if (moltComp != null)
-                {
-                    moltComp.IncrementProgress(0.01f);
-                }
+                pawn.needs.TryGetNeed(NeedDefOf.Food).CurLevel = pawn.needs.TryGetNeed(NeedDefOf.Food).MaxLevel;
+                Comp_SpiribugMolt moltComp = pawn.TryGetComp<Comp_SpiribugMolt>();
+                moltComp?.IncrementProgress(0.01f);
             });
             yield break;
         }
