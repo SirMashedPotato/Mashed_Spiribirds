@@ -6,6 +6,9 @@
 		<driverClass>Mashed_Spiribirds.JobDriver_InteractWithPetalace</driverClass>
 		<reportString>interacting with petalace worn by TargetA.</reportString>
 		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+		<tryStartFlying>true</tryStartFlying>
+		<ifFlyingKeepFlying>true</ifFlyingKeepFlying>
+		<overrideFlyChance>1</overrideFlyChance>
 	</JobDef>
 	<!-- ==========[Mashed_Spiribirds_FeedFromSpiribush]========== -->
 	<JobDef>
@@ -14,5 +17,8 @@
 		<reportString>feeding from spiribush.</reportString>
 		<casualInterruptible>false</casualInterruptible>
 		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+		<tryStartFlying>true</tryStartFlying>
+		<ifFlyingKeepFlying>true</ifFlyingKeepFlying>
+		<overrideFlyChance>1</overrideFlyChance>
 	</JobDef>
 </Defs>
