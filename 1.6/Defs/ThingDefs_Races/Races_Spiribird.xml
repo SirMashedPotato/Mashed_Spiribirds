@@ -13,6 +13,8 @@
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
 			<FilthRate>1</FilthRate>
 			<Wildness>0.3</Wildness>
+			<MaxFlightTime>300</MaxFlightTime>
+			<FlightCooldown>0</FlightCooldown>
 			<Mashed_Ashlands_AshResistance MayRequire="SirMashedPotato.Ashlands">1</Mashed_Ashlands_AshResistance>
 		</statBases>
 		<race>
@@ -25,6 +27,10 @@
 			<roamMtbDays>7</roamMtbDays>
 			<mateMtbHours>8</mateMtbHours>
 			<useMeatFrom>Cassowary</useMeatFrom>
+			<flightStartChanceOnJobStart>1</flightStartChanceOnJobStart>
+			<canFlyIntoMap>true</canFlyIntoMap>
+			<canLeaveMapFlying>true</canLeaveMapFlying>
+			<leaveMapOnFleeChance>0.25</leaveMapOnFleeChance>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<canBePredatorPrey>false</canBePredatorPrey>
 			<canBecomeShambler>false</canBecomeShambler>
@@ -89,6 +95,8 @@
 		<combatPower>1</combatPower>
 		<ecoSystemWeight>0.1</ecoSystemWeight>
 		<canArriveManhunter>false</canArriveManhunter>
+		<flyingAnimationFrameCount>4</flyingAnimationFrameCount>
+		<flyingAnimationTicksPerFrame>3</flyingAnimationTicksPerFrame>
 	</PawnKindDef>
 	<!-- ==========[Mashed_Spiribird_SpiribirdGreen]========== -->
 	<ThingDef ParentName="Mashed_Spiribird_SpiribirdThingBase">
@@ -123,11 +131,12 @@
 		<defName>Mashed_Spiribird_SpiribirdGreen</defName>
 		<label>green spiribird</label>
 		<race>Mashed_Spiribird_SpiribirdGreen</race>
+		<flyingAnimationFramePathPrefix>Things/Pawn/Animal/Mashed_Spiritbird/Flying/Mashed_Spiribird_GreenFlying_</flyingAnimationFramePathPrefix>
 		<lifeStages>
 			<li>
 				<label>green spiribird chick</label>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Chick</texPath>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Green</texPath>
 					<drawSize>0.45</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -194,11 +203,12 @@
 		<defName>Mashed_Spiribird_SpiribirdOrange</defName>
 		<label>orange spiribird</label>
 		<race>Mashed_Spiribird_SpiribirdOrange</race>
+		<flyingAnimationFramePathPrefix>Things/Pawn/Animal/Mashed_Spiritbird/Flying/Mashed_Spiribird_OrangeFlying_</flyingAnimationFramePathPrefix>
 		<lifeStages>
 			<li>
 				<label>orange spiribird chick</label>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Chick</texPath>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Orange</texPath>
 					<drawSize>0.45</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -265,11 +275,12 @@
 		<defName>Mashed_Spiribird_SpiribirdPink</defName>
 		<label>pink spiribird</label>
 		<race>Mashed_Spiribird_SpiribirdPink</race>
+		<flyingAnimationFramePathPrefix>Things/Pawn/Animal/Mashed_Spiritbird/Flying/Mashed_Spiribird_PinkFlying_</flyingAnimationFramePathPrefix>
 		<lifeStages>
 			<li>
 				<label>pink spiribird chick</label>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Chick</texPath>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Pink</texPath>
 					<drawSize>0.45</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -336,11 +347,12 @@
 		<defName>Mashed_Spiribird_SpiribirdRed</defName>
 		<label>red spiribird</label>
 		<race>Mashed_Spiribird_SpiribirdRed</race>
+		<flyingAnimationFramePathPrefix>Things/Pawn/Animal/Mashed_Spiritbird/Flying/Mashed_Spiribird_RedFlying_</flyingAnimationFramePathPrefix>
 		<lifeStages>
 			<li>
 				<label>red spiribird chick</label>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Chick</texPath>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Red</texPath>
 					<drawSize>0.45</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -407,11 +419,12 @@
 		<defName>Mashed_Spiribird_SpiribirdYellow</defName>
 		<label>yellow spiribird</label>
 		<race>Mashed_Spiribird_SpiribirdYellow</race>
+		<flyingAnimationFramePathPrefix>Things/Pawn/Animal/Mashed_Spiritbird/Flying/Mashed_Spiribird_YellowFlying_</flyingAnimationFramePathPrefix>
 		<lifeStages>
 			<li>
 				<label>yellow spiribird chick</label>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Chick</texPath>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Yellow</texPath>
 					<drawSize>0.45</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -492,11 +505,12 @@
 		<defName>Mashed_Spiribird_SpiribirdPrism</defName>
 		<label>prism spiribird</label>
 		<race>Mashed_Spiribird_SpiribirdPrism</race>
+		<flyingAnimationFramePathPrefix>Things/Pawn/Animal/Mashed_Spiritbird/Flying/Mashed_Spiribird_PrismFlying_</flyingAnimationFramePathPrefix>
 		<lifeStages>
 			<li>
 				<label>prism spiribird chick</label>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Chick</texPath>
+					<texPath>Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Prism</texPath>
 					<drawSize>0.6</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
