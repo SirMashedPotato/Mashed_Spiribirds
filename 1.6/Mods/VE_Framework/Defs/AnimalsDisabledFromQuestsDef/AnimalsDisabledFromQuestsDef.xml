@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.AnimalBehaviours.AnimalsDisabledFromQuestsDef>
+		<defName>Mashed_Spiribird_DisabledQuestAnimals</defName>
+		<disabledFromQuestsPawns>
+			<li>Mashed_Spiribird_SpiribirdGreen</li>
+			<li>Mashed_Spiribird_SpiribirdOrange</li>
+			<li>Mashed_Spiribird_SpiribirdPink</li>
+			<li>Mashed_Spiribird_SpiribirdRed</li>
+			<li>Mashed_Spiribird_SpiribirdYellow</li>
+			<li>Mashed_Spiribird_SpiribirdPrism</li>
+		</disabledFromQuestsPawns>
+	</VEF.AnimalBehaviours.AnimalsDisabledFromQuestsDef>
+</Defs>

@@ -24,7 +24,7 @@
 	<v1.6>
 		<li>Common</li>
 		<li>1.6</li>
-		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">Mods/VE_Framework</li>
+		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">1.6/Mods/VE_Framework</li>
 		<li IfModActive="owlchemist.seedspleaselite,evyatar108.seedspleaseliteredux">Mods/SeedsPleaseLite</li>
 		<li IfModActive="vanillaexpanded.achievements">Mods/VE_Achievements</li>
 	</v1.6>
