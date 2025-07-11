@@ -53,6 +53,8 @@
 			<maxOptimalGrowthTemperature>50</maxOptimalGrowthTemperature>
 			<minGrowthTemperature>-20</minGrowthTemperature>
 			<maxGrowthTemperature>60</maxGrowthTemperature>
+			<growMinGlow>0.4</growMinGlow>
+			<growOptimalGlow>1</growOptimalGlow>
 			<growDays>8</growDays>
 			<immatureGraphicPath>Things/Plant/Mashed_Spiribird_Spiribush_Immature</immatureGraphicPath>
 			<harvestYield>1</harvestYield>
