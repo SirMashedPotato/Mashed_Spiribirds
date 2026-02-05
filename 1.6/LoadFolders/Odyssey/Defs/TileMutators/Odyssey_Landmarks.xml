@@ -12,7 +12,7 @@
 		<mutatorChances>
 			<Mashed_Spiribird_SpiribushGrove Required="True"/>
 			<Mashed_Spiribird_SpiribirdHabitat>1</Mashed_Spiribird_SpiribirdHabitat>
-			<Mashed_Spiribird_SpiribugHabitat MayRequire="sirmashedpotato.spiribugs">1</Mashed_Spiribird_SpiribugHabitat>
+			<Mashed_Spiribug_SpiribugHabitat MayRequire="sirmashedpotato.spiribugs">0.5</Mashed_Spiribug_SpiribugHabitat>
 			<AnimalLife_Increased>0.1</AnimalLife_Increased>
 			<PlantLife_Increased>0.1</PlantLife_Increased>
 			<SunnyMutator>0.1</SunnyMutator>

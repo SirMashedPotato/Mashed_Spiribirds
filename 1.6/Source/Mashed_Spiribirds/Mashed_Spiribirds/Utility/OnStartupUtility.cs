@@ -21,7 +21,7 @@ namespace Mashed_Spiribirds
                         spiribirdKinds.Add(pawnDef);
                     }
 
-                    if (pawnDef.race.tradeTags.Contains("Mashed_Spiribird_Spiribug"))
+                    if (pawnDef.race.tradeTags.Contains("Mashed_Spiribug_Spiribug"))
                     {
                         spiribugKinds.Add(pawnDef);
                     }

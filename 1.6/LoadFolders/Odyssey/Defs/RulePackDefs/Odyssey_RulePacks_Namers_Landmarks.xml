@@ -8,9 +8,7 @@
 		</include>
 		<rulePack>
 			<rulesStrings>
-				<li>r_name(p=0.2)->[NamePerson]'s sanctuary</li>
-				<li>r_name(p=0.2)->[NamePerson]'s grove</li>
-				<li>r_name(p=0.2)->[NamePerson]'s haven</li>
+				<li>r_name(p=0.2)->[NamePerson]'s spiribush sanctuary</li>
 				<li>terrain_word->spiribush sanctuary</li>
 			</rulesStrings>
 		</rulePack>

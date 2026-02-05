@@ -1,14 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<!-- ==========[Mashed_Spiribird_SpiribirdHabitat]==========-->
-	<TileMutatorDef>
+	<TileMutatorDef Name="Mashed_Spiribird_SpiribirdHabitatBase">
 		<defName>Mashed_Spiribird_SpiribirdHabitat</defName>
-		<label>spiribird habitat</label>
-		<description>This is home to a great numbers of spiribirds.</description>
+		<label>spiribird gathering</label>
+		<description>This area attracts spiribirds in great numbers.</description>
 		<workerClass>Mashed_Spiribirds.TileMutatorWorker_SpiribirdHabitat</workerClass>
-		<categories>
-			<li>Mashed_Spiribird_Habitat</li>
-		</categories>
 		<chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
 		<plantDensityRange>0.3~6</plantDensityRange>
 		<pollutionRange>0~0.25</pollutionRange>
