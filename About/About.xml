@@ -19,6 +19,7 @@
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Ideology</li>
 		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Odyssey</li>
 		<li>regrowth.botr.core</li>
 		<li>Owlchemist.SeedsPleaseLite</li>
 	</loadAfter>
