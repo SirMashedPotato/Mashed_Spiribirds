@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Mashed_Spiribird_NamerLandmark_SpiribushSanctuary]==========-->
+	<RulePackDef>
+		<defName>Mashed_Spiribird_NamerLandmark_SpiribushSanctuary</defName>
+		<include>
+			<li>WorldFeatureNamerCommon</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=0.2)->[NamePerson]'s sanctuary</li>
+				<li>r_name(p=0.2)->[NamePerson]'s grove</li>
+				<li>r_name(p=0.2)->[NamePerson]'s haven</li>
+				<li>terrain_word->spiribush sanctuary</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+</Defs>

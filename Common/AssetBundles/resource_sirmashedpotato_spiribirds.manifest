@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1870298258
+CRC: 1503510158
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7337f77ff198113382f548663f48cc78
+    Hash: 184a48a87c4c8aace6c0992c4b248f20
   TypeTreeHash:
     serializedVersion: 2
     Hash: 2612ac43db082a73502ee80f2eceb73f
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 7337f77ff198113382f548663f48cc78
+    Hash: 184a48a87c4c8aace6c0992c4b248f20
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -24,10 +24,10 @@ Assets:
 - Assets/Data/sirmashedpotato.spiribirds/Textures/Things/Item/Drug/Mashed_SpiribirdPotion_Yellow/Mashed_SpiribirdPotion_Yellow_a.png
 - Assets/Data/sirmashedpotato.spiribirds/Textures/Things/Item/Drug/Mashed_SpiribirdPotion_Red/Mashed_SpiribirdPotion_Red_b.png
 - Assets/Data/sirmashedpotato.spiribirds/Textures/Achievements/Mashed_AchievementBackground.png
-- Assets/Data/sirmashedpotato.spiribirds/Textures/Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Yellow_north.png
+- Assets/Data/sirmashedpotato.spiribirds/Textures/World/Landmarks/Mashed_Spiribird_SpiribushSanctuary.png
 - Assets/Data/sirmashedpotato.spiribirds/Textures/Things/Mote/SpeechSymbols/Mashed_SpiribirdInteraction.png
 - Assets/Data/sirmashedpotato.spiribirds/Textures/Things/Pawn/Animal/Mashed_Spiritbird/Flying/Mashed_Spiribird_OrangeFlying_4_north.png
-- Assets/Data/sirmashedpotato.spiribirds/Textures/Things/Pawn/Animal/Mashed_Spiritbird/Flying/Mashed_Spiribird_GreenFlying_4_east.png
+- Assets/Data/sirmashedpotato.spiribirds/Textures/Things/Pawn/Animal/Mashed_Spiritbird/Mashed_Spiribird_Yellow_north.png
 - Assets/Data/sirmashedpotato.spiribirds/Textures/Achievements/Mashed_AchievementSpiribirds_InteractMore.png
 - Assets/Data/sirmashedpotato.spiribirds/Textures/Things/Pawn/Animal/Mashed_Spiritbird/Flying/Mashed_Spiribird_RedFlying_1_east.png
 - Assets/Data/sirmashedpotato.spiribirds/Textures/Things/Pawn/Animal/Mashed_Spiritbird/Flying/Mashed_Spiribird_GreenFlying_1_south.png
@@ -37,6 +37,7 @@ Assets:
 - Assets/Data/sirmashedpotato.spiribirds/Textures/Things/Pawn/Animal/Mashed_Spiritbird/Flying/Mashed_Spiribird_GreenFlying_3_south.png
 - Assets/Data/sirmashedpotato.spiribirds/Textures/Things/Pawn/Animal/Mashed_Spiritbird/Flying/Mashed_Spiribird_PinkFlying_1_east.png
 - Assets/Data/sirmashedpotato.spiribirds/Textures/Things/Pawn/Animal/Mashed_Spiritbird/Flying/Mashed_Spiribird_GreenFlying_1_north.png
+- Assets/Data/sirmashedpotato.spiribirds/Textures/Things/Pawn/Animal/Mashed_Spiritbird/Flying/Mashed_Spiribird_GreenFlying_4_east.png
 - Assets/Data/sirmashedpotato.spiribirds/Textures/Things/Pawn/Animal/Mashed_Spiritbird/Flying/Mashed_Spiribird_PrismFlying_2_north.png
 - Assets/Data/sirmashedpotato.spiribirds/Textures/Things/Pawn/Animal/Mashed_Spiritbird/Flying/Mashed_Spiribird_PrismFlying_1_north.png
 - Assets/Data/sirmashedpotato.spiribirds/Textures/Things/Pawn/Animal/Mashed_Spiritbird/Flying/Mashed_Spiribird_RedFlying_4_east.png

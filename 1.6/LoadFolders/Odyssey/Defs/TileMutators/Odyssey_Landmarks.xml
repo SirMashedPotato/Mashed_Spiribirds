@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Mashed_Spiribird_SpiribushSanctuary]==========-->
+	<LandmarkDef>
+		<defName>Mashed_Spiribird_SpiribushSanctuary</defName>
+		<label>spiribush sanctuary</label>
+		<drawScale>1</drawScale>
+		<iconTexturePath>World/Landmarks/Mashed_Spiribird_SpiribushSanctuary</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>0.1</commonality>
+		<nameMaker>Mashed_Spiribird_NamerLandmark_SpiribushSanctuary</nameMaker>
+		<mutatorChances>
+			<Mashed_Spiribird_SpiribushGrove Required="True"/>
+			<Mashed_Spiribird_SpiribirdHabitat>1</Mashed_Spiribird_SpiribirdHabitat>
+			<Mashed_Spiribird_SpiribugHabitat MayRequire="sirmashedpotato.spiribugs">1</Mashed_Spiribird_SpiribugHabitat>
+			<AnimalLife_Increased>0.1</AnimalLife_Increased>
+			<PlantLife_Increased>0.1</PlantLife_Increased>
+			<SunnyMutator>0.1</SunnyMutator>
+		</mutatorChances>
+		<comboLandmarkMutators>
+			<Oasis>0.02</Oasis>
+			<Lake>0.02</Lake>
+			<LakeWithIsland>0.02</LakeWithIsland>
+			<LakeWithIslands>0.02</LakeWithIslands>
+			<Wetland>0.02</Wetland>
+			<HotSprings>0.02</HotSprings>
+			<Archipelago>0.02</Archipelago>
+			<CoastalIsland>0.02</CoastalIsland>
+			<Peninsula>0.02</Peninsula>
+			<Bay>0.02</Bay>
+			<Cove>0.02</Cove>
+			<Fjord>0.02</Fjord>
+			<CoastalAtoll>0.02</CoastalAtoll>
+			<Valley>0.02</Valley>
+			<Cavern>0.02</Cavern>
+			<Chasm>0.02</Chasm>
+			<Plateau>0.02</Plateau>
+			<Cliffs>0.02</Cliffs>
+			<Hollow>0.02</Hollow>
+			<Basin>0.02</Basin>
+			<AbandonedColonyTribal>0.02</AbandonedColonyTribal>
+			<!-- Aslands -->
+			<Mashed_Ashlands_AncientLavaFlow MayRequire="sirmashedpotato.ashlands">0.02</Mashed_Ashlands_AncientLavaFlow>
+			<Mashed_Ashlands_SulphuricPond MayRequire="sirmashedpotato.ashlands">0.02</Mashed_Ashlands_SulphuricPond>
+			<Mashed_Ashlands_SulphuricSprings MayRequire="sirmashedpotato.ashlands">0.02</Mashed_Ashlands_SulphuricSprings>
+			<Mashed_Ashlands_ThermalMudPools MayRequire="sirmashedpotato.ashlands">0.02</Mashed_Ashlands_ThermalMudPools>
+			<Mashed_Ashlands_ThermalPond MayRequire="sirmashedpotato.ashlands">0.02</Mashed_Ashlands_ThermalPond>
+		</comboLandmarkMutators>
+	</LandmarkDef>
+</Defs>

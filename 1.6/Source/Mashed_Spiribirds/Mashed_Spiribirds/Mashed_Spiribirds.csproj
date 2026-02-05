@@ -78,6 +78,9 @@
     <Compile Include="ThingComp\Properties\CompProperties_SpiribugMolt.cs" />
     <Compile Include="ThinkNode\Spiribird\ThinkNode_ConditionalSpiribird.cs" />
     <Compile Include="ThinkNode\Spiribird\ThinkNode_ConditionalSpiribirdMature.cs" />
+    <Compile Include="TileMutatorWorker\TileMutatorWorker_SpiribirdHabitat.cs" />
+    <Compile Include="TileMutatorWorker\TileMutatorWorker_SpiribugHabitat.cs" />
+    <Compile Include="Utility\OnStartupUtility.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

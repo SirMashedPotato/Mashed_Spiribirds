@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Mashed_Spiribird_SpiribirdHabitat]==========-->
+	<TileMutatorDef>
+		<defName>Mashed_Spiribird_SpiribirdHabitat</defName>
+		<label>spiribird habitat</label>
+		<description>This is home to a great numbers of spiribirds.</description>
+		<workerClass>Mashed_Spiribirds.TileMutatorWorker_SpiribirdHabitat</workerClass>
+		<categories>
+			<li>Mashed_Spiribird_Habitat</li>
+		</categories>
+		<chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+		<plantDensityRange>0.3~6</plantDensityRange>
+		<pollutionRange>0~0.25</pollutionRange>
+		<biomeBlacklist>
+			<li>Scarlands</li>
+		</biomeBlacklist>
+	</TileMutatorDef>
+	<!-- ==========[Mashed_Spiribird_SpiribushGrove]==========-->
+	<TileMutatorDef>
+		<defName>Mashed_Spiribird_SpiribushGrove</defName>
+		<label>spiribush grove</label>
+		<workerClass>TileMutatorWorker_Patches</workerClass>
+		<description>This area contains a large number of spiribush.</description>
+		<categories>
+			<li>WildPlants</li>
+		</categories>
+		<chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+		<plantDensityRange>0.3~6</plantDensityRange>
+		<pollutionRange>0~0.25</pollutionRange>
+		<additionalWildPlants>
+			<Mashed_Spiribird_Spiribush>0.3</Mashed_Spiribird_Spiribush>
+		</additionalWildPlants>
+		<biomeBlacklist>
+			<li>Scarlands</li>
+		</biomeBlacklist>
+	</TileMutatorDef>
+</Defs>
