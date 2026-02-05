@@ -5,6 +5,7 @@
 		<defName>Mashed_Spiribird_SpiribushSanctuary</defName>
 		<label>spiribush sanctuary</label>
 		<drawScale>1</drawScale>
+		<drawAboveRoads>true</drawAboveRoads>
 		<iconTexturePath>World/Landmarks/Mashed_Spiribird_SpiribushSanctuary</iconTexturePath>
 		<atlasSize>(2, 2)</atlasSize>
 		<commonality>0.1</commonality>
@@ -16,6 +17,8 @@
 			<AnimalLife_Increased>0.1</AnimalLife_Increased>
 			<PlantLife_Increased>0.1</PlantLife_Increased>
 			<SunnyMutator>0.1</SunnyMutator>
+			<MixedBiome>0.3</MixedBiome>
+			<VEE_ReducedPredators MayRequire="vanillaexpanded.vexploratione">0.3</VEE_ReducedPredators>
 		</mutatorChances>
 		<comboLandmarkMutators>
 			<Oasis>0.02</Oasis>
