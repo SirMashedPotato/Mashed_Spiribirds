@@ -56,7 +56,7 @@
 			<growMinGlow>0.4</growMinGlow>
 			<growOptimalGlow>1</growOptimalGlow>
 			<growDays>8</growDays>
-			<immatureGraphicPath>Things/Plant/Mashed_Spiribird_Spiribush_Immature</immatureGraphicPath>
+			<immatureGraphicPath>Things/Plant/Mashed_Spiribush_Immature</immatureGraphicPath>
 			<harvestYield>1</harvestYield>
 			<harvestWork>250</harvestWork>
 			<harvestTag>Standard</harvestTag>
