@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BodyDef/corePart/parts[li/def="Waist"]</xpath>
+		<value>
+			<li>
+				<def>Mashed_Spiribird_PetalaceSlot</def>
+				<coverage>0</coverage>
+				<height>Bottom</height>
+				<groups>
+					<li>Mashed_Spiribird_PetalaceSlot</li>
+				</groups>
+			</li>
+		</value>
+	</Operation>
+</Patch>
+

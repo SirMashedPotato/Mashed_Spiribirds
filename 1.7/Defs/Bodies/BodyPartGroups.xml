@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<BodyPartGroupDef>
+		<defName>Mashed_Spiribird_PetalaceSlot</defName>
+		<label>petalace slot</label>
+		<listOrder>51</listOrder>
+	</BodyPartGroupDef>
+</Defs>

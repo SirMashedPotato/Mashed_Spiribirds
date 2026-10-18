@@ -3,7 +3,6 @@
 	<v1.3>
 		<li>Common</li>
 		<li>1.3</li>
-		<li>Legacy/_Core</li>
 		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">Legacy/Mods/VE_Framework</li>
 		<li IfModActive="Owlchemist.SeedsPleaseLite">Legacy/Mods/SeedsPleaseLite</li>
 		<li IfModActive="vanillaexpanded.achievements">Legacy/Mods/VE_Achievements</li>
@@ -11,7 +10,6 @@
 	<v1.4>
 		<li>Common</li>
 		<li>1.4</li>
-		<li>Legacy/_Core</li>
 		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">Legacy/Mods/VE_Framework</li>
 		<li IfModActive="Owlchemist.SeedsPleaseLite">Legacy/Mods/SeedsPleaseLite</li>
 		<li IfModActive="vanillaexpanded.achievements">Legacy/Mods/VE_Achievements</li>
@@ -19,7 +17,6 @@
 	<v1.5>
 		<li>Common</li>
 		<li>1.5</li>
-		<li>Legacy/_Core</li>
 		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">Legacy/Mods/VE_Framework</li>
 		<li IfModActive="owlchemist.seedspleaselite,evyatar108.seedspleaseliteredux">Legacy/Mods/SeedsPleaseLite</li>
 		<li IfModActive="vanillaexpanded.achievements">Legacy/Mods/VE_Achievements</li>
@@ -32,4 +29,12 @@
 		<li IfModActive="owlchemist.seedspleaselite,evyatar108.seedspleaseliteredux">1.6/LoadFolders/SeedsPleaseLite</li>
 		<li IfModActive="vanillaexpanded.achievements">1.6/LoadFolders/VE_Achievements</li>
 	</v1.6>
+	<v1.7>
+		<li>Common</li>
+		<li>1.7</li>
+		<li IfModActive="Ludeon.RimWorld.Odyssey">1.7/LoadFolders/Odyssey</li>
+		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">1.7/LoadFolders/VE_Framework</li>
+		<li IfModActive="owlchemist.seedspleaselite,evyatar108.seedspleaseliteredux">1.7/LoadFolders/SeedsPleaseLite</li>
+		<li IfModActive="vanillaexpanded.achievements">1.7/LoadFolders/VE_Achievements</li>
+	</v1.7>
 </loadFolders>

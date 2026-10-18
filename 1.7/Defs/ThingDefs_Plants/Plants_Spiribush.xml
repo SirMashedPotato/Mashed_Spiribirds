@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="PlantBase">
+		<defName>Mashed_Spiribird_Spiribush</defName>
+		<label>spiribush</label>
+		<description>An incredibly hardy small bushy plant with multi coloured flowers, which can be found growing almost everywhere. Named after the spiribirds that can sometimes be found hiding in it, and will often feed from the flowers that grow on it.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mashed_Spiribird_SpiribirdGreen</ThingDef>
+			<ThingDef>Mashed_Spiribird_SpiribirdOrange</ThingDef>
+			<ThingDef>Mashed_Spiribird_SpiribirdPink</ThingDef>
+			<ThingDef>Mashed_Spiribird_SpiribirdRed</ThingDef>
+			<ThingDef>Mashed_Spiribird_SpiribirdYellow</ThingDef>
+			<ThingDef>Mashed_Spiribird_SpiribirdPrism</ThingDef>
+		</descriptionHyperlinks>
+		<thingClass>Mashed_Spiribirds.Plant_Spiribush</thingClass>
+		<modExtensions>
+			<li Class="Mashed_Spiribirds.SpiribushProperties">
+				<chanceWild>0.15</chanceWild>
+				<chanceSown>0.05</chanceSown>
+				<spirbushSpawns>
+					<Mashed_Spiribird_SpiribirdGreen>5</Mashed_Spiribird_SpiribirdGreen>
+					<Mashed_Spiribird_SpiribirdOrange>5</Mashed_Spiribird_SpiribirdOrange>
+					<Mashed_Spiribird_SpiribirdPink>5</Mashed_Spiribird_SpiribirdPink>
+					<Mashed_Spiribird_SpiribirdRed>5</Mashed_Spiribird_SpiribirdRed>
+					<Mashed_Spiribird_SpiribirdYellow>5</Mashed_Spiribird_SpiribirdYellow>
+					<Mashed_Spiribird_SpiribirdPrism>1</Mashed_Spiribird_SpiribirdPrism>
+				</spirbushSpawns>
+			</li>
+		</modExtensions>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Nutrition>0.50</Nutrition>
+			<Beauty>4</Beauty>
+			<BeautyOutdoors>4</BeautyOutdoors>
+			<Mashed_Ashlands_AshResistance MayRequire="SirMashedPotato.Ashlands">1</Mashed_Ashlands_AshResistance>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/Mashed_Spiribush</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.55, 0.2, 0.2)</volume>
+				<offset>(0,0,-0.25)</offset>
+			</shadowData>
+		</graphicData>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<fillPercent>0.20</fillPercent>
+		<pathCost>30</pathCost>
+		<plant>
+			<fertilityMin>0.5</fertilityMin>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<minOptimalGrowthTemperature>-10</minOptimalGrowthTemperature>
+			<maxOptimalGrowthTemperature>50</maxOptimalGrowthTemperature>
+			<minGrowthTemperature>-20</minGrowthTemperature>
+			<maxGrowthTemperature>60</maxGrowthTemperature>
+			<growMinGlow>0.4</growMinGlow>
+			<growOptimalGlow>1</growOptimalGlow>
+			<growDays>8</growDays>
+			<immatureGraphicPath>Things/Plant/Mashed_Spiribush_Immature</immatureGraphicPath>
+			<snowOverlayGraphicPath>Things/Plant/Mashed_Spiribush_Snowy</snowOverlayGraphicPath>
+			<immatureSnowOverlayGraphicPath>Things/Plant/Mashed_Spiribush_Snowy</immatureSnowOverlayGraphicPath>
+			<harvestYield>1</harvestYield>
+			<harvestWork>250</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestAfterGrowth>0.30</harvestAfterGrowth>
+			<harvestedThingDef>Mashed_Spiribird_SpiribushFlower</harvestedThingDef>
+			<wildClusterRadius>5</wildClusterRadius>
+			<wildClusterWeight>500</wildClusterWeight>
+			<visualSizeRange>0.95~1.7</visualSizeRange>
+			<topWindExposure>0.3</topWindExposure>
+			<wildOrder>2</wildOrder>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<sowResearchPrerequisites>
+				<li>Mashed_Spiribird_SpiribushSowing</li>
+			</sowResearchPrerequisites>
+		</plant>
+	</ThingDef>
+</Defs>
